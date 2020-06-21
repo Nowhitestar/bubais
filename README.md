@@ -1,0 +1,2 @@
+# bubais
+https://bubais.top
