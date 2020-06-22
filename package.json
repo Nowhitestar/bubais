@@ -1,12 +1,12 @@
 {
-  "name": "bubais",
+  "name": "bubais.top",
   "version": "1.0.0",
-  "description": "blog of bubais",
+  "description": "Blog of bubais",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "hugo --gc --minify --cleanDestinationDir",
-    "ipfs-deploy": "./node_modules/ipfs-deploy/bin/ipfs-deploy.js -p infura public -p pinata public -u pinata -d cloudflare -C -O"
+    "ipfs-deploy": "ipfs-deploy -p pinata public -u pinata -d cloudflare -C -O",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,9 +15,9 @@
   "keywords": [
     "blog",
     "hugo",
-    "bubais"
+    "hugo-theme-meme"
   ],
-  "author": "buabis",
+  "author": "Guanqr",
   "license": "CC-BY-NC-SA-4.0",
   "bugs": {
     "url": "https://github.com/Nowhitestar/bubais/issues"
