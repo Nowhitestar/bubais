@@ -17,6 +17,7 @@ hugo new life/example.md
 '''
 
 2. 部署
-'''
-./deploy.sh
-'''
+
+  '''
+  ./deploy.sh "update Info."
+  '''
