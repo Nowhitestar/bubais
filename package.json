@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "hugo --gc --minify --cleanDestinationDir",
-    "ipfs-deploy": "./node_modules/ipfs-deploy/bin/ipfs-deploy.js -p pinata public -u pinata -d cloudflare -C -O | ./node_modules/@triplespeeder/ens-updater/bin/ens-updater.js setContenthash ${ENS_NAME} ipfs-ns stdin --web3 https://mainnet.infura.io/v3/${INFURA_KEY}"
+    "ipfs-deploy": "./node_modules/ipfs-deploy/bin/ipfs-deploy.js -p infura public -p pinata public -u pinata -d cloudflare -C -O"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "bubais"
   ],
   "author": "buabis",
-  "license": "ISC",
+  "license": "CC-BY-NC-SA-4.0",
   "bugs": {
     "url": "https://github.com/Nowhitestar/bubais/issues"
   },
