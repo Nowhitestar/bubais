@@ -1,0 +1,29 @@
+{
+  "name": "bubais",
+  "version": "1.0.0",
+  "description": "blog of bubais",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "hugo --gc --minify --cleanDestinationDir",
+    "ipfs-deploy": "./node_modules/ipfs-deploy/bin/ipfs-deploy.js -p pinata public -u pinata -d cloudflare -C -O | ./node_modules/@triplespeeder/ens-updater/bin/ens-updater.js setContenthash ${ENS_NAME} ipfs-ns stdin --web3 https://mainnet.infura.io/v3/${INFURA_KEY}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nowhitestar/bubais.git"
+  },
+  "keywords": [
+    "blog",
+    "hugo",
+    "bubais"
+  ],
+  "author": "buabis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nowhitestar/bubais/issues"
+  },
+  "homepage": "https://github.com/Nowhitestar/bubais#readme",
+  "devDependencies": {
+    "ipfs-deploy": "^7.14.0"
+  }
+}
