@@ -1,6 +1,13 @@
 ---
-title: "About"
+title: "关于"
 date: 2020-06-20T10:50:08+08:00
+dropCap = false
+displayCopyright = false
+gitinfo = false
+badge = false
+meta = false
+share = false
+comments = true
 ---
 
 
