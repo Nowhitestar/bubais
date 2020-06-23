@@ -1,5 +1,5 @@
 ---
-title: "关于"
+title: "About"
 date: 2020-06-20T10:50:08+08:00
 dropCap = false
 displayCopyright = false
