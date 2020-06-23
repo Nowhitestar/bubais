@@ -94,8 +94,10 @@
 // 弹性布局调整
 
 .brand {
-    font-family: 'Zhi Mang Xing', cursive, serif;
-    font-weight: bold;
+	font-family: 'Long Cang', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive, serif;
+    font-family: 'ZCOOL XiaoWei', serif;
+    //font-weight: bold;
     line-height: 1;
 }
 .nav {
@@ -108,6 +110,11 @@
 .menu-item {
     .tags, .categories, .series, .archives, .friends, .about {
         display: none;
+    }
+    .menu-item-name{
+    font-family: 'Long Cang', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive, serif;
+    font-family: 'ZCOOL XiaoWei', serif;
     }
 }
 @media (max-width: $maxWidth) {

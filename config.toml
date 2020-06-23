@@ -229,24 +229,24 @@ uglyURLs = false
         identifier = "lang-switcher"
     [[menu.main]]
         url = "/life/"
-        name = "生活"
+        name = "道"
         weight = 1
         pre = "internal"
-        post = "grav"
+        post = ""
         identifier = "life"
     [[menu.main]]
         url = "/tech/"
-        name = "技术"
+        name = "象"
         weight = 2
         pre = "internal"
-        post = "wpexplorer"
+        post = ""
         identifier = "tech"
     [[menu.main]]
         url = "/about/"
-        name = "关于"
+        name = "本"
         weight = 3
         pre = "internal"
-        post = "user-circle"
+        post = ""
         identifier = "about"
 
 
@@ -327,7 +327,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = [" <br>"," <br>","<big>幸会，我是不白。</big>"]
+    homePoetry = ["<p style='font-family:ZCOOL XiaoWei;font-size:1.5rem'>道-心<br>象-术<br>本-我</p>","<p style='font-family:ZCOOL XiaoWei;font-size:2rem'>幸会，我是不白</p>"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
