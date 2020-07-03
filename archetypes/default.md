@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-tags = []
-slug = ""
+tags:
+- 
 comments: true
 toc: true
 ---
