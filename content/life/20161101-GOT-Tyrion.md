@@ -2,9 +2,9 @@
 title: Oedipus the King and Tyrion Lannister
 date: 2016-11-01 00:00:00
 tags:
-- Game_Of_Thrones
-- 个人随笔与读后感
-slug: Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.
+- GameOfThrones
+- 读后感
+description: Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.
 ---
 
 
