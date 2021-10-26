@@ -7,7 +7,7 @@ gitinfo = false
 badge = false
 meta = false
 share = false
-comments = true
+comments = false
 +++
 
 
