@@ -12,7 +12,7 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
 theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = ""
+newContentEditor = "xcode"
 
 # i18n
 defaultContentLanguage = "zh"
@@ -81,13 +81,17 @@ uglyURLs = false
     [markup.highlight]
         codeFences = true
         guessSyntax = false
-        lineNos = true
+        lineNos = false
         lineNumbersInTable = true
         noClasses = false
     [markup.tableOfContents]
         startLevel = 2
         endLevel = 6
         ordered = true
+
+# 压缩 HTML
+[minify.tdewolff.html]
+    keepWhitespace = false
 
 # 作者信息
 [author]
@@ -135,25 +139,30 @@ uglyURLs = false
     baseName = "rss"
 
 # lunr.js 的搜索索引
-# [outputFormats.SearchIndex]
-#     mediaType = "application/json"
-#     baseName = "search"
+[outputFormats.SearchIndex]
+     mediaType = "application/json"
+     baseName = "search"
+
+# Algolia 的搜索索引
+[outputFormats.Algolia]
+    mediaType = "application/json"
+    baseName = "algolia"
+    isPlainText = true
+    notAlternative = true
 
 # Hugo 的输出控制
 [outputs]
     page = ["HTML"]
-    # home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex"]
+    # home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
     home = ["HTML", "SectionsAtom", "SectionsRSS"]
     section = ["HTML"]
-    # 类别
-    taxonomyTerm = ["HTML"]
-    # 类别项
     taxonomy = ["HTML"]
+    term = ["HTML"]
     # 说明：https://github.com/gohugoio/hugo/issues/4528#issuecomment-508488859
 
 # RSS & Atom 文章数限制
 [services.rss]
-    limit = -1
+    limit = 10
 
 
 
@@ -249,6 +258,59 @@ uglyURLs = false
         post = ""
         identifier = "about"
 
+    ## 首页的底部链接
+    # [[menu.home]]
+    #     url = "/life/"
+    #     weight = 1
+    #     pre = "internal"
+    #     post = "grav"
+    #     identifier = "life"
+    # [[menu.home]]
+    #     url = "/tech/"
+    #     weight = 2
+    #     pre = "internal"
+    #     post = "wpexplorer"
+    #     identifier = "tech"
+    # [[menu.home]]
+    #     url = "/about/"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = "user-circle"
+    #     identifier = "about"
+
+    ## 社交栏
+    # [[menu.socials]]
+    #     url = ""
+    #     name = "GitHub"
+    #     weight = 1
+    #     pre = "external"
+    # [[menu.socials]]
+    #     url = ""
+    #     name = "Telegram"
+    #     weight = 2
+    #     pre = "external"
+    # [[menu.socials]]
+    #     url = ""
+    #     name = "Twitter"
+    #     weight = 3
+    #     pre = "external"
+
+    ## 链接栏
+    # [[menu.links]]
+    #     url = "/"
+    #     name = "Home"
+    #     weight = 1
+    #     pre = "internal"
+    # [[menu.links]]
+    #     url = "/tags/"
+    #     name = "Tags"
+    #     weight = 2
+    #     pre = "internal"
+    # [[menu.links]]
+    #     url = "/coldplay/"
+    #     name = "Coldplay"
+    #     weight = 3
+    #     pre = "internal"
 
 ##########################################
 # 主题配置
@@ -259,6 +321,10 @@ uglyURLs = false
 
     # 是否开启
     enableHeader = true
+
+    # 是否自动隐藏
+    enableHeaderAutoHide = false
+    # 说明：仅对弹性布局的顶栏有效
 
     # 是否在首页显示
     displayHeaderInHome = true
@@ -434,7 +500,7 @@ uglyURLs = false
     displayListTitle = true
 
     # 日期的格式
-    listDateFormat = "1 月 2 日"
+    listDateFormat = "2006-01-02"
     # 注意：请遵循格式 https://gohugo.io/functions/format/
 
     # 日期的位置
@@ -448,9 +514,9 @@ uglyURLs = false
     chineseZodiac = true
 
     # 是否翻译年份（仅对年份标题有效）
-    i18nYear = true
+    i18nYear = false
     # 是否翻译月份（仅对月份标题有效）
-    i18nMonth = true
+    i18nMonth = false
 
 
     ######################################
@@ -517,6 +583,7 @@ uglyURLs = false
     #      模式修改为它，即使你隐藏开关，你的读
     #      者依然可能以浅色模式模式阅读你的博客。
 
+    overrideSystemPreferences = false
 
     ######################################
     # 网页应用
@@ -564,7 +631,7 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableServiceWorker = false
+    enableServiceWorker = true
     # 说明：需要第三方支持，暂见：
     #      https://io-oi.me/tech/pwa-via-workbox/
 
@@ -598,6 +665,8 @@ uglyURLs = false
     # 说明：文章的 Front Matter 中的 `mermaid`
     #      的优先级高于此处
 
+    mermaidTheme = 'default'
+    mermaidThemeDark = 'dark'
 
     ######################################
     # 评论
@@ -614,7 +683,7 @@ uglyURLs = false
     disqusShortname = "bubais"
 
     ## Valine
-    enableValine = true
+    enableValine = false
     valineAppId = "aaTIHNCYN9YdjRw2T1gSiRz9-gzGzoHsz"
     valineAppKey = "NfoXW0NkKAsbDkQdMrrCDEp0"
     valinePlaceholder = "Just go go"
@@ -678,6 +747,13 @@ uglyURLs = false
     enableGoogleAdUnits = false
     googleAdSlot = ""
 
+    ######################################
+    # Yandex.Metrika
+    # https://metrika.yandex.ru/
+
+    # 说明：仅在生产环境（production）下渲染
+
+    yandexMetrikaId = ""
 
     ######################################
     # 文章设置
@@ -728,7 +804,7 @@ uglyURLs = false
     # 注意：请遵循格式 https://gohugo.io/functions/format/
 
     # 是否显示发布时间
-    displayPublishedDate = false
+    displayPublishedDate = true
     # 发布时间的图标
     publishedDateIcon = "calendar-alt"
 
@@ -888,6 +964,9 @@ uglyURLs = false
     #      `---` 以将文章的正文内容与脚注内容
     #      分隔开来，那么这项设置将会非常有用。
 
+    ######################################
+    # 滚动条
+    customizeScrollbar = false
 
     ######################################
     # 字体排版
@@ -1017,10 +1096,10 @@ uglyURLs = false
     # 文章版权
 
     # 是否开启
-    enablePostCopyright = false
+    enablePostCopyright = true
 
     # 是否显示（全局设置）
-    displayPostCopyright = true
+    displayPostCopyright = false
     # 说明：文章的 Front Matter 中的 `displayCopyright`
     #      的优先级高于此处
 
@@ -1029,10 +1108,10 @@ uglyURLs = false
     # 文章更新徽章
 
     # 是否开启
-    enablePostUpdatedBadge = false
+    enablePostUpdatedBadge = true
 
     # 是否显示（全局设置）
-    displayUpdatedBadge = true
+    displayUpdatedBadge = false
     # 说明：文章的 Front Matter 中的 `badge`
     #      的优先级高于此处
 
@@ -1046,7 +1125,7 @@ uglyURLs = false
     # 文章的 Git 版本信息
 
     # 是否开启
-    enablePostGitInfo = false
+    enablePostGitInfo = true
 
     # 是否显示（全局设置）
     displayPostGitInfo = false
@@ -1054,9 +1133,9 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = ""
+    repoURL = "https://github.com/Nowhitestar/bubais"
     # 编辑地址
-    repoEditURL = ""
+    repoEditURL = "https://github.com/Nowhitestar/bubais/blob/master"
 
     # Git 的图标
     gitIcon = "code-branch"
@@ -1164,7 +1243,7 @@ uglyURLs = false
     #      以竖线（|）分隔开来。
 
     # 是否开启关于页面的极简页脚
-    enableAboutPageMinimalFooter = false
+    enableAboutPageMinimalFooter = true
 
 
     ######################################
@@ -1177,7 +1256,10 @@ uglyURLs = false
     enableBackToTopAutoHide = true
 
     # 是否在首页显示
-    displayBackToTopInHome = true
+    displayBackToTopInHome = false
+
+    # 是否在移动端显示
+    displayBackToTopOnMobile = false
 
     # 按钮图标
     backToTopIcon = "arrow-up"
@@ -1189,9 +1271,13 @@ uglyURLs = false
     # 是否开启
     enableFooter = true
 
+    # 是否显示
+    displayFooter = false
+
     # 是否在首页显示
     displayFooterInHome = true
 
+    displayCopyleftSymbol = false
     # 是否显示版权符号（©）
     displayCopyrightSymbol = true
 
@@ -1212,7 +1298,7 @@ uglyURLs = false
     displaySiteCopyright = true
 
     # 自定义页脚（支持 Markdown）
-    customFooter = ""
+    customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
     displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "本站访客数"
@@ -1232,7 +1318,7 @@ uglyURLs = false
     # 多语言
 
     # 是否开启多语言按钮
-    enableLangToggle = false
+    enableLangToggle = true
 
     # 是否在首页隐藏多语言按钮
     hideLangToggleInHome = false
@@ -1250,7 +1336,7 @@ uglyURLs = false
     enableHighlight = true
 
     # 是否开启竖直滚动
-    enableOverflowY = true
+    enableOverflowY = false
     # 最大高度
     maxHeight = 20
     # 单位：em
@@ -1264,9 +1350,20 @@ uglyURLs = false
     ######################################
     # 文件指纹和子资源完整性（SRI）
 
-    # 是否开启
-    enableFingerprint = true
     # 说明：仅对 MemE 生成的 CSS 和 JS 有效
+
+    # 是否开启文件指纹
+    enableFingerprint = false
+
+    # 是否开启子资源完整性验证
+    enableSRI = false
+    # 说明：开启子资源完整性验证后，该策略将使
+    #      MemE 的 CSS 和 JS 在像谷歌翻译这样
+    #      的第三方网站上被禁止。为了避免开启后
+    #      的这个问题，你的服务器必须向 CSS 和
+    #      JS 的请求中加上以下 Header：
+    #
+    #      Access-Control-Allow-Origin: *
 
 
     ######################################
@@ -1311,6 +1408,19 @@ uglyURLs = false
     enableLunrSearch = false
     # 说明：https://lunrjs.com/
 
+    ######################################
+    # Algolia search
+
+    # 说明：需要开启 `Algolia` 的输出，且需要每
+    #      次将生成的 algolia.json 文件上传到
+    #      Algolia
+
+    enableAlgoliaSearch = false
+
+    algoliaAppId = ""
+    algoliaApiKey = ""
+    algoliaIndexName = ""
+    # 说明：https://www.algolia.com/
 
     ######################################
     # 404 页面
@@ -1322,3 +1432,67 @@ uglyURLs = false
     fofVideoWebm = ""
     fofVideoMp4 = ""
     # 说明：视频地址可留空（""）
+
+##########################################
+# 自行添加的多语言站点配置
+
+# 中文
+[languages.zh]
+    languageName = "🇨🇳"
+    contentDir = "content/zh"
+    weight = 1
+
+# 英文
+[languages.en]
+    languageName = "🇺🇸"
+    contentDir = "content/en"
+    weight = 2
+    languageCode = "en-US"
+    hasCJKLanguage = false
+    copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+[languages.en.taxonomies]
+    # category = "categories"
+    # tag = "tags"
+[languages.en.menu]
+    #[[languages.en.menu.home]]
+    #    url = "/en/life/"
+    #    name = "Dao"
+    #    weight = 1
+    #    pre = "internal"
+    #    post = ""
+    #    identifier = "life"
+    
+    #[[languages.en.menu.home]]
+    #    url = "/en/tech/"
+    #    name = "Appearance"
+    #    weight = 2
+    #    pre = "internal"
+    #    post = ""
+    #    identifier = "tech"
+    [[languages.en.menu.main]]
+        url = "/en/about/"
+        name = "Basis"
+        weight = 3
+        pre = "internal"
+        post = ""
+        identifier = "about"
+    [[languages.en.menu.main]]
+        weight = 6
+        identifier = "theme-switcher"
+    [[languages.en.menu.main]]
+        weight = 7
+        identifier = "lang-switcher"
+[languages.en.params]
+    homePoetry = ["<p style='font-family:ZCOOL XiaoWei;font-size:1.5rem'>Dao-Heart<br>Appearance-Tech<br>Basis-Me</p>","<p style='font-family:ZCOOL XiaoWei;font-size:2rem'>Nice to meet you, I am Bubai.</p>"]
+    siteDescription = "Blog of bubai in English."
+    listDateFormat = "January 2"
+    fontFamilyTitle = "'Amstelvar', serif"
+    fontFamilyHeadings = "'Amstelvar', serif"
+    fontFamilyBody = "'Amstelvar', serif"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    lineHeight = 1.618
+    enableJustify = false
+    enableSmallCaps = true
+    enableEmphasisPoint = false
+    enableChinesePunctuationGlyphCorrection = false
+    customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
