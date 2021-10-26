@@ -12,10 +12,10 @@ comments = true
 
 
 
-<center> 大家好，我是不白，因为我不喜欢别人说我白。</center><br>
+<center> 大家好，我是不白。</center><br>
 
-<center>目前就读于南京大学环境学院，研二。</center><br>
+<center>是名在西部教过一年书的数据分析师，正就职于字节跳动……</center><br>
 
-<center>正在腾讯People Analytics团队数据科学岗实习……</center><br>
+<center>研究生和本科均毕业于南京大学环境学院，在数据分析领域已经进行了四年的自我探索，目前正关注因果推断领域。</center><br>
 
 <center><h3 class="viva-la-vida" style="font-family:'ZCOOL XiaoWei'">Carpe Diem!</h2></center>

@@ -236,14 +236,14 @@ uglyURLs = false
         identifier = "life"
     [[menu.main]]
         url = "/tech/"
-        name = "术"
+        name = "象"
         weight = 2
         pre = "internal"
         post = ""
         identifier = "tech"
     [[menu.main]]
         url = "/about/"
-        name = "我"
+        name = "本"
         weight = 3
         pre = "internal"
         post = ""
