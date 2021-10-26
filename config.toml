@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://bubais.top/"
-title = "不白说"
+title = "雪岛不白"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -25,7 +25,7 @@ pluralizeListTitles = false
 summaryLength = 42
 
 # 是否开启 GitHub 风格的 Emoji 书写方式
-enableEmoji = false
+enableEmoji = true
 
 # 脚注的返回链接中的文本
 footnoteReturnLinkContents = "↩"
@@ -236,14 +236,14 @@ uglyURLs = false
         identifier = "life"
     [[menu.main]]
         url = "/tech/"
-        name = "象"
+        name = "术"
         weight = 2
         pre = "internal"
         post = ""
         identifier = "tech"
     [[menu.main]]
         url = "/about/"
-        name = "本"
+        name = "我"
         weight = 3
         pre = "internal"
         post = ""
@@ -610,13 +610,13 @@ uglyURLs = false
     #      的优先级高于此处
 
     ## Disqus
-    enableDisqus = true
+    enableDisqus = false
     disqusShortname = "bubais"
 
     ## Valine
-    enableValine = false
-    valineAppId = ""
-    valineAppKey = ""
+    enableValine = true
+    valineAppId = "aaTIHNCYN9YdjRw2T1gSiRz9-gzGzoHsz"
+    valineAppKey = "NfoXW0NkKAsbDkQdMrrCDEp0"
     valinePlaceholder = "Just go go"
     valinePath = ""
     valineAvatar = "mm"
