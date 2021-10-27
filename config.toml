@@ -12,7 +12,7 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
 theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = "xcode"
+newContentEditor = ""
 
 # i18n
 defaultContentLanguage = "zh"
@@ -1298,7 +1298,7 @@ uglyURLs = false
     displaySiteCopyright = true
 
     # 自定义页脚（支持 Markdown）
-    customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
+    # customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
     displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "本站访客数"

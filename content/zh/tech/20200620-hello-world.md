@@ -12,12 +12,12 @@ Hugo比Jekyll和Hexo都有不少优势，主要是在速度方面。下面是Hug
 
 1. 创建文章
 
-'''
+```
 hugo new life/example.md
-'''
+```
 
 2. 部署
 
-'''
+```
 ./deploy.sh "update Info."
-'''
+```
