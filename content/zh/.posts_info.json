@@ -1,20 +1,6 @@
 {
-  "todo_list" : {
-
-  },
   "documents_info" : {
-    "life\/20170826-死亡诗社.md" : {
-      "attachments" : [
-
-      ],
-      "links" : [
-
-      ],
-      "images" : [
-
-      ]
-    },
-    "life\/20181230-8102年啊.md" : {
+    "life\/我的学生时代（二）.md" : {
       "images" : [
 
       ],
@@ -25,48 +11,63 @@
 
       ]
     },
-    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : {
-      "images" : [
-
-      ],
-      "links" : [
-
-      ],
-      "attachments" : [
-
-      ]
-    },
-    "life\/20210620_rent_house.md" : {
-      "links" : [
-
-      ],
-      "images" : [
-
-      ],
-      "attachments" : [
-
-      ]
-    },
-    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : {
-      "links" : [
-
-      ],
+    "life\/20180506-停电的红湖.md" : {
       "attachments" : [
 
       ],
-      "images" : [
-
-      ]
-    },
-    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : {
       "images" : [
 
       ],
       "links" : [
         {
-          "url" : "http:\/\/v.youku.com\/v_show\/id_XMTM0Mzg5MzU4NA==.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0",
-          "name" : "在这里"
+          "name" : "coursera",
+          "url" : "https:\/\/www.coursera.org\/"
+        },
+        {
+          "url" : "https:\/\/itunes.apple.com\/us\/app\/huji-cam\/id781383622?mt=8",
+          "name" : "HUJI"
         }
+      ]
+    },
+    "life\/20170826-死亡诗社.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "life\/20210616-我的学生时代.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "life\/20161101-GOT-Tyrion.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+
       ],
       "attachments" : [
 
@@ -76,14 +77,28 @@
       "attachments" : [
 
       ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : {
+      "attachments" : [
+
+      ],
       "images" : [
 
       ],
       "links" : [
-
+        {
+          "url" : "http:\/\/v.youku.com\/v_show\/id_XMTM0Mzg5MzU4NA==.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0",
+          "name" : "在这里"
+        }
       ]
     },
-    "tech\/20200620-hello-world.md" : {
+    "life\/20210620_rent_house.md" : {
       "images" : [
 
       ],
@@ -94,48 +109,75 @@
 
       ]
     },
-    "life\/20200626-sum2019.md" : {
-      "links" : [
+    "tech\/技术时代重新思考教育.md" : {
+      "attachments" : [
 
       ],
       "images" : [
 
       ],
-      "attachments" : [
+      "links" : [
 
       ]
     },
-    "life\/20180524-论阅历.md" : {
+    "life\/20151226-life-jiaofu.md" : {
+      "attachments" : [
+
+      ],
       "images" : [
 
       ],
       "links" : [
-
-      ],
-      "attachments" : [
 
       ]
     },
-    "life\/20161101-GOT-Tyrion.md" : {
+    "life\/20200703-newstart.md" : {
+      "images" : [
+
+      ],
       "attachments" : [
 
       ],
       "links" : [
-
-      ],
-      "images" : [
 
       ]
     },
-    "life\/20210616-我的学生时代.md" : {
+    "tech\/翻译 0f3806e070d042798c505288d5ea5db7.md" : {
+      "images" : [
+
+      ],
       "attachments" : [
 
       ],
       "links" : [
-
-      ],
-      "images" : [
-
+        {
+          "name" : "这里是",
+          "url" : "https:\/\/www.historyofinformation.com\/detail.php?id=3343"
+        },
+        {
+          "url" : "https:\/\/www.igi-global.com\/dictionary\/infoxication\/32201",
+          "name" : "一些"
+        },
+        {
+          "name" : "其他",
+          "url" : "https:\/\/www.expert.ai\/blog\/web-3-0\/"
+        },
+        {
+          "name" : "其他",
+          "url" : "https:\/\/www2.deloitte.com\/us\/en\/insights\/topics\/digital-transformation\/web-3-0-technologies-in-business.html"
+        },
+        {
+          "name" : "这篇",
+          "url" : "https:\/\/www.notion.so\/Dear-Data-Scientists-I-Love-You-Sincerely-Web-3-0-by-Brandon-Cosley-Towards-Data-Science-1bad698e1bca4caea228b1a4892f473e"
+        },
+        {
+          "url" : "https:\/\/appinventiv.com\/blog\/web-3-0-blockchain-impact-on-businesses\/",
+          "name" : "Web3技术栈"
+        },
+        {
+          "url" : "https:\/\/oceanprotocol.com\/",
+          "name" : "Ocean Protocol"
+        }
       ]
     },
     "life\/20171001-22岁.md" : {
@@ -149,18 +191,71 @@
 
       ]
     },
-    "life\/20180506-停电的红湖.md" : {
+    "about\/_index.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "life\/20170910-我的唯一一个教师节.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "life\/20180524-论阅历.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "tech\/数据科学家与Web 3.0.md" : {
       "attachments" : [
 
       ],
       "links" : [
         {
-          "name" : "coursera",
-          "url" : "https:\/\/www.coursera.org\/"
+          "url" : "https:\/\/www.historyofinformation.com\/detail.php?id=3343",
+          "name" : "这里是"
         },
         {
-          "name" : "HUJI",
-          "url" : "https:\/\/itunes.apple.com\/us\/app\/huji-cam\/id781383622?mt=8"
+          "name" : "一些",
+          "url" : "https:\/\/www.igi-global.com\/dictionary\/infoxication\/32201"
+        },
+        {
+          "name" : "其他",
+          "url" : "https:\/\/www.expert.ai\/blog\/web-3-0\/"
+        },
+        {
+          "url" : "https:\/\/www2.deloitte.com\/us\/en\/insights\/topics\/digital-transformation\/web-3-0-technologies-in-business.html",
+          "name" : "其他"
+        },
+        {
+          "name" : "这篇",
+          "url" : "https:\/\/www.notion.so\/Dear-Data-Scientists-I-Love-You-Sincerely-Web-3-0-by-Brandon-Cosley-Towards-Data-Science-1bad698e1bca4caea228b1a4892f473e"
+        },
+        {
+          "url" : "https:\/\/appinventiv.com\/blog\/web-3-0-blockchain-impact-on-businesses\/",
+          "name" : "Web3技术栈"
+        },
+        {
+          "name" : "Ocean Protocol",
+          "url" : "https:\/\/oceanprotocol.com\/"
         }
       ],
       "images" : [
@@ -168,28 +263,28 @@
       ]
     },
     "life\/20161117-consulting-TSOC.md" : {
-      "images" : [
-
-      ],
       "links" : [
         {
           "url" : "https:\/\/www.amazon.cn\/dp\/B00HFWJI68\/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1479311464&sr=8-1",
           "name" : "购买地址"
         },
         {
-          "name" : "《<Staying one step ahead at Pixar: An interview with Ed Catmull>解读》",
-          "url" : "http:\/\/liaoyuxing.space\/2016\/10\/28\/mckinsey-interview\/"
+          "url" : "http:\/\/liaoyuxing.space\/2016\/10\/28\/mckinsey-interview\/",
+          "name" : "《<Staying one step ahead at Pixar: An interview with Ed Catmull>解读》"
         },
         {
-          "url" : "http:\/\/v.youku.com\/v_show\/id_XOTAwMjgwNDQw.html",
-          "name" : "罗辑思维：No.110 大门口的野蛮人"
+          "name" : "罗辑思维：No.110 大门口的野蛮人",
+          "url" : "http:\/\/v.youku.com\/v_show\/id_XOTAwMjgwNDQw.html"
         }
       ],
       "attachments" : [
 
+      ],
+      "images" : [
+
       ]
     },
-    "life\/我的学生时代（二）.md" : {
+    "tech\/20200620-hello-world.md" : {
       "attachments" : [
 
       ],
@@ -211,18 +306,7 @@
 
       ]
     },
-    "life\/20151226-life-jiaofu.md" : {
-      "links" : [
-
-      ],
-      "attachments" : [
-
-      ],
-      "images" : [
-
-      ]
-    },
-    "tech\/技术时代重新思考教育.md" : {
+    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : {
       "links" : [
 
       ],
@@ -233,75 +317,336 @@
 
       ]
     },
-    "life\/20170910-我的唯一一个教师节.md" : {
-      "links" : [
-
-      ],
+    "life\/20181230-8102年啊.md" : {
       "images" : [
 
       ],
       "attachments" : [
+
+      ],
+      "links" : [
 
       ]
     },
-    "life\/20200703-newstart.md" : {
-      "links" : [
-
-      ],
+    "life\/20200626-sum2019.md" : {
       "images" : [
 
       ],
       "attachments" : [
 
-      ]
-    },
-    "about\/_index.md" : {
+      ],
       "links" : [
-
-      ],
-      "attachments" : [
-
-      ],
-      "images" : [
 
       ]
     }
   },
-  "path_name_info" : {
-    "life\/20161231-无法想象的世界.md" : "无法想象的世界",
-    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : "关于《禅与摩托车维修艺术》解读（二）",
-    "life\/20210620_rent_house.md" : "租房见闻",
-    "life\/20200707-学生毕业.md" : "我的学生毕业",
-    "tech\/技术时代重新思考教育.md" : "技术时代教育会发生怎样的变革？",
-    "life\/20170826-死亡诗社.md" : "死亡诗社",
-    "life\/20180524-论阅历.md" : "论阅历",
-    "life\/20180506-停电的红湖.md" : "停电的红湖",
-    "life\/20200703-newstart.md" : "续了五年",
-    "about\/_index.md" : "_index",
-    "life\/20170910-我的唯一一个教师节.md" : "我的唯一一个教师节",
-    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : "关于《禅与摩托车维修艺术》解读（一）",
-    "tech\/20200620-hello-world.md" : "Hello World",
-    "life\/20171001-22岁.md" : "22岁",
-    "life\/20151226-life-jiaofu.md" : "关于《教父》III",
-    "life\/20200626-sum2019.md" : "迟到半年的2019年总结",
-    "life\/20181230-8102年啊.md" : "8102年啊",
-    "life\/20161117-consulting-TSOC.md" : "《咨询的奥秘：寻求和提出建议的智慧》笔记",
-    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : "互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？",
-    "life\/20161101-GOT-Tyrion.md" : "Oedipus the King and Tyrion Lannister",
-    "life\/我的学生时代（二）.md" : "我的学生时代（二）",
-    "life\/20210616-我的学生时代.md" : "我的学生时代（一）"
+  "filename_path_info" : {
+    "20161101-got-tyrion" : "life\/20161101-GOT-Tyrion.md",
+    "20161026-关于《禅与摩托车维修艺术》解读（二）" : "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md",
+    "数据科学家与web 3.0" : "tech\/数据科学家与Web 3.0.md",
+    "20210616-我的学生时代" : "life\/20210616-我的学生时代.md",
+    "20181230-8102年啊" : "life\/20181230-8102年啊.md",
+    "20200707-学生毕业" : "life\/20200707-学生毕业.md",
+    "20171001-22岁" : "life\/20171001-22岁.md",
+    "20200620-hello-world" : "tech\/20200620-hello-world.md",
+    "我的学生时代（二）" : "life\/我的学生时代（二）.md",
+    "20170910-我的唯一一个教师节" : "life\/20170910-我的唯一一个教师节.md",
+    "互联网广告术语cpm、cpc、cpa、cps、cpl、cpr 是什么意思？" : "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md",
+    "技术时代重新思考教育" : "tech\/技术时代重新思考教育.md",
+    "20200703-newstart" : "life\/20200703-newstart.md",
+    "20180506-停电的红湖" : "life\/20180506-停电的红湖.md",
+    "20170826-死亡诗社" : "life\/20170826-死亡诗社.md",
+    "20151226-life-jiaofu" : "life\/20151226-life-jiaofu.md",
+    "20161117-consulting-tsoc" : "life\/20161117-consulting-TSOC.md",
+    "翻译 0f3806e070d042798c505288d5ea5db7" : "tech\/翻译 0f3806e070d042798c505288d5ea5db7.md",
+    "20180524-论阅历" : "life\/20180524-论阅历.md",
+    "20200626-sum2019" : "life\/20200626-sum2019.md",
+    "20161231-无法想象的世界" : "life\/20161231-无法想象的世界.md",
+    "20161025-关于《禅与摩托车维修艺术》解读（一）" : "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md",
+    "_index" : "about\/_index.md",
+    "20210620_rent_house" : "life\/20210620_rent_house.md"
+  },
+  "documents_meta_info" : {
+    "life\/20200707-学生毕业.md" : {
+      "comments" : "false",
+      "tags" : "",
+      "raw_metadata_str" : "title: \"我的学生毕业\"\ndate: 2020-07-07T11:15:53+08:00\ntags:\n- 随笔\ncomments: false\ntoc: false",
+      "toc" : "false",
+      "title" : "我的学生毕业",
+      "date" : "2020-07-07T11:15:53+08:00"
+    },
+    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : {
+      "title" : "关于《禅与摩托车维修艺术》解读（二）",
+      "date" : "2016-10-26 00:00:00",
+      "tags" : "",
+      "description" : "Zen and the Art of Motorcycle Maintenance——by Robert M. Pirsig",
+      "raw_metadata_str" : "title: 关于《禅与摩托车维修艺术》解读（二）\ndate: 2016-10-26 00:00:00\ntags:\n- 新世相\n- 读后感\ndescription: Zen and the Art of Motorcycle Maintenance——by Robert M. Pirsig"
+    },
+    "life\/20151226-life-jiaofu.md" : {
+      "tags" : "",
+      "date" : "2015-12-26 00:00:00",
+      "raw_metadata_str" : "title: 关于《教父》III\ndate: 2015-12-26 00:00:00\ntags:\n- 影评\ndescription: 一个人无聊看教父",
+      "title" : "关于《教父》III",
+      "description" : "一个人无聊看教父"
+    },
+    "life\/20161101-GOT-Tyrion.md" : {
+      "raw_metadata_str" : "title: Oedipus the King and Tyrion Lannister\ndate: 2016-11-01 00:00:00\ntags:\n- GameOfThrones\n- 读后感\ndescription: Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.",
+      "description" : "Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.",
+      "title" : "Oedipus the King and Tyrion Lannister",
+      "tags" : "",
+      "date" : "2016-11-01 00:00:00"
+    },
+    "life\/20200626-sum2019.md" : {
+      "toc" : "false",
+      "date" : "2020-06-26T12:26:59+08:00",
+      "raw_metadata_str" : "title: \"迟到半年的2019年总结\"\ndate: 2020-06-26T12:26:59+08:00\ntags:\n- 年终总结\ncomments: false\ntoc: false",
+      "title" : "迟到半年的2019年总结",
+      "tags" : "",
+      "comments" : "false"
+    },
+    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : {
+      "tags" : "",
+      "comments" : "false",
+      "description" : "",
+      "date" : "2021-10-27T17:40:34+08:00",
+      "title" : "互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？",
+      "raw_metadata_str" : "title: \"互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？\"\ndate: 2021-10-27T17:40:34+08:00\ndescription:\ntags:\n- 互联网\n- 商业化\nindent: false\ncomments: false\ntoc: false",
+      "indent" : "false",
+      "toc" : "false"
+    },
+    "tech\/翻译 0f3806e070d042798c505288d5ea5db7.md" : {
+
+    },
+    "about\/_index.md" : {
+
+    },
+    "tech\/20200620-hello-world.md" : {
+      "date" : "2020-06-20T10:50:02+08:00",
+      "title" : "Hello World",
+      "raw_metadata_str" : "title: \"Hello World\"\ndate: 2020-06-20T10:50:02+08:00\ntags:\n- Hello World",
+      "tags" : ""
+    },
+    "life\/20180506-停电的红湖.md" : {
+      "title" : "停电的红湖",
+      "tags" : "",
+      "raw_metadata_str" : "title: 停电的红湖\ndate: 2018-05-06 00:00:00\ntags: \n- 随笔",
+      "date" : "2018-05-06 00:00:00"
+    },
+    "life\/20180524-论阅历.md" : {
+      "title" : "论阅历",
+      "tags" : "",
+      "raw_metadata_str" : "title: 论阅历\ndate: 2018-05-24 00:00:00\ntags: \n- 随笔",
+      "date" : "2018-05-24 00:00:00"
+    },
+    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : {
+      "title" : "关于《禅与摩托车维修艺术》解读（一）",
+      "raw_metadata_str" : "title: 关于《禅与摩托车维修艺术》解读（一）\ndate: 2016-10-25 00:00:00\ntags:\n- 读后感\n- 新世相\ndescription: Zen and the Art of Motorcycle Maintenance —— by Robert M. Pirsig",
+      "tags" : "",
+      "date" : "2016-10-25 00:00:00",
+      "description" : "Zen and the Art of Motorcycle Maintenance —— by Robert M. Pirsig"
+    },
+    "life\/20171001-22岁.md" : {
+      "raw_metadata_str" : "title: 22岁\ndate: 2017-10-01 00:00:00\ntags: \n- 随笔",
+      "date" : "2017-10-01 00:00:00",
+      "tags" : "",
+      "title" : "22岁"
+    },
+    "life\/我的学生时代（二）.md" : {
+      "indent" : "false",
+      "description" : "",
+      "tags" : "",
+      "date" : "2021-07-02T13:27:04+08:00",
+      "toc" : "false",
+      "raw_metadata_str" : "title: \"我的学生时代（二）\"\ndate: 2021-07-02T13:27:04+08:00\ndescription:\ntags:\n- 随笔\nindent: false\ncomments: false\ntoc: false",
+      "title" : "我的学生时代（二）",
+      "comments" : "false"
+    },
+    "tech\/数据科学家与Web 3.0.md" : {
+      "toc" : "true",
+      "raw_metadata_str" : "title: \"数据科学家与 Web 3.0\"\ndate: 2021-11-22T21:51:33+08:00\ndescription:\ntags:\n- 互联网\n- 数据科学\n- Web 3.0\nindent: false\ncomments: false\ntoc: true",
+      "comments" : "false",
+      "indent" : "false",
+      "date" : "2021-11-22T21:51:33+08:00",
+      "description" : "",
+      "tags" : "",
+      "title" : "数据科学家与 Web 3.0"
+    },
+    "life\/20181230-8102年啊.md" : {
+      "title" : "8102年啊",
+      "date" : "2018-12-30 00:00:00",
+      "tags" : "",
+      "raw_metadata_str" : "title: 8102年啊\ndate: 2018-12-30 00:00:00\ntags: \n- 随笔\n- 年终总结"
+    },
+    "tech\/技术时代重新思考教育.md" : {
+      "raw_metadata_str" : "title: \"技术时代教育会发生怎样的变革？\"\ndate: 2021-10-27T21:51:33+08:00\ndescription:\ntags:\n- 互联网\n- 教育\nindent: false\ncomments: false\ntoc: true",
+      "toc" : "true",
+      "date" : "2021-10-27T21:51:33+08:00",
+      "indent" : "false",
+      "comments" : "false",
+      "tags" : "",
+      "description" : "",
+      "title" : "技术时代教育会发生怎样的变革？"
+    },
+    "life\/20210616-我的学生时代.md" : {
+      "raw_metadata_str" : "title: \"我的学生时代（一）\"\ndate: 2021-06-06T00:49:43+08:00\ndescription:\ntags:\n- 随笔\nindent: false\ncomments: false\ntoc: false",
+      "title" : "我的学生时代（一）",
+      "description" : "",
+      "date" : "2021-06-06T00:49:43+08:00",
+      "indent" : "false",
+      "comments" : "false",
+      "toc" : "false",
+      "tags" : ""
+    },
+    "life\/20161117-consulting-TSOC.md" : {
+      "title" : "《咨询的奥秘：寻求和提出建议的智慧》笔记",
+      "comments" : "true",
+      "date" : "2016-11-17 00:00:00",
+      "tags" : "",
+      "description" : "这是一篇关于一本富含智慧的书的笔记。",
+      "raw_metadata_str" : "title: \"《咨询的奥秘：寻求和提出建议的智慧》笔记\"\ndate: 2016-11-17 00:00:00\ntags:\n- 咨询\n- 读后感\ndescription: 这是一篇关于一本富含智慧的书的笔记。\ncomments: true"
+    },
+    "life\/20170826-死亡诗社.md" : {
+      "date" : "2017-08-26 00:00:00",
+      "tags" : "",
+      "raw_metadata_str" : "title: 死亡诗社\ndate: 2017-08-26 00:00:00\ntags: \n- 随笔",
+      "title" : "死亡诗社"
+    },
+    "life\/20170910-我的唯一一个教师节.md" : {
+      "title" : "我的唯一一个教师节",
+      "tags" : "",
+      "date" : "2017-09-10 00:00:00",
+      "raw_metadata_str" : "title: 我的唯一一个教师节\ndate: 2017-09-10 00:00:00\ntags: \n- 随笔"
+    },
+    "life\/20200703-newstart.md" : {
+      "title" : "续了五年",
+      "tags" : "",
+      "toc" : "true",
+      "date" : "2020-07-03T10:40:07+08:00",
+      "comments" : "false",
+      "raw_metadata_str" : "title: \"续了五年\"\ndate: 2020-07-03T10:40:07+08:00\ntags: \n- 杂记\ncomments: false\ntoc: true"
+    },
+    "life\/20161231-无法想象的世界.md" : {
+      "description" : "而现在，我正置身于那个“无法想象”的世界。如此一想，便觉得有点好笑。置身于此的我究竟是幸福还是不幸？",
+      "title" : "无法想象的世界",
+      "date" : "2016-12-31 00:00:00",
+      "tags" : "",
+      "raw_metadata_str" : "title: 无法想象的世界\ndate: 2016-12-31 00:00:00\ndescription: 而现在，我正置身于那个“无法想象”的世界。如此一想，便觉得有点好笑。置身于此的我究竟是幸福还是不幸？\ntags: \n- 随笔\n- 年终总结"
+    },
+    "life\/20210620_rent_house.md" : {
+      "description" : "",
+      "title" : "租房见闻",
+      "toc" : "false",
+      "tags" : "",
+      "date" : "2021-06-20T23:08:27+08:00",
+      "comments" : "false",
+      "raw_metadata_str" : "title: \"租房见闻\"\ndate: 2021-06-20T23:08:27+08:00\ndescription:\ntags:\n- 随笔\ncomments: false\ntoc: false"
+    }
+  },
+  "words_info" : {
+    "life\/20200626-sum2019.md" : 558,
+    "life\/20200707-学生毕业.md" : 551,
+    "life\/20181230-8102年啊.md" : 534,
+    "life\/20151226-life-jiaofu.md" : 1076,
+    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : 3587,
+    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : 1510,
+    "about\/_index.md" : 120,
+    "life\/20170910-我的唯一一个教师节.md" : 755,
+    "life\/我的学生时代（二）.md" : 1468,
+    "tech\/20200620-hello-world.md" : 67,
+    "life\/20210616-我的学生时代.md" : 2322,
+    "life\/20161101-GOT-Tyrion.md" : 603,
+    "life\/20200703-newstart.md" : 350,
+    "tech\/翻译 0f3806e070d042798c505288d5ea5db7.md" : 2514,
+    "tech\/数据科学家与Web 3.0.md" : 2538,
+    "life\/20170826-死亡诗社.md" : 412,
+    "life\/20161117-consulting-TSOC.md" : 14981,
+    "life\/20161231-无法想象的世界.md" : 1231,
+    "life\/20180524-论阅历.md" : 561,
+    "life\/20171001-22岁.md" : 414,
+    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : 3348,
+    "life\/20180506-停电的红湖.md" : 346,
+    "life\/20210620_rent_house.md" : 2830,
+    "tech\/技术时代重新思考教育.md" : 3519
+  },
+  "relative_paths" : [
+    "about\/_index.md",
+    "life\/20170826-死亡诗社.md",
+    "life\/20181230-8102年啊.md",
+    "life\/20170910-我的唯一一个教师节.md",
+    "life\/20161117-consulting-TSOC.md",
+    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md",
+    "life\/20200707-学生毕业.md",
+    "life\/20200626-sum2019.md",
+    "life\/20200703-newstart.md",
+    "life\/20180506-停电的红湖.md",
+    "life\/20171001-22岁.md",
+    "life\/20161231-无法想象的世界.md",
+    "life\/20161101-GOT-Tyrion.md",
+    "life\/20210620_rent_house.md",
+    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md",
+    "life\/20151226-life-jiaofu.md",
+    "life\/20180524-论阅历.md",
+    "life\/20210616-我的学生时代.md",
+    "tech\/20200620-hello-world.md",
+    "life\/我的学生时代（二）.md",
+    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md",
+    "tech\/技术时代重新思考教育.md",
+    "tech\/翻译 0f3806e070d042798c505288d5ea5db7.md",
+    "tech\/数据科学家与Web 3.0.md"
+  ],
+  "name_path_info" : {
+    "租房见闻" : "life\/20210620_rent_house.md",
+    "《咨询的奥秘：寻求和提出建议的智慧》笔记" : "life\/20161117-consulting-TSOC.md",
+    "我的学生毕业" : "life\/20200707-学生毕业.md",
+    "互联网广告术语cpm、cpc、cpa、cps、cpl、cpr 、ocpc是什么意思？" : "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md",
+    "22岁" : "life\/20171001-22岁.md",
+    "停电的红湖" : "life\/20180506-停电的红湖.md",
+    "数据科学家与web 3.0" : "tech\/数据科学家与Web 3.0.md",
+    "hello world" : "tech\/20200620-hello-world.md",
+    "无法想象的世界" : "life\/20161231-无法想象的世界.md",
+    "关于《禅与摩托车维修艺术》解读（一）" : "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md",
+    "oedipus the king and tyrion lannister" : "life\/20161101-GOT-Tyrion.md",
+    "关于《禅与摩托车维修艺术》解读（二）" : "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md",
+    "技术时代教育" : "tech\/技术时代重新思考教育.md",
+    "续了五年" : "life\/20200703-newstart.md",
+    "关于《教父》iii" : "life\/20151226-life-jiaofu.md",
+    "迟到半年的2019年总结" : "life\/20200626-sum2019.md",
+    "我的唯一一个教师节" : "life\/20170910-我的唯一一个教师节.md",
+    "论阅历" : "life\/20180524-论阅历.md",
+    "数据科学家与 web 3.0" : "tech\/数据科学家与Web 3.0.md",
+    "8102年啊" : "life\/20181230-8102年啊.md",
+    "我的学生时代（二）" : "life\/我的学生时代（二）.md",
+    "技术时代重新思考教育" : "tech\/技术时代重新思考教育.md",
+    "互联网广告术语cpm、cpc、cpa、cps、cpl、cpr 是什么意思？" : "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md",
+    "_index" : "about\/_index.md",
+    "死亡诗社" : "life\/20170826-死亡诗社.md",
+    "翻译 0f3806e070d042798c505288d5ea5db7" : "tech\/翻译 0f3806e070d042798c505288d5ea5db7.md",
+    "技术时代教育会发生怎样的变革？" : "tech\/技术时代重新思考教育.md",
+    "我的学生时代（一）" : "life\/20210616-我的学生时代.md",
+    "数据科学家" : "tech\/数据科学家与Web 3.0.md"
+  },
+  "links_backward_paths" : {
+
   },
   "toc_info" : {
-    "life\/20151226-life-jiaofu.md" : [
-      "0,# _（1）麦克·柯里昂的忏悔_",
-      "1,# _（2）麦克与凯的对话_",
-      "2,# _（3）麦克与文森的对话_",
-      "3,# _（4）玛丽中弹身亡_"
+    "tech\/翻译 0f3806e070d042798c505288d5ea5db7.md" : [
+      "0,# 翻译",
+      "1,# **Web 3.0 到底是什么？**",
+      "2,# 我目前的理解",
+      "3,# 两种定义，至少",
+      "4,# 将数据科学家与 Web 3.0 配对",
+      "5,# 关于海洋协议等平台的最后一个想法",
+      "6,# 我的理解……明天"
     ],
-    "life\/我的学生时代（二）.md" : [
-
+    "tech\/数据科学家与Web 3.0.md" : [
+      "0,# **Web 3.0 到底是什么？**",
+      "1,# 我目前的理解",
+      "2,# 两种定义，至少",
+      "3,# 将数据科学家与 Web 3.0 配对",
+      "4,# 关于海洋协议等平台的最后一个想法",
+      "5,# 我的理解……明天"
     ],
-    "tech\/20200620-hello-world.md" : [
+    "life\/20200703-newstart.md" : [
 
     ],
     "life\/20210620_rent_house.md" : [
@@ -310,10 +655,7 @@
     "life\/20170910-我的唯一一个教师节.md" : [
 
     ],
-    "life\/20200707-学生毕业.md" : [
-
-    ],
-    "life\/20180506-停电的红湖.md" : [
+    "life\/20210616-我的学生时代.md" : [
 
     ],
     "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : [
@@ -326,6 +668,18 @@
       "6,#### 7. CPT（Cost per time），每时间段成本",
       "7,#### 8. OCPC（Optimized Cost per Click），每次点击优化成本",
       "8,#### 其它的一些广告模式"
+    ],
+    "life\/20181230-8102年啊.md" : [
+
+    ],
+    "life\/20161101-GOT-Tyrion.md" : [
+
+    ],
+    "life\/20200707-学生毕业.md" : [
+
+    ],
+    "life\/20171001-22岁.md" : [
+
     ],
     "life\/20161117-consulting-TSOC.md" : [
       "0,# 关于这个笔记",
@@ -432,10 +786,16 @@
       "101,## 信任第十定律",
       "102,# 在农场上学到的"
     ],
-    "life\/20161231-无法想象的世界.md" : [
+    "life\/20170826-死亡诗社.md" : [
 
     ],
-    "life\/20200626-sum2019.md" : [
+    "life\/20180506-停电的红湖.md" : [
+
+    ],
+    "about\/_index.md" : [
+
+    ],
+    "life\/20161231-无法想象的世界.md" : [
 
     ],
     "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : [
@@ -445,33 +805,7 @@
       "3,# **陷阱：挫折和自我**",
       "4,# **陷阱：忧虑和枯燥**"
     ],
-    "life\/20200703-newstart.md" : [
-
-    ],
-    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : [
-      "0,# **克里斯的病**",
-      "1,# **理科男和文科男**",
-      "2,# **古典和浪漫**",
-      "3,# **沙子理论**",
-      "4,# **经验主义**",
-      "5,# **良质**"
-    ],
-    "life\/20210616-我的学生时代.md" : [
-
-    ],
-    "about\/_index.md" : [
-
-    ],
-    "life\/20170826-死亡诗社.md" : [
-
-    ],
-    "life\/20181230-8102年啊.md" : [
-
-    ],
     "life\/20180524-论阅历.md" : [
-
-    ],
-    "life\/20171001-22岁.md" : [
 
     ],
     "tech\/技术时代重新思考教育.md" : [
@@ -488,240 +822,117 @@
       "10,#### 3. 教学和权威，教师所感到挑战的东西。",
       "11,#### 4. 评价，标准化考试评价方式限制了计算机改变学校的方式。"
     ],
-    "life\/20161101-GOT-Tyrion.md" : [
+    "tech\/20200620-hello-world.md" : [
+
+    ],
+    "life\/20151226-life-jiaofu.md" : [
+      "0,# _（1）麦克·柯里昂的忏悔_",
+      "1,# _（2）麦克与凯的对话_",
+      "2,# _（3）麦克与文森的对话_",
+      "3,# _（4）玛丽中弹身亡_"
+    ],
+    "life\/20200626-sum2019.md" : [
+
+    ],
+    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : [
+      "0,# **克里斯的病**",
+      "1,# **理科男和文科男**",
+      "2,# **古典和浪漫**",
+      "3,# **沙子理论**",
+      "4,# **经验主义**",
+      "5,# **良质**"
+    ],
+    "life\/我的学生时代（二）.md" : [
 
     ]
   },
-  "words_info" : {
-    "life\/20171001-22岁.md" : 414,
-    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : 3587,
-    "life\/20200626-sum2019.md" : 558,
-    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : 1510,
-    "life\/20200707-学生毕业.md" : 551,
-    "life\/20170910-我的唯一一个教师节.md" : 755,
-    "tech\/20200620-hello-world.md" : 67,
-    "tech\/技术时代重新思考教育.md" : 3519,
-    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : 3348,
-    "life\/20180524-论阅历.md" : 561,
-    "life\/20210620_rent_house.md" : 2830,
-    "life\/20210616-我的学生时代.md" : 2322,
-    "life\/20161231-无法想象的世界.md" : 1231,
-    "life\/20170826-死亡诗社.md" : 412,
-    "life\/20161117-consulting-TSOC.md" : 14981,
-    "life\/20181230-8102年啊.md" : 534,
-    "life\/20151226-life-jiaofu.md" : 1076,
-    "life\/20180506-停电的红湖.md" : 346,
-    "about\/_index.md" : 120,
-    "life\/我的学生时代（二）.md" : 1468,
-    "life\/20161101-GOT-Tyrion.md" : 603,
-    "life\/20200703-newstart.md" : 350
+  "files_mtime_info" : {
+    "tech\/20200620-hello-world.md" : 1635330500,
+    "life\/20180524-论阅历.md" : 1594091906,
+    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : 1594092198,
+    "life\/20170826-死亡诗社.md" : 1594091944,
+    "life\/我的学生时代（二）.md" : 1635329260,
+    "life\/20161117-consulting-TSOC.md" : 1594092212,
+    "tech\/技术时代重新思考教育.md" : 1635433560,
+    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : 1635330265,
+    "life\/20200703-newstart.md" : 1635267475,
+    "life\/20151226-life-jiaofu.md" : 1594092208,
+    "life\/20161101-GOT-Tyrion.md" : 1594092192,
+    "life\/20161231-无法想象的世界.md" : 1594092184,
+    "life\/20181230-8102年啊.md" : 1594091944,
+    "life\/20210620_rent_house.md" : 1635312958,
+    "about\/_index.md" : 1635267508,
+    "life\/20170910-我的唯一一个教师节.md" : 1594091944,
+    "life\/20200626-sum2019.md" : 1635267462,
+    "life\/20180506-停电的红湖.md" : 1594091944,
+    "life\/20171001-22岁.md" : 1594091944,
+    "life\/20210616-我的学生时代.md" : 1635329265,
+    "tech\/翻译 0f3806e070d042798c505288d5ea5db7.md" : 1637564498,
+    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : 1594092205,
+    "life\/20200707-学生毕业.md" : 1594095253,
+    "tech\/数据科学家与Web 3.0.md" : 1637593556
+  },
+  "path_name_info" : {
+    "life\/20161101-GOT-Tyrion.md" : "Oedipus the King and Tyrion Lannister",
+    "life\/20161231-无法想象的世界.md" : "无法想象的世界",
+    "life\/20180524-论阅历.md" : "论阅历",
+    "tech\/20200620-hello-world.md" : "Hello World",
+    "life\/20210616-我的学生时代.md" : "我的学生时代（一）",
+    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : "关于《禅与摩托车维修艺术》解读（一）",
+    "life\/20210620_rent_house.md" : "租房见闻",
+    "life\/20151226-life-jiaofu.md" : "关于《教父》III",
+    "life\/20161117-consulting-TSOC.md" : "《咨询的奥秘：寻求和提出建议的智慧》笔记",
+    "life\/20180506-停电的红湖.md" : "停电的红湖",
+    "about\/_index.md" : "_index",
+    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : "互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？",
+    "life\/20200707-学生毕业.md" : "我的学生毕业",
+    "life\/20200626-sum2019.md" : "迟到半年的2019年总结",
+    "life\/20170910-我的唯一一个教师节.md" : "我的唯一一个教师节",
+    "life\/20170826-死亡诗社.md" : "死亡诗社",
+    "life\/20171001-22岁.md" : "22岁",
+    "life\/20200703-newstart.md" : "续了五年",
+    "tech\/数据科学家与Web 3.0.md" : "数据科学家与 Web 3.0",
+    "life\/我的学生时代（二）.md" : "我的学生时代（二）",
+    "life\/20181230-8102年啊.md" : "8102年啊",
+    "tech\/翻译 0f3806e070d042798c505288d5ea5db7.md" : "翻译 0f3806e070d042798c505288d5ea5db7",
+    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : "关于《禅与摩托车维修艺术》解读（二）",
+    "tech\/技术时代重新思考教育.md" : "技术时代教育会发生怎样的变革？"
   },
   "toc_hash_info" : {
 
   },
-  "links_paths" : {
-
-  },
-  "documents_meta_info" : {
-    "life\/20200707-学生毕业.md" : {
-      "toc" : "false",
-      "comments" : "false",
-      "title" : "我的学生毕业",
-      "date" : "2020-07-07T11:15:53+08:00",
-      "tags" : "",
-      "raw_metadata_str" : "title: \"我的学生毕业\"\ndate: 2020-07-07T11:15:53+08:00\ntags:\n- 随笔\ncomments: false\ntoc: false"
-    },
-    "life\/20200703-newstart.md" : {
-      "toc" : "true",
-      "tags" : "",
-      "title" : "续了五年",
-      "raw_metadata_str" : "title: \"续了五年\"\ndate: 2020-07-03T10:40:07+08:00\ntags: \n- 杂记\ncomments: false\ntoc: true",
-      "date" : "2020-07-03T10:40:07+08:00",
-      "comments" : "false"
-    },
-    "life\/20161117-consulting-TSOC.md" : {
-      "raw_metadata_str" : "title: \"《咨询的奥秘：寻求和提出建议的智慧》笔记\"\ndate: 2016-11-17 00:00:00\ntags:\n- 咨询\n- 读后感\ndescription: 这是一篇关于一本富含智慧的书的笔记。\ncomments: true",
-      "comments" : "true",
-      "title" : "《咨询的奥秘：寻求和提出建议的智慧》笔记",
-      "description" : "这是一篇关于一本富含智慧的书的笔记。",
-      "date" : "2016-11-17 00:00:00",
-      "tags" : ""
-    },
-    "life\/20210620_rent_house.md" : {
-      "raw_metadata_str" : "title: \"租房见闻\"\ndate: 2021-06-20T23:08:27+08:00\ndescription:\ntags:\n- 随笔\ncomments: false\ntoc: false",
-      "comments" : "false",
-      "toc" : "false",
-      "description" : "",
-      "date" : "2021-06-20T23:08:27+08:00",
-      "tags" : "",
-      "title" : "租房见闻"
-    },
-    "about\/_index.md" : {
-
-    },
-    "life\/20170910-我的唯一一个教师节.md" : {
-      "tags" : "",
-      "raw_metadata_str" : "title: 我的唯一一个教师节\ndate: 2017-09-10 00:00:00\ntags: \n- 随笔",
-      "title" : "我的唯一一个教师节",
-      "date" : "2017-09-10 00:00:00"
-    },
-    "life\/20181230-8102年啊.md" : {
-      "date" : "2018-12-30 00:00:00",
-      "raw_metadata_str" : "title: 8102年啊\ndate: 2018-12-30 00:00:00\ntags: \n- 随笔\n- 年终总结",
-      "title" : "8102年啊",
-      "tags" : ""
-    },
-    "life\/20170826-死亡诗社.md" : {
-      "title" : "死亡诗社",
-      "date" : "2017-08-26 00:00:00",
-      "tags" : "",
-      "raw_metadata_str" : "title: 死亡诗社\ndate: 2017-08-26 00:00:00\ntags: \n- 随笔"
-    },
-    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : {
-      "tags" : "",
-      "raw_metadata_str" : "title: 关于《禅与摩托车维修艺术》解读（二）\ndate: 2016-10-26 00:00:00\ntags:\n- 新世相\n- 读后感\ndescription: Zen and the Art of Motorcycle Maintenance——by Robert M. Pirsig",
-      "date" : "2016-10-26 00:00:00",
-      "title" : "关于《禅与摩托车维修艺术》解读（二）",
-      "description" : "Zen and the Art of Motorcycle Maintenance——by Robert M. Pirsig"
-    },
-    "life\/20210616-我的学生时代.md" : {
-      "indent" : "false",
-      "description" : "",
-      "raw_metadata_str" : "title: \"我的学生时代（一）\"\ndate: 2021-06-06T00:49:43+08:00\ndescription:\ntags:\n- 随笔\nindent: false\ncomments: false\ntoc: false",
-      "date" : "2021-06-06T00:49:43+08:00",
-      "comments" : "false",
-      "toc" : "false",
-      "tags" : "",
-      "title" : "我的学生时代（一）"
-    },
-    "life\/20180506-停电的红湖.md" : {
-      "raw_metadata_str" : "title: 停电的红湖\ndate: 2018-05-06 00:00:00\ntags: \n- 随笔",
-      "tags" : "",
-      "title" : "停电的红湖",
-      "date" : "2018-05-06 00:00:00"
-    },
-    "life\/我的学生时代（二）.md" : {
-      "toc" : "false",
-      "date" : "2021-07-02T13:27:04+08:00",
-      "indent" : "false",
-      "comments" : "false",
-      "description" : "",
-      "tags" : "",
-      "raw_metadata_str" : "title: \"我的学生时代（二）\"\ndate: 2021-07-02T13:27:04+08:00\ndescription:\ntags:\n- 随笔\nindent: false\ncomments: false\ntoc: false",
-      "title" : "我的学生时代（二）"
-    },
-    "tech\/20200620-hello-world.md" : {
-      "tags" : "",
-      "date" : "2020-06-20T10:50:02+08:00",
-      "title" : "Hello World",
-      "raw_metadata_str" : "title: \"Hello World\"\ndate: 2020-06-20T10:50:02+08:00\ntags:\n- Hello World"
-    },
-    "life\/20180524-论阅历.md" : {
-      "date" : "2018-05-24 00:00:00",
-      "title" : "论阅历",
-      "tags" : "",
-      "raw_metadata_str" : "title: 论阅历\ndate: 2018-05-24 00:00:00\ntags: \n- 随笔"
-    },
-    "tech\/技术时代重新思考教育.md" : {
-      "raw_metadata_str" : "title: \"技术时代教育会发生怎样的变革？\"\ndate: 2021-10-27T21:51:33+08:00\ndescription:\ntags:\n- 互联网\n- 教育\nindent: false\ncomments: false\ntoc: true",
-      "comments" : "false",
-      "title" : "技术时代教育会发生怎样的变革？",
-      "date" : "2021-10-27T21:51:33+08:00",
-      "tags" : "",
-      "description" : "",
-      "indent" : "false",
-      "toc" : "true"
-    },
-    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : {
-      "tags" : "",
-      "raw_metadata_str" : "title: 关于《禅与摩托车维修艺术》解读（一）\ndate: 2016-10-25 00:00:00\ntags:\n- 读后感\n- 新世相\ndescription: Zen and the Art of Motorcycle Maintenance —— by Robert M. Pirsig",
-      "title" : "关于《禅与摩托车维修艺术》解读（一）",
-      "description" : "Zen and the Art of Motorcycle Maintenance —— by Robert M. Pirsig",
-      "date" : "2016-10-25 00:00:00"
-    },
-    "life\/20161101-GOT-Tyrion.md" : {
-      "date" : "2016-11-01 00:00:00",
-      "raw_metadata_str" : "title: Oedipus the King and Tyrion Lannister\ndate: 2016-11-01 00:00:00\ntags:\n- GameOfThrones\n- 读后感\ndescription: Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.",
-      "tags" : "",
-      "description" : "Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.",
-      "title" : "Oedipus the King and Tyrion Lannister"
-    },
-    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : {
-      "tags" : "",
-      "title" : "互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？",
-      "toc" : "false",
-      "description" : "",
-      "indent" : "false",
-      "date" : "2021-10-27T17:40:34+08:00",
-      "raw_metadata_str" : "title: \"互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？\"\ndate: 2021-10-27T17:40:34+08:00\ndescription:\ntags:\n- 互联网\n- 商业化\nindent: false\ncomments: false\ntoc: false",
-      "comments" : "false"
-    },
-    "life\/20200626-sum2019.md" : {
-      "title" : "迟到半年的2019年总结",
-      "raw_metadata_str" : "title: \"迟到半年的2019年总结\"\ndate: 2020-06-26T12:26:59+08:00\ntags:\n- 年终总结\ncomments: false\ntoc: false",
-      "tags" : "",
-      "date" : "2020-06-26T12:26:59+08:00",
-      "toc" : "false",
-      "comments" : "false"
-    },
-    "life\/20161231-无法想象的世界.md" : {
-      "description" : "而现在，我正置身于那个“无法想象”的世界。如此一想，便觉得有点好笑。置身于此的我究竟是幸福还是不幸？",
-      "tags" : "",
-      "raw_metadata_str" : "title: 无法想象的世界\ndate: 2016-12-31 00:00:00\ndescription: 而现在，我正置身于那个“无法想象”的世界。如此一想，便觉得有点好笑。置身于此的我究竟是幸福还是不幸？\ntags: \n- 随笔\n- 年终总结",
-      "date" : "2016-12-31 00:00:00",
-      "title" : "无法想象的世界"
-    },
-    "life\/20151226-life-jiaofu.md" : {
-      "date" : "2015-12-26 00:00:00",
-      "tags" : "",
-      "raw_metadata_str" : "title: 关于《教父》III\ndate: 2015-12-26 00:00:00\ntags:\n- 影评\ndescription: 一个人无聊看教父",
-      "title" : "关于《教父》III",
-      "description" : "一个人无聊看教父"
-    },
-    "life\/20171001-22岁.md" : {
-      "date" : "2017-10-01 00:00:00",
-      "raw_metadata_str" : "title: 22岁\ndate: 2017-10-01 00:00:00\ntags: \n- 随笔",
-      "title" : "22岁",
-      "tags" : ""
-    }
-  },
-  "tags_tags" : {
-
-  },
-  "links_backward_paths" : {
-
-  },
-  "files_mtime_info" : {
-    "life\/20180506-停电的红湖.md" : 1594091944,
-    "life\/20161117-consulting-TSOC.md" : 1594092212,
-    "life\/20170826-死亡诗社.md" : 1594091944,
-    "about\/_index.md" : 1635267508,
-    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : 1594092198,
-    "tech\/20200620-hello-world.md" : 1635330500,
-    "life\/20151226-life-jiaofu.md" : 1594092208,
-    "life\/20170910-我的唯一一个教师节.md" : 1594091944,
-    "life\/20200703-newstart.md" : 1635267475,
-    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : 1594092205,
-    "life\/20180524-论阅历.md" : 1594091906,
-    "life\/20181230-8102年啊.md" : 1594091944,
-    "life\/我的学生时代（二）.md" : 1635329260,
-    "life\/20200626-sum2019.md" : 1635267462,
-    "life\/20210616-我的学生时代.md" : 1635329265,
-    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : 1635330265,
-    "life\/20161101-GOT-Tyrion.md" : 1594092192,
-    "life\/20161231-无法想象的世界.md" : 1594092184,
-    "life\/20200707-学生毕业.md" : 1594095253,
-    "tech\/技术时代重新思考教育.md" : 1635433560,
-    "life\/20210620_rent_house.md" : 1635312958,
-    "life\/20171001-22岁.md" : 1594091944
-  },
-  "relative_folders" : [
-    "about",
-    "life",
-    "tech"
-  ],
   "tags_paths" : {
+    "tech\/数据科学家与Web 3.0.md" : [
+
+    ],
+    "life\/20171001-22岁.md" : [
+
+    ],
+    "life\/20161231-无法想象的世界.md" : [
+
+    ],
     "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : [
+
+    ],
+    "life\/20170826-死亡诗社.md" : [
+
+    ],
+    "life\/20210616-我的学生时代.md" : [
+
+    ],
+    "life\/我的学生时代（二）.md" : [
+
+    ],
+    "tech\/技术时代重新思考教育.md" : [
+
+    ],
+    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : [
+
+    ],
+    "tech\/翻译 0f3806e070d042798c505288d5ea5db7.md" : [
+
+    ],
+    "life\/20180524-论阅历.md" : [
 
     ],
     "life\/20200707-学生毕业.md" : [
@@ -730,31 +941,22 @@
     "life\/20161117-consulting-TSOC.md" : [
 
     ],
-    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : [
-
-    ],
-    "life\/20151226-life-jiaofu.md" : [
+    "life\/20180506-停电的红湖.md" : [
 
     ],
     "life\/20170910-我的唯一一个教师节.md" : [
 
     ],
-    "life\/20161231-无法想象的世界.md" : [
-
-    ],
-    "life\/20180524-论阅历.md" : [
-
-    ],
-    "tech\/20200620-hello-world.md" : [
-
-    ],
-    "life\/20170826-死亡诗社.md" : [
-
-    ],
-    "life\/20161101-GOT-Tyrion.md" : [
+    "life\/20200703-newstart.md" : [
 
     ],
     "about\/_index.md" : [
+
+    ],
+    "life\/20151226-life-jiaofu.md" : [
+
+    ],
+    "life\/20181230-8102年啊.md" : [
 
     ],
     "life\/20200626-sum2019.md" : [
@@ -763,104 +965,28 @@
     "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : [
 
     ],
-    "life\/20181230-8102年啊.md" : [
-
-    ],
-    "life\/20171001-22岁.md" : [
-
-    ],
-    "tech\/技术时代重新思考教育.md" : [
-
-    ],
-    "life\/我的学生时代（二）.md" : [
-
-    ],
-    "life\/20210616-我的学生时代.md" : [
-
-    ],
-    "life\/20200703-newstart.md" : [
-
-    ],
     "life\/20210620_rent_house.md" : [
 
     ],
-    "life\/20180506-停电的红湖.md" : [
+    "tech\/20200620-hello-world.md" : [
+
+    ],
+    "life\/20161101-GOT-Tyrion.md" : [
 
     ]
   },
-  "relative_paths" : [
-    "about\/_index.md",
-    "life\/20170826-死亡诗社.md",
-    "life\/20181230-8102年啊.md",
-    "life\/20170910-我的唯一一个教师节.md",
-    "life\/20161117-consulting-TSOC.md",
-    "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md",
-    "life\/20200707-学生毕业.md",
-    "life\/20200626-sum2019.md",
-    "life\/20200703-newstart.md",
-    "life\/20180506-停电的红湖.md",
-    "life\/20171001-22岁.md",
-    "life\/20161231-无法想象的世界.md",
-    "life\/20161101-GOT-Tyrion.md",
-    "life\/20210620_rent_house.md",
-    "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md",
-    "life\/20151226-life-jiaofu.md",
-    "life\/20180524-论阅历.md",
-    "life\/20210616-我的学生时代.md",
-    "tech\/20200620-hello-world.md",
-    "life\/我的学生时代（二）.md",
-    "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md",
-    "tech\/技术时代重新思考教育.md"
-  ],
-  "filename_path_info" : {
-    "20161025-关于《禅与摩托车维修艺术》解读（一）" : "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md",
-    "20151226-life-jiaofu" : "life\/20151226-life-jiaofu.md",
-    "技术时代重新思考教育" : "tech\/技术时代重新思考教育.md",
-    "20200626-sum2019" : "life\/20200626-sum2019.md",
-    "20210616-我的学生时代" : "life\/20210616-我的学生时代.md",
-    "20200703-newstart" : "life\/20200703-newstart.md",
-    "20180506-停电的红湖" : "life\/20180506-停电的红湖.md",
-    "20161026-关于《禅与摩托车维修艺术》解读（二）" : "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md",
-    "20200620-hello-world" : "tech\/20200620-hello-world.md",
-    "20161231-无法想象的世界" : "life\/20161231-无法想象的世界.md",
-    "20181230-8102年啊" : "life\/20181230-8102年啊.md",
-    "20180524-论阅历" : "life\/20180524-论阅历.md",
-    "_index" : "about\/_index.md",
-    "互联网广告术语cpm、cpc、cpa、cps、cpl、cpr 是什么意思？" : "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md",
-    "20170826-死亡诗社" : "life\/20170826-死亡诗社.md",
-    "20170910-我的唯一一个教师节" : "life\/20170910-我的唯一一个教师节.md",
-    "20210620_rent_house" : "life\/20210620_rent_house.md",
-    "20171001-22岁" : "life\/20171001-22岁.md",
-    "20200707-学生毕业" : "life\/20200707-学生毕业.md",
-    "我的学生时代（二）" : "life\/我的学生时代（二）.md",
-    "20161101-got-tyrion" : "life\/20161101-GOT-Tyrion.md",
-    "20161117-consulting-tsoc" : "life\/20161117-consulting-TSOC.md"
+  "links_paths" : {
+
   },
-  "name_path_info" : {
-    "技术时代教育会发生怎样的变革？" : "tech\/技术时代重新思考教育.md",
-    "关于《禅与摩托车维修艺术》解读（一）" : "life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md",
-    "论阅历" : "life\/20180524-论阅历.md",
-    "技术时代教育" : "tech\/技术时代重新思考教育.md",
-    "死亡诗社" : "life\/20170826-死亡诗社.md",
-    "hello world" : "tech\/20200620-hello-world.md",
-    "续了五年" : "life\/20200703-newstart.md",
-    "无法想象的世界" : "life\/20161231-无法想象的世界.md",
-    "我的学生时代（一）" : "life\/20210616-我的学生时代.md",
-    "22岁" : "life\/20171001-22岁.md",
-    "迟到半年的2019年总结" : "life\/20200626-sum2019.md",
-    "技术时代重新思考教育" : "tech\/技术时代重新思考教育.md",
-    "8102年啊" : "life\/20181230-8102年啊.md",
-    "租房见闻" : "life\/20210620_rent_house.md",
-    "《咨询的奥秘：寻求和提出建议的智慧》笔记" : "life\/20161117-consulting-TSOC.md",
-    "_index" : "about\/_index.md",
-    "互联网广告术语cpm、cpc、cpa、cps、cpl、cpr 、ocpc是什么意思？" : "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md",
-    "我的唯一一个教师节" : "life\/20170910-我的唯一一个教师节.md",
-    "互联网广告术语cpm、cpc、cpa、cps、cpl、cpr 是什么意思？" : "tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md",
-    "停电的红湖" : "life\/20180506-停电的红湖.md",
-    "oedipus the king and tyrion lannister" : "life\/20161101-GOT-Tyrion.md",
-    "关于《禅与摩托车维修艺术》解读（二）" : "life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md",
-    "我的学生毕业" : "life\/20200707-学生毕业.md",
-    "我的学生时代（二）" : "life\/我的学生时代（二）.md",
-    "关于《教父》iii" : "life\/20151226-life-jiaofu.md"
-  }
+  "todo_list" : {
+
+  },
+  "tags_tags" : {
+
+  },
+  "relative_folders" : [
+    "about",
+    "life",
+    "tech"
+  ]
 }
