@@ -11,6 +11,8 @@ comments: false
 toc: true
 ---
 
+一篇有意思的文章，[原文链接](https://towardsdatascience.com/dear-data-scientists-i-love-you-sincerely-web-3-0-55049273905a)
+
 听说过蒂姆·伯纳斯·李吗？当然，你有。毕竟，他发明了互联网。
 
 关于蒂姆，你可能还会知道，他发明了互联网 3.0……又名 Web 3.0……又名语义（semantic）网……又名空间网。 [这里是](https://www.historyofinformation.com/detail.php?id=3343) 蒂姆爵士对互联网未来的评价：
@@ -19,13 +21,13 @@ toc: true
 
 # **Web 3.0 到底是什么？**
 
-术语的多样性仅适用于 Web 3.0 的今天。事实上，许多思想领袖仍在清晰地理解 Web 3.0 的全部含义。 [一些](https://www.igi-global.com/dictionary/infoxication/32201) 将其定义为
+术语的多样性仅适用于 Web 3.0 的今天。事实上，许多思想领袖仍在清晰地理解 Web 3.0 的全部含义。 [有人](https://www.igi-global.com/dictionary/infoxication/32201) 将其定义为
 
-> “……一个用来描述万维网未来的术语” >
+> “……一个用来描述万维网未来的术语” 
 
-而[其他](https://www.expert.ai/blog/web-3-0/)提供了更具体的标准，例如语义、人工智能、3D 和无处不在。
+而[其他人](https://www.expert.ai/blog/web-3-0/)提供了更具体的标准，例如语义、人工智能、3D 和无处不在。
 
-[其他](https://www2.deloitte.com/us/en/insights/topics/digital-transformation/web-3-0-technologies-in-business.html) 提供的仍然是更窄的定义，更专注于当前商业模式可以使用空间技术利用这种未来状态的方式（我将在下面更详细地探讨其中的一些定义）。
+[其他人](https://www2.deloitte.com/us/en/insights/topics/digital-transformation/web-3-0-technologies-in-business.html) 提供的仍然是更窄的定义，更专注于当前商业模式可以使用空间技术利用这种未来状态的方式（我将在下面更详细地探讨其中的一些定义）。
 
 不管你想叫它什么，不管你想定义它，有一些重大的努力正在进行中，开始意识到 Tim 预言了万维网的未来，它对数据科学家有一些重要的影响。
 
@@ -35,7 +37,7 @@ toc: true
 
 抛开所有的戏剧性，我对 Web 3.0 的理解仍在随着我的学习和我看到新产品进入带有 Web 3.0 营销标签的空间而不断发展。
 
-在阅读了 Tim Denning 关于使用 Web 3.0 创建内容的几篇文章后，我第一次开始注意到这个概念，就像这里的[这篇](https://www.notion.so/Dear-Data-Scientists-I-Love-You-Sincerely-Web-3-0-by-Brandon-Cosley-Towards-Data-Science-1bad698e1bca4caea228b1a4892f473e)文章（嘿，看，另一个聪明的 Tim 😊）。
+在阅读了 Tim Denning 关于使用 Web 3.0 创建内容的几篇文章后，我第一次开始注意到这个概念，就像这里的[这篇](https://medium.com/swlh/the-new-content-platform-im-making-money-from-and-dominating-bf92646a160)文章（嘿，看，另一个聪明的 Tim 😊）。
 
 Tim 还撰写了当今 Web 3.0 最突出的用例之一，即加密货币。加密货币是 Web 3.0 潜力的很好例子，因为它们是一种去中心化且完全透明的价值交换手段。
 
