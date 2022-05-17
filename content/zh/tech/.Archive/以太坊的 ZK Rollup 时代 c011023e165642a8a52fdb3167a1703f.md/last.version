@@ -7,7 +7,7 @@ tags:
 - Web 3.0
 indent: false
 comments: false
-toc: true
+toc: false
 ---
 
 导读：以太坊即将迎来它的 Layer 2 时代，而在所有 L2 扩容技术中 ZK Rollup 是最好的解决方案之一。零知识证明技术加上汇总扩容技术能够擦出什么样的火花？ZK Rollup 比其他扩容技术好在哪里？如何才能被快速地采用？以投资的眼光看，ZK Rollup 时代价值又如何捕获，会产生什么样的创新应用？
@@ -267,7 +267,7 @@ L2 生态价值流动图
 
 目前在各个流动性节点，StarkWare 和 zkSync 都有相应的应用部署，大部分处于测试阶段，其生态对比情况如下图。
 
-![zkSync 和 StarkWare 生态对比 来源：ZK_Daily](%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%9A%84%20ZK%20Rollup%20%E6%97%B6%E4%BB%A3%20c011023e165642a8a52fdb3167a1703f/Untitled%206.png)
+![zkSync 和 StarkWare 生态对比 来源：ZK_Daily](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj34ji7lj21gx0u0gtw.jpg)
 
 zkSync 和 StarkWare 生态对比 来源：ZK_Daily
 
