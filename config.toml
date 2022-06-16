@@ -1456,22 +1456,21 @@ uglyURLs = false
 [languages.en.menu]
     [[languages.en.menu.home]]
         url = "/en/life/"
-        name = "Life"
+        name = "DAO"
         weight = 1
         pre = "internal"
         post = ""
         identifier = "life"
-    
     [[languages.en.menu.home]]
         url = "/en/tech/"
-        name = "Tech"
+        name = "Appearance"
         weight = 2
         pre = "internal"
         post = ""
         identifier = "tech"
     [[languages.en.menu.main]]
         url = "/en/about/"
-        name = "About"
+        name = "Basis"
         weight = 3
         pre = "internal"
         post = ""
@@ -1483,7 +1482,7 @@ uglyURLs = false
         weight = 7
         identifier = "lang-switcher"
 [languages.en.params]
-    homePoetry = ["<p style='font-family:ZCOOL XiaoWei;font-size:1.5rem'>Dao-Heart<br>Appearance-Tech<br>Basis-Me</p>","<p style='font-family:ZCOOL XiaoWei;font-size:2rem'>Nice to meet you, I am Bubai.</p>"]
+    homePoetry = ["<p style='font-family:ZCOOL XiaoWei;font-size:1.5rem'>Dao-My life Stories<br>Appearance-Tech<br>Basis-About Me</p>","<p style='font-family:ZCOOL XiaoWei;font-size:2rem'>Nice to meet you, I am Lewis.</p>"]
     siteDescription = "Blog of bubai in English."
     listDateFormat = "January 2"
     fontFamilyTitle = "'Amstelvar', serif"
