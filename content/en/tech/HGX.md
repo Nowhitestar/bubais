@@ -56,7 +56,7 @@ It is important to note that trustless does not mean no trust at all, but rather
 
 Thus, [trustless is a spectrum](https://blog.li.fi/li-fi-with-bridges-trust-is-a-spectrum-354cd5a1a6d8), and the degree of trustless is different for different mechanisms. If the trust cost of the above example with no trust at all is 0, then the trust cost of a trusted bridge is 1. The trust cost of a trustless bridge is between 0 and 1, mathematically expressed as (0, 1).
 
-When it comes to trustless bridges, the first question we need to figure out is, "[Who is the verifier of the system?](https://blog.connext.network/the-interoperability-trilemma-657c2cf69f17)", [different design mechanisms](https://blog.li.fi/what-are- blockchain-bridges-and-how-can-we-classify-them-560dc6ec05fa) give different answers.
+When it comes to trustless bridges, the first question we need to figure out is, "[Who is the verifier of the system?](https://blog.connext.network/the-interoperability-trilemma-657c2cf69f17)", [different design mechanisms](https://blog.li.fi/what-are-blockchain-bridges-and-how-can-we-classify-them-560dc6ec05fa) give different answers.
 
 1. External verification. External validators are not part of any of the related blockchains and are introduced by bridges with their own unique trust assumptions. Dependent on external validators or federations, security depends on the security of the external validator/federations and different collateral mechanisms (described in detail below), such as Thorchain, Anyswap, Biconomy, Celer, Synapse, PolyNetwork, etc.
 2. Optimistic verification. Optimistic verification relies on external verifiers, but by using honest observers to monitor operations and report fraud as verification. Its security depends on the optimistic mechanism, and since the attacker does not know at the time of the attack whether the fraud will be detected or not, this makes it impossible for the attacker to ever be sure that he will be able to successfully steal the funds, thus greatly increasing the economic cost of attacking the system, e.g. Nomad.
@@ -87,7 +87,7 @@ Therefore, from a trustless perspective, optimistic verification requires signif
 
 In contrast, among external validation, there are two main economic models.
 
-- Bonded: After malicious activity occurs, node collateral is forfeited, but the system does not guarantee to compensate users for losses, e.g. [Polygon PoS Bridge](https://docs.polygon.technology/docs/develop/ethereum-polygon/pos/ getting-started/).
+- Bonded: After malicious activity occurs, node collateral is forfeited, but the system does not guarantee to compensate users for losses, e.g. [Polygon PoS Bridge](https://docs.polygon.technology/docs/develop/ethereum-polygon/pos/getting-started/).
 - Insured: After malicious activity occurs, the node collateral is reduced, and the reduced collateral is used to compensate for the user's loss, e.g. [Axelar](https://axelar.network/).
 
 From this perspective, an insured external verification bridge can relatively minimize the level of trust.
