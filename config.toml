@@ -106,7 +106,7 @@ uglyURLs = false
     # 网站（默认值：baseURL）
     website = "https://bubais.top/"
     # 推特
-    twitter = ""
+    twitter = "https://twitter.com/crypto_bubai"
 
 # 相关文章
 [related]
@@ -279,21 +279,21 @@ uglyURLs = false
     #     identifier = "about"
 
     ## 社交栏
-    # [[menu.socials]]
-    #     url = ""
-    #     name = "GitHub"
-    #     weight = 1
-    #     pre = "external"
-    # [[menu.socials]]
-    #     url = ""
-    #     name = "Telegram"
-    #     weight = 2
-    #     pre = "external"
-    # [[menu.socials]]
-    #     url = ""
-    #     name = "Twitter"
-    #     weight = 3
-    #     pre = "external"
+     [[menu.socials]]
+         url = "https://github.com/Nowhitestar"
+         name = "GitHub"
+         weight = 1
+         pre = "external"
+     [[menu.socials]]
+         url = "https://t.me/lewisliao"
+         name = "Telegram"
+         weight = 2
+         pre = "external"
+     [[menu.socials]]
+         url = "https://twitter.com/crypto_bubai"
+         name = "Twitter"
+         weight = 3
+         pre = "external"
 
     ## 链接栏
     # [[menu.links]]
@@ -1454,24 +1454,24 @@ uglyURLs = false
     # category = "categories"
     # tag = "tags"
 [languages.en.menu]
-    #[[languages.en.menu.home]]
-    #    url = "/en/life/"
-    #    name = "Dao"
-    #    weight = 1
-    #    pre = "internal"
-    #    post = ""
-    #    identifier = "life"
+    [[languages.en.menu.home]]
+        url = "/en/life/"
+        name = "Life"
+        weight = 1
+        pre = "internal"
+        post = ""
+        identifier = "life"
     
-    #[[languages.en.menu.home]]
-    #    url = "/en/tech/"
-    #    name = "Appearance"
-    #    weight = 2
-    #    pre = "internal"
-    #    post = ""
-    #    identifier = "tech"
+    [[languages.en.menu.home]]
+        url = "/en/tech/"
+        name = "Tech"
+        weight = 2
+        pre = "internal"
+        post = ""
+        identifier = "tech"
     [[languages.en.menu.main]]
         url = "/en/about/"
-        name = "Basis"
+        name = "About"
         weight = 3
         pre = "internal"
         post = ""

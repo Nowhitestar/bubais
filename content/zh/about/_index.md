@@ -16,6 +16,6 @@ comments = false
 
 <center>没有支教过的数据分析师不是好的 web3 投资人。</center><br>
 
-<center>毕业于南京大学，专业是环境规划，特长是数据分析，兴趣是区块链，目前正着迷于 Greenpilled，希望能够探索出切实可行的 ReFi。</center><br>
+<center>毕业于南京大学，专业是环境规划，特长是数据分析，兴趣是区块链，目前正着迷于 Greenpilled，希望能够探索出切实可行的 ReFi。之前在字节跳动工作，现在在 [Zonff Partners](https://twitter.com/ZonffPartners) 做投资。</center><br>
 
 <center><h3 class="viva-la-vida" style="font-family:'ZCOOL XiaoWei'">You look in the dark, saying there is a hole to the moon. Carpe Diem!</h2></center>
