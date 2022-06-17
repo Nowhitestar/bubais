@@ -279,21 +279,21 @@ uglyURLs = false
     #     identifier = "about"
 
     ## 社交栏
-     [[menu.socials]]
-         url = "https://github.com/Nowhitestar"
-         name = "GitHub"
-         weight = 1
-         pre = "external"
-     [[menu.socials]]
-         url = "https://t.me/lewisliao"
-         name = "Telegram"
-         weight = 2
-         pre = "external"
-     [[menu.socials]]
-         url = "https://twitter.com/crypto_bubai"
-         name = "Twitter"
-         weight = 3
-         pre = "external"
+    # [[menu.socials]]
+    #     url = "https://github.com/Nowhitestar"
+    #     name = "GitHub"
+    #     weight = 1
+    #     pre = "external"
+    # [[menu.socials]]
+    #     url = "https://t.me/lewisliao"
+    #     name = "Telegram"
+    #     weight = 2
+    #     pre = "external"
+    # [[menu.socials]]
+    #     url = "https://twitter.com/crypto_bubai"
+    #     name = "Twitter"
+    #     weight = 3
+    #     pre = "external"
 
     ## 链接栏
     # [[menu.links]]
@@ -1454,14 +1454,14 @@ uglyURLs = false
     # category = "categories"
     # tag = "tags"
 [languages.en.menu]
-    [[languages.en.menu.home]]
+    [[languages.en.menu.main]]
         url = "/en/life/"
         name = "DAO"
         weight = 1
         pre = "internal"
         post = ""
         identifier = "life"
-    [[languages.en.menu.home]]
+    [[languages.en.menu.main]]
         url = "/en/tech/"
         name = "Appearance"
         weight = 2

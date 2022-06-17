@@ -12,10 +12,10 @@ comments = false
 
 
 
-<center> Hello, I am [Lewis](https://twitter.com/crypto_bubai).</center><br>
+<center> Hello, I am Lewis.</center><br>
 
 <center>A data analyst who has not been a voluntary teacher is not a good web3 investor.</center><br>
 
-<center>Graduated from Nanjing University, majoring in environmental planning, with a specialty in data analysis and an interest in blockchain. Used to working at Bytedance, now working at [Zonff Partners](https://twitter.com/ZonffPartners).</center><br>
+<center>Graduated from Nanjing University, majoring in environmental planning, with a specialty in data analysis and an interest in blockchain. Used to working at Bytedance, now working at Zonff Partners.</center><br>
 
 <center><h3 class="viva-la-vida" style="font-family:'ZCOOL XiaoWei'">You look in the dark, saying there is a hole to the moon. Carpe Diem!</h2></center>
