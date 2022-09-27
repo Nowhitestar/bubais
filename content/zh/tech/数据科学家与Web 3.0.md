@@ -4,7 +4,7 @@ date: 2021-11-22T21:51:33+08:00
 description:
 tags:
 - 互联网
-- 数据科学
+- 数据
 - Web 3.0
 indent: false
 comments: false
