@@ -1,6 +1,6 @@
 ---
 title: 当我们谈 Web3 数据，我们在谈些什么？
-date: 2022-07-27T10:50:02+08:00
+date: 2022-09-27T10:50:02+08:00
 description:
 tags:
 - 基础设施
@@ -169,9 +169,9 @@ Ocean Protocol 以数据交易市场为核心，建立了一个去中心化的�
 
 ![Web3 数据堆栈 来源：Zonff Partners](https://s2.loli.net/2022/09/09/IhOL6tqDXw92M85.png)
 
-目前行业内关于 Web3 的数据使用，绝大多数是链上数据，层出不穷的数据分析工具与索引工具出现，链上数据这个巨大的金矿已经被充分的挖掘，上图的数据表和分析应用分类中绝大多数都是链上数据的挖掘，只有少部分涉及到链下数据。总的来说，数据的使用链路是一个 ETLA（Extract，Transform，Load，Analysis） 的过程，每个节点上都具有代表性的项目。提取（Extract）项目的代表是 The Graph，而转换（Transform）成可用数据表和加载（Load）环节的项目代表是 Dune 和 Luabsae，分析（Analysis）的代表是 Nansen 和 NFTGO。
+目前行业内关于 Web3 的数据使用，绝大多数是链上数据，层出不穷的数据分析工具与索引工具出现，链上数据这个巨大的金矿已经被充分地挖掘，上图的数据表和分析应用分类中绝大多数都是链上数据的挖掘，只有少部分涉及到链下数据。总的来说，数据的使用链路是一个 ETLA（Extract，Transform，Load，Analysis） 的过程，每个节点上都具有代表性的项目。提取（Extract）项目的代表是 The Graph，而转换（Transform）成可用数据表和加载（Load）环节的项目代表是 Dune 和 Luabsae，分析（Analysis）的代表是 Nansen 和 NFTGO。
 
-而**在去中心化存储上 ETLA 整个流程的支持项目几乎还是荒漠，只有一些提取类项目，这里存在巨大的机遇和挑战。** The Graph 和 Ceramic 社区本身正致力于提取 Ceramic 上的数据，Orbis 的创始人也尝试做了一个 [Cerscan](https://cerscan.com/) 用于浏览 Ceramic 上的数据。Arweave 上已经可以通过 The Graph 用子图读取和管理 Arweave 存储的数据，Filecoin 上也有相关第三方项目在做这件事情。但 TLA 的过程目前还无人问津，其中最大的原因是存储在不同去中心化存储上的数据异质性很高，很难有一个统一的模式去挖掘这些数据的价值，其中最有希望的踏出这一步的是 Ceramic，这是因为其**数据模型的存在使得 Ceramic 上数据的异质性指数级降低，从而使得数据的可利用性变得更高。**
+而**在去中心化存储上 ETLA 整个流程的支持项目几乎还是荒漠，只有一些提取类项目，这里存在巨大的机遇和挑战。** The Graph 和 Ceramic 社区本身正致力于提取 Ceramic 上的数据，Orbis 的创始人也尝试做了一个 [Cerscan](https://cerscan.com/) 用于浏览 Ceramic 上的数据。Arweave 上已经可以通过 The Graph 用子图读取和管理 Arweave 存储的数据，Filecoin 上也有相关第三方项目在做这件事情。但 TLA 的过程目前还无人问津，其中最大的原因是存储在不同去中心化存储上的数据异质性很高，很难有一个统一的模式去挖掘这些数据的价值，其中最有希望踏出这一步的是 Ceramic，这是因为其**数据模型的存在使得 Ceramic 上数据的异质性指数级降低，从而使得数据的可利用性变得更高。**
 
 除了链上数据以外，还有很多项目在尝试将链上数据与链下数据进行打通，这类项目可以看作为“链改”型项目。类型分类有：
 
