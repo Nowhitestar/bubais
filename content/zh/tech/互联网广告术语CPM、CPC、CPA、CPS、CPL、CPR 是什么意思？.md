@@ -8,6 +8,7 @@ tags:
 indent: false
 comments: false
 toc: false
+slug: what's the meaning of cpm cpc cpa cps cpl cpr and ocpc
 ---
 
 最近在做互联网产品的商业化，涉及到广告投放，发现有很多专有名词都很陌生，于是做了如下总结。

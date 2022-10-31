@@ -8,6 +8,7 @@ tags:
 indent: false
 comments: false
 toc: false
+slug: NFT a Revolution
 ---
 
 This article believes that the core of NFT is the declaration of digital ownership, and the current outbreak of NFT application scenarios is a revolution of digital ownership, and its end may be something called the metaverse. But this article will not write too much on this. This article tries to use simple and straightforward words to clarify what NFT is, what it is useful for, what are the applications in the industry now, what problems exist, and try to explain the future development of NFT. direction to make some judgments.
@@ -20,9 +21,7 @@ NFT (Non-Fungible Token, Non-Fungible Token) is an encrypted digital proof of ri
 
 Homogenization can be simply understood with the following diagram, that is, homogenized things can be replaced with each other, and their core values ​​are "homogeneous", while non-homogenization means that the core value is "non-homogeneous", such as when I was a child. The Water Margin cards are non-homogeneous, and 108 Songjiang cards cannot be exchanged for prizes.
 
-![Untitled](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bjwo7m86j21gn0u0tbu.jpg)
-
-Source: *[What Are NFTs and How Can They Be Used in Decentralized Finance? DEFI Explained](https://www.youtube.com/watch?v=Xdkkux6OxfM)*
+![Untitled](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bjwo7m86j21gn0u0tbu.jpg "Source: *[What Are NFTs and How Can They Be Used in Decentralized Finance? DEFI Explained](https://www.youtube.com/watch?v=Xdkkux6OxfM)*")
 
 ## 2. Characteristics and principles
 
@@ -191,9 +190,7 @@ Source: Organized from Zero One Finance, Golden Finance
 
 The layered logic of the NFT industry value chain is as follows: according to the NFT flow, it is divided into three layers, from bottom to top, the infrastructure layer, the protocol layer and the application layer.
 
-![NFT市场格局图.jpg](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bjxz9638j21o20u0n9r.jpg)
-
-Source: Collated from A&T Capital, Messari
+![NFT市场格局图.jpg](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bjxz9638j21o20u0n9r.jpg "Source: Collated from A&T Capital, Messari")
 
 The following article will briefly introduce the main representative applications of each level.
 

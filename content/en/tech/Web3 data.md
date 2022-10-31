@@ -9,6 +9,7 @@ tags:
 indent: false
 comments: false
 toc: false
+slug: Web3 data
 draft: true
 ---
 
@@ -28,7 +29,7 @@ draft: true
 
 公共数据、个人数据和法人数据是大部分是在我们日常使用的计算机应用程序时产生的，其中与普通用户切身相关的是个人数据和法人数据。那么个人数据和法人数据是如何产生和被收集的呢？一个高度抽象的互联网产品系统架构图如下所示。
 
-![Web2 应用架构](https://s2.loli.net/2022/08/19/JLAQjYiv8zVhtl9.png)
+![Web2 应用架构](https://s2.loli.net/2022/08/19/JLAQjYiv8zVhtl9.png "Web2 应用架构")
 
 最底层的数据库存储着来自于后端传递过来的，用户与前端互动产生的数据。广义上说，这些都是用户数据。就移动端应用来说，数据大概可以分为以下几类：
 
@@ -42,7 +43,7 @@ draft: true
 
 在 Web3 的应用中有什么不一样吗？Preethi Kasireddy 这张 [Web3 产品架构](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application?ref=tokendaily) 可以帮助我们理解。
 
-![Web3 产品架构 来源：Preethi Kasireddy](https://uploads-ssl.webflow.com/5ddd80927946cdaa0e71d607/614bb2efff06e818e12a57f2_Screen%20Shot%202021-09-22%20at%206.49.04%20PM.png)
+![Web3 产品架构 来源：Preethi Kasireddy](https://uploads-ssl.webflow.com/5ddd80927946cdaa0e71d607/614bb2efff06e818e12a57f2_Screen%20Shot%202021-09-22%20at%206.49.04%20PM.png "Web3 产品架构")
 
 与 Web2 应用相比，用户终端与前端是几乎没有什么变化的。不一样在于后端与数据库。用户通过前端与节点提供商互动（而不是某台中心化服务器），访问布置在以太坊等区块链上的合约代码（而不是服务器上的后端环境），并进行交互。在这个过程同样会产生上述几种类型的数据，由于技术架构的区别，Web3 产生的数据并不是由一台中心化服务器存储，对于不同方式产生的数据其存储的方式或有异同之处。
 
@@ -152,11 +153,11 @@ Ceramic 提供了一个数据模型注册表（ [DataModels Registry](https://gi
 
 Ocean Protocol 以数据交易市场为核心，建立了一个去中心化的数据服务供应链网络。下图显示了创建数据服务供应链所需的主要服务，提供数据、算法、计算、存储、分析和策划。这些组件与服务执行协议（如服务等级协议）、安全计算、访问控制和许可绑定在一起。
 
-![来源：Ocean Protocol](https://s2.loli.net/2022/09/08/9AO7PqCBrTIv4tn.png)
+![来源：Ocean Protocol](https://s2.loli.net/2022/09/08/9AO7PqCBrTIv4tn.png "来源：Ocean Protocol")
 
 主要的参与角色为数据使用者、服务提供者、市场、服务发布者、验证者和策展人。Ocean 提供了全套数据科学工具，数据使用者可以在 Ocean 上建立数据服务管道以自动化运行数据算法从而对数据进行加工处理以及价值发现。在这个过程中，数据使用者无法下载全部数据集以及看到全部数据集，因此保护了数据集不被盗取，使用者购买的是数据集的使用权，而非拥有该数据集。
 
-![来源：Ocean Protocol](https://s2.loli.net/2022/09/08/NabTRcsoxiSmylW.png)
+![来源：Ocean Protocol](https://s2.loli.net/2022/09/08/NabTRcsoxiSmylW.png "来源：Ocean Protocol")
 
 除此之外，Ocean 还和其他机构合作建立数据市场，如它与梅赛德斯-奔驰的去中心化数据市场 [Acentrik]((https://acentrik.io/) 在其最近推出的 Enterprise Release 中联手。 Acentrik Marketplace 由 OceanONDA V4 智能合约和库驱动，可以发布数据服务、部署和铸造数据代币和 Acentrik 资产管理代币，并通过花费来消费数据服务。
 
@@ -168,7 +169,7 @@ Ocean Protocol 以数据交易市场为核心，建立了一个去中心化的�
 2. 其次是针对这些数据的管理应用，包括数据库、数据表、索引中间件以及数据市场等。
 3. 在一定的数据管理范式下，能够对数据进行挖掘，包括算法建模、统计分析和数据可视化等。
 
-![Web3 数据堆栈 来源：Zonff Partners](https://s2.loli.net/2022/09/09/IhOL6tqDXw92M85.png)
+![Web3 数据堆栈 来源：Zonff Partners](https://s2.loli.net/2022/09/09/IhOL6tqDXw92M85.png "Web3 数据堆栈 来源：Zonff Partners")
 
 目前行业内关于 Web3 的数据使用，绝大多数是链上数据，层出不穷的数据分析工具与索引工具出现，链上数据这个巨大的金矿已经被充分地挖掘，上图的数据表和分析应用分类中绝大多数都是链上数据的挖掘，只有少部分涉及到链下数据。总的来说，数据的使用链路是一个 ETLA（Extract，Transform，Load，Analysis） 的过程，每个节点上都具有代表性的项目。提取（Extract）项目的代表是 The Graph，而转换（Transform）成可用数据表和加载（Load）环节的项目代表是 Dune 和 Luabsae，分析（Analysis）的代表是 Nansen 和 NFTGO。
 

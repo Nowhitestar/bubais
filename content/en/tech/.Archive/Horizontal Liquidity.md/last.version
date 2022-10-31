@@ -105,7 +105,7 @@ Different authentication mechanisms also bring different security, speed, connec
 
 Different validation approaches have different trade-offs, each with its own advantages and disadvantages. Although there are some drawbacks to simply adding up the dimensions and calculating the total score for comparison, it seems that, as a rough guide, the total score ZKP > Light Clients & Relayers > Liquidity Networks = Optimistic > External Validators & Federations.
 
-![Performance of bridges with different authentication mechanisms](https://tva1.sinaimg.cn/large/e6c9d24egy1h3a7wgi6akj21150i6aby.jpg "Performance of bridges with different authentication mechanisms")
+![Performance of bridges with different authentication mechanisms](https://tva1.sinaimg.cn/large/e6c9d24egy1h3a7wgi6akj21150i6aby.jpg)
 
 External validations excel in terms of statefulness and connectivity because they can trigger transactions, store data and allow interaction with that data on any number of target chains. Usually such third-party nodes require pledge mechanisms for security, so the capital efficiency of such bridges is minimal. In terms of security, since there are many types of externally verified bridges and different externally verified federations have different consensus algorithm security, their security cannot be generalized, but due to trust assumptions and third-party mechanisms, once the bridge is breached, the user may lose all their money and it will ripple through all the applications associated with the bridge, and their security is the lowest overall.
 
