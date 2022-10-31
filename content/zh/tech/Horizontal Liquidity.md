@@ -10,7 +10,7 @@ comments: false
 toc: false
 ---
 
-[English Version])_
+[English Version](https://www.bubais.top/en/tech/hgx/)
 
 有人把区块链称为互联网的价值结算层，因此把基于区块链技术的 Web3 称为价值互联网。区块链本身作为一个分布式账本，与 「价值」 紧密联系在一起。它 [最基本的价值](https://cryptobriefing.com/why-bitcoin-how-money-works-today/) 体现在比特币这种点对点的电子现金系统，随着智能合约的发明，人们发现它的潜力远不止如此。区块链技术构造了一个全新的信任系统，使得凡是有 「价值」 的东西都能够在网络间传递。
 

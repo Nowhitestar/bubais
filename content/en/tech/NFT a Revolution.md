@@ -1,0 +1,397 @@
+---
+title: "NFTs: a revolution in digital ownership"
+date: 2021-12-14T21:51:33+08:00
+description:
+tags:
+- NFT
+- Web 3.0
+indent: false
+comments: false
+toc: false
+---
+
+This article believes that the core of NFT is the declaration of digital ownership, and the current outbreak of NFT application scenarios is a revolution of digital ownership, and its end may be something called the metaverse. But this article will not write too much on this. This article tries to use simple and straightforward words to clarify what NFT is, what it is useful for, what are the applications in the industry now, what problems exist, and try to explain the future development of NFT. direction to make some judgments.
+
+# What is NFT
+
+## 1. Definition
+
+NFT (Non-Fungible Token, Non-Fungible Token) is an encrypted digital proof of rights and interests that cannot be copied or tampered with, and is defined and "minted" by smart contracts. It is a physical collectible. and "digital fingerprints" of virtual assets such as images, music, game props, etc.
+
+Homogenization can be simply understood with the following diagram, that is, homogenized things can be replaced with each other, and their core values ​​are "homogeneous", while non-homogenization means that the core value is "non-homogeneous", such as when I was a child. The Water Margin cards are non-homogeneous, and 108 Songjiang cards cannot be exchanged for prizes.
+
+![Untitled](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bjwo7m86j21gn0u0tbu.jpg)
+
+Source: *[What Are NFTs and How Can They Be Used in Decentralized Finance? DEFI Explained](https://www.youtube.com/watch?v=Xdkkux6OxfM)*
+
+## 2. Characteristics and principles
+
+NFTs represent verifiable scarcity, portability, and programmability of digital property. NFTs have these properties due to a piece of code (smart contract) residing on a blockchain such as Ethereum that specifies multiple functions that can be used to create new tokens and interact with them.
+
+1. Verifiable scarcity means that certain NFTs are verifiably limited. This feature comes from the fact that there may be a function called "mint" in the smart contract, which can be called by anyone in the world. When called, this function will check some variables for global count to ensure that it is on the blockchain. Minting of the same type of product (such as the cards representing Messi in the blockchain game Sorare) is less than a certain value (such as 1,000).
+2. Portability refers to the interoperability and tradability of NFTs.
+    1. Interoperability i.e. NFT standards allow NFTs to be transferred across multiple ecosystems, as open NFT standards provide a clear, consistent, reliable and authorized API for reading and writing data.
+    2. Tradability means that NFTs can be freely traded and exchanged. Thanks to its non-copyable and tamper-resistant encrypted digital proof of stake properties, blockchains such as Ethereum will become a "machine" that records states, permanently tracking all changes and activities over time, and globalizing these states. Shared, anyone can view it anytime. Everyone in the world can transact with anyone else and do almost anything, including creating, selling, and transferring NFTs.
+3. Programmability means that NFTs can be designed to be dynamic, interactive works that change according to certain conditions. Such as *[Dak Prescott](https://medium.com/ethernitychain/dak-prescott-x-ethernity-89e558ebd880)* is such an NFT work, the NFT will change its style every week according to the player's performance: when the QBR score is A standard performance of 60-75, you'll see Dak in futuristic blue and silver attire, maintaining a throwing motion as if ready to lead his team to victory; and a sizzling performance with a QBR rating of 75, Dak would be wearing a fiery red outfit and held high by his teammates.
+
+The following is a comprehensive scenario of NFTs, which fully reflects the various characteristics of NFTs:
+
+> *I log into a VR casino with my virtual identity (verifiable scarcity), then pull up to a chair and the dealer will recognize my avatar as a TBI (digital representation of property). Since this is my 10th time at the casino and I've been using the heater, my player card is glowing hot (programmable), signaling that other players should come to my table. Casinos like this and decided to send me a virtual "drink ticket" that can be redeemed in any app that recognizes these NFTs like Uber, Eats, Drizzly (portability). - "Crypto Theses for 2022" from Messari* 
+
+A simple operation logic diagram of NFTs is shown in the following figure,
+
+![NFT逻辑原理.png](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bjx3bzdtj223b0u0qcl.jpg)
+
+1. Suppose Alice owns 888 ETH in the current state and calls the mint function of the RandomCat NFT smart contract, passing it 69 ETH as payment to create RandomCat #420. The Ethereum blockchain will record a new state after this transaction that Alice now has only 819 ETH but has an NFT token in her wallet address representing RandomCat #420 and the RandomCat NFT smart contract address will now be 69 ETH or more.
+2. Now suppose Alice decides to sell her RandomCat NFT to Bob for 100 ETH. As a result of this transaction, the Ethereum blockchain state machine is now again transitioning to a new state, and now the recorded fact is that Alice has 919 ETH and no RandomCat NFT, and Bob now has 100 less ETH but one more RandomCat # 420 NFTs.
+
+It can be easily seen that smart contracts are the center of the operation of NFTs. There are many NFT smart contracts. At present, the mainstream smart contract protocols include ERC-721, ERC-1155 and ERC-998, etc., which are similar to homogeneous tokens. The differences between the protocol ERC-20 are as follows:
+
+| Features/Classes | ERC-20 | ERC-721 | ERC-1155 | ERC-998 |
+| --- | --- | --- | --- | --- |
+| Definition | Homogeneous Token | Non-Fungible Token | Semi-Fungible Token | Combinable Non-Fungible Token |
+| Features | Tokens are compatible with Ethereum wallets, standardized, universal, compatible, and easy to interact | Each token is unique and can represent asset ownership | Can integrate different tokens for packaging | Can contain multiple ERC-721 and ERC- 20 Tokens |
+| Divisibility | Token Divisible | Token Indivisible | Conversion Allowed | Token Indivisible |
+| Transferability | Supports transfer between Ethereum smart contracts and decentralized applications | Supports the transfer of one token at a time | It can be merged into a token package and transferred in batches, and the token package has an independent ID | Can be transferred in batches |
+| Advantages | Functions such as transfer, request, approval, etc. can be easily realized | Allows tracking of ownership records of assets, all assets are unique | Cross-chain, destroyable to improve overall scarcity | Detachable, synthesizable |
+| Defects | Accepting instructions is prone to problems and can easily lead to asset loss | A contract can only issue one NFT asset | Information loss; sacrificing the degree of network decentralization | New standard, to be tested |
+| Application scenarios | OMG, SNC, TRX and other tokens | Collectibles/arts, securities, etc. | Collectibles, games, virtual worlds, etc. | Collectibles, games, real estate, etc. |
+| Representative Projects | | NFT Worlds, BAYC, CryptoKitties, Hashmasks | OpenSea Shared Storefront, Rarible | Aavegotchi |
+
+Source：Organized from Tianfeng Securities, PANews
+
+It can be seen that, from left to right, after the homogenized token has developed into a non-homogeneous token, the emergence of more new protocols has brought new capabilities and gameplay to NFTs, which also makes NFTs more than just rights and interests. prove. It is an entirely new existence, a very broad extension based on the concept of ownership.
+
+# What are NFTs for?
+
+The NFT characteristics brought by the smart contract agreement determine the value and role of NFTs. There is no doubt that with the development of smart contracts, NFTs will have more and more ways to play, and their functions will become more and more powerful, but no matter how it changes, its core is always the concept of ownership. Digital assets and even the data itself can tell the world through NFT technology who a digital asset "belongs" to, but due to the lack of current digital property legislation, it may be more appropriate to describe it as "all tokens".
+
+Around the concept of all tokens, the extended role and value of NFTs, I summarize it into the following aspects.
+
+## 1. Ownership tokens themselves
+
+The most direct application scenario is to apply NFTs to the proof of ownership of property itself. Thanks to blockchain technology, this proof of ownership has the natural advantages of being immutable, unforgeable and unreproducible.
+
+It can be applied to,
+
+1. Proof of ownership of physical property, such as real-world real estate, tickets, and bus tickets, etc., use cases include Mintbase, DigiTix, etc.;
+2. Proof of ownership of virtual property, such as domain names and data assets, use cases include Ethereum Name Service, Unstoppable Domains, Ethereum Name Service (ENS), Ocean Protocol, etc. It is worth mentioning that the proof of ownership of data assets is an innovative application with a huge market and promising potential;
+3. Proof of ownership of intellectual property, which in turn can be divided into,
+    1. Proof of personal time/skills, imagine the scenario of driving license, graduation certificate, internship experience, work experience on the chain in the future, personal background check will not need to exist, use cases include The Microsponsors Marketplace, etc.;
+    2. Proof of intellectual property, piracy, infringement and plagiarism are major challenges facing the media and entertainment industry. NFTs can use blockchain technology to prevent fraud and prevent plagiarism of ideas and creative works. Use cases include Blockchain App Factory, etc.;
+4. Decentralized identity. In today's Web 2.0, users can upload ID cards, passports, and work certificates to a designated centralized authority platform to digitize their identities. Users need to manage their identities on different platforms. Relying on NFT technology, users' identities can be decentralized and used on different platforms; at this stage, people's on-chain identities are basically wallet addresses, but the amount of information and application scenarios recorded by wallet addresses are far from enough. Moreover, the wallet addresses on different chains cannot be aggregated to form identity data, and the user's "identity information" cannot be fully presented at present, which requires the maturity of cross-chain technology.
+
+## 2. Ownership tokens + DeFi
+
+There are countless financial scenarios derived from ownership, and almost all scenarios in the real world can be NFTized. Projects from DeFi to NFTs have begun to show great development potential. One of the typical applications is lending.
+
+Lending, this form is very likely to become the next explosion in the field of decentralized finance. If the market allows users to lease their NFT assets as loan collateral, allowing other users to use other people's NFTs on their own platforms, this will unlock the endless potential of NFTs, which will not only further clarify the valuation of NFTs, It also provides more liquidity. Several platforms have emerged today that can lend NFTs as NFT collateral, such as Starter, UniLend, Lendroid and NFTfi. NFTs owners can borrow through NFTs to make the best use of their idle NFTs.
+
+NFTs can also be used in more complex financial products such as insurance, bonds or options:
+
+- Yinsure of Yearn Finance is an example of applying NFTs in the insurance field. In Yinsure, each insurance contract is represented by NFT and can be traded on secondary markets such as Rarible;
+- The 88MPH project introduces NFT elements to explore the different integration methods of art, NFT and fixed income;
+- ERC-20 zero-coupon bonds use a hybrid approach of NFTs and encapsulated ERC-20s for improved liquidity and composability;
+- NFT index fund project NFTX has launched a MASK fund for Hashmasks.
+
+## 3. Ownership Tokens + P2E (Play to Earn)
+
+The earliest landing attempt of NFT was in games. NFTs based on blockchain technology can record the status and achievements of players in the game, and save the list of items obtained in the game. NFTs can ensure immutable and seamless transfer of records, guaranteeing ownership verification and authenticity of game items. At the same time, game items can also be designed to be used across games, or have a certain exchange value. The problem with traditional games is that these items are not allowed to be transferred, and few games allow the trade or sale of collected items, let alone use across games. NFTs provide a solution to this problem. Allows in-game assets to be transferred to other games. At present, there are two main types of blockchain game play, namely GameFi with centralized characteristics and decentralized Meta game.
+
+1. **GameFi**
+
+This mode is one of the most popular and popular scenarios for NFT application projects, with use cases including Axie Infinity, Alien Worlds, NBA Top Shot, Sorare, etc.
+
+In mid-2021, the sales of NFT game Axie Infinity skyrocketed. According to CryptoSlam data, as of December 9, the cumulative transaction volume of NFT game project Axie Infinity exceeded 3.6 billion US dollars, ranking first in the NFT market in terms of transaction volume. The rapid rise of Axie Infinity has driven the rapid development of the entire NFT market sector.
+
+2. **Meta game**
+
+The representative of the metagame is undoubtedly the decentralized Loot. Its founder is Dom Hofmann. Loot has the following four characteristics: 1. Directly receive coins in smart contracts; 2. Bottom-up community Drive mode; 3. Novel shape and simple design; 4. Large space for subsequent imagination. The most important significance of Loot is that it provides an example of decentralized NFT, adopts a community-driven bottom-up model, and transfers the creation rights of NFT from the project side to the community, which truly stimulates the great creativity of the community.
+
+Another great example is Rarity, which was created on Fantom by its founder, Andre Kroger (AC). Strictly speaking, Rarity can be seen as an imitation of Loot. Loot has 8 equipments, Rarity has 11 adventure characters, and the subsequent gameplay is decided by the developer. We see the role of Rarity as a kind of game atom, where members of the community write games together.
+
+Rarity differs from Loot in the following ways:
+
+- Rarity is based on Fantom instead of Ethereum;
+- Rarity casting without restrictions;
+- Rarity is more centralized under AC.
+
+As of October 14, more than 4 million characters have been minted by more than 170,000 holders. Developed a variety of visual UI interfaces, trading markets, adventure upgrades, adventure maps, etc.
+
+## 4. Ownership Tokens + C2E (Create to Earn)
+
+Advances in AI will transform Play-to-earn into Create-to-earn. The Create-to-earn model, which brings new services to players through virtual creation, is mainly achieved through creators providing value-added services to players. Creators gain real-world benefits by being able to create virtual reality. Under the economic incentives, the creation of users is stimulated, which is dominated by player creation, bringing immersive experience and social scenes, and has seen the prototype of the metaverse.
+
+This mode mainly includes:
+
+1. **ART**
+
+NFTs allow artists to own the copyright of their own artworks, and buyers can ensure the authenticity and authority of the artworks they buy, preventing piracy and counterfeiting. Blockchain can solve the proof of ownership problem. Artists no longer have to rely on third parties for protection of their works, eliminating the medium of middlemen and ensuring more income for artists. The tokenization of digital art makes it easier to create, trade, and earn royalties from NFTs. Due to the catalysis of the epidemic and other reasons, this form has become one of the scenarios with the most NFT application projects, and its subdivision forms include star cards/digital art, avatar OG, generative art, etc.
+
+Among the top 5 projects by transaction volume in the NFT market, 2 to 4 are art projects, namely CryptoPunks, Art Blocks, and Bored Ape Yacht Club. Major platforms include OpenSea, MakersPlace, SuperRare, KnownOrigin, Mintbase, Nifty Gateway, Rarible;
+
+2. **MUSIC**
+
+The NFT marketplace promises to open up a world of virtual collectibles to music fans. In the K-pop realm, many fans have embraced the NFT collectible format—independently released albums are highly sought after. Musicians can create digital goods to sell, and they can decide how many versions are made available in perpetuity before the work is released to the market. Not only can NFT platforms bring sales to musicians, they can also bring in better revenue than music platforms such as Spotify and iTunes. Use cases include Rocki, Rarible, Mintbase, etc.
+
+3. **FASHION**
+
+NFTs related to the fashion industry can also be put into use on the Ethereum blockchain network, launching projects. More and more tools and technologies will be rolled out to allow designers and developers to collaborate on virtual clothing materials, shapes, and interoperable game and VR fashion assets. Startup Digitalax, for example, launched the world’s first NFT protocol for the digital fashion industry — and it’s confident it can bring these cutting-edge digital assets into the mainstream. Digitalax is the first dedicated purely digital fashion auction trading platform and open source digital fashion toolkit.
+
+4. **KNOWLEDGE**
+
+The current content production and distribution model based on the Web2.0 model fails to effectively protect the interests of creators. There are two economic benefits to decentralizing creators:
+
+- transfer content ownership from traditional internet platforms to creators;
+- Create a revenue stream for long-tail creators.
+
+Like Mirror, it is a decentralized content distribution platform where creators raise money from fans by issuing tokens. After their works are minted into NFTs, the income from article reprints and rewards will be shared with fans according to their contributions, and creators need to open columns through WRITE tokens.
+
+In addition, in the academic world, several centralized publishing institutions in the Web2.0 era monopolized the copyright of academic papers, and even the publishers of academic papers even need to pay for downloading their own papers after the papers are published. In the era of Web3.0, scholars can publish their papers on the blockchain. Combined with NFT to protect their copyrights and intellectual property rights, people anywhere in the world can access their academic achievements for free, which not only reduces the barriers to academic exchanges , it can also promote academic equity, and academic institutions in many poor countries are now struggling to pay for expensive paper downloads.
+
+## 5. Ownership Token + IP / Fan Economy
+
+Whether in P2E or C2E mode, NFTs are inseparable from the community. In both cases, people gather for play or creation. In addition to this, there is another force that attracts people to form active communities, and that is IP.
+
+The value of NFTs has strong content and media attributes. One of the very important dimensions is the audience's acceptance of the NFT. This is exactly the same as the popular IP in the traditional entertainment field. Whether the IP is popular also depends on whether it can obtain large-scale group identity.
+
+Through fans' recognition of idols (IP), idols are given value and accumulated, so as to further shape a business model that can generate economic benefits and form a fan economy. The NBA Top Shot, which recently set a transaction record of 400 million US dollars, is such a strong IP-based NFTs that makes full use of the business logic of the fan economy. In addition, use cases in this regard include Sorare, which focuses on football IP, and Starly, which is doing Instagram for Web 3.0.
+
+The above are the five role scenarios of NFTs. Of course, these application scenarios of NFTs do not exist in isolation. For example, the concept of all tokens C2E and the concept of ownership IP will be integrated to a large extent. For example, in the application in the music field, musicians It is the IP itself. Many people are fans of certain musicians. In addition to purchasing digital album collections created by musicians, it is easy to spontaneously form a fan economy. And the NBA Top Shot and Sorare in the P2E mode of all tokens are also based on the huge fan effect of basketball and football.
+
+# NFT Industry Market
+
+## 1. Investment Trends
+
+2021 is known as the "first year" of NFT. Artists, celebrities, and giant companies have entered the NFT market one after another. The record-high NFT price has made it the focus of public attention.
+
+According to incomplete statistics, from January 1, 2021 to December 10, 2021, 325 financing events occurred in the global NFT-related industry, of which 267 disclosed the specific financing amount, and the total financing amounted to 6.5 billion US dollars.
+
+![Untitled](![](./_image/2022-05-17/Untitled 1.png))
+
+Specifically, the entire market is in its infancy, with strategic investment, seed/angel accounting for 26.46% and 34.77%, and there are still plenty of opportunities to participate in early investment in good projects.
+
+[NFT 融资轮次](https://www.notion.so/66f7d6cdc07241c180b02037150324d6)
+
+The million-dollar financing was outstanding, accounting for 54.77%, followed by the tens of millions of dollars and 100 million dollars. This is because most project financing is in the early stage and the amount involved is not large.
+
+[融资金额](https://www.notion.so/dc233522b8ec43b5a70b207d1a70b04f)
+
+From the perspective of subdivision scenarios, the P2E model occupies the majority, accounting for 32.31%, followed by financial applications and NFT transactions.
+
+[NFT 产业赛道](https://www.notion.so/1177a7bb3a904b05aa7867f0a34a9620)
+
+Among them, Sorare, a digital football NFT collection platform, ranks among the top with two financing amounts of 680 million and 532 million US dollars. Forte completed a $725 million financing, and Dapper Labs completed two more than $100 million financing, for a total of $555 million. In addition, Ripple, Sky Mavis, Alchemy, Axie Infinity, Mythical Games, Candy Digital, Merit Circle and Animoca Brands have raised more than 100 million yuan.
+
+Looking at the domestic situation, 10 financing events occurred in China. Among them, Animoca Brands, a Hong Kong mobile game development company, received a financing amount of 139 million US dollars, which is the only financing event in China that ranks among the top ten international financing amounts. In addition, the NFT digital art e-commerce platform TheOne.art and the NFT trading platform 84club also received 10 million and 2 million yuan of investment respectively.
+
+Source: Organized from Zero One Finance, Golden Finance
+
+## 2. Industry structure
+
+The layered logic of the NFT industry value chain is as follows: according to the NFT flow, it is divided into three layers, from bottom to top, the infrastructure layer, the protocol layer and the application layer.
+
+![NFT市场格局图.jpg](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bjxz9638j21o20u0n9r.jpg)
+
+Source: Collated from A&T Capital, Messari
+
+The following article will briefly introduce the main representative applications of each level.
+
+### Infrastructure layer
+
+It mainly covers the underlying public chain, side chain / Layer2, development tools, token standards, storage and wallets. This layer captures value based on NFT minting, such as the underlying public chain and side chain / Layer 2 captures the Gas Fee generated by minting. The greater the number of NFTs, the greater the value captured by this layer.
+
+1. **Public Chain**
+
+Currently, the NFT space has been dominated by Ethereum, Flow, and the smaller Wax. Most NFT applications will likely need to transition from the Ethereum mainnet to a layer 2 solution or sidechain while relying on Ethereum as a settlement layer. Other base layers (Tier 1), such as Solana, are actively building out their NFT infrastructure, such as Metaplex, which enables individuals to build their own NFT storefronts and publish NFT collections with customizable royalty distributions.
+
+2. **Side Chain**
+
+- Polygon: The biggest advantage so far is its compatibility with Ethereum, which reduces the learning curve for users and developers. Additionally, Polygon has used its tokens to incentivize Bridges to connect to its network very well. Notably, Polygon is doubling down on NFTs for gaming and non-fungible token projects in a new $100 million fund.
+- Enjin: High profile as an NFT Tier 2 solution, the first platform to offer token injections with a fixed sticky curve per token. Enjin recently raised $18 million for its NFT scaling solution, Efinity, a new blockchain built as a Polkadot parachain.
+- Immutable: The developers of Gods Unchained, Immutable Labs are about to release their Ethereum layer 2 scaling solution ImmutableX, this layer 2 is built using ZK-Rollups, which the Immutable team claims is more suitable for NFT-based applications.
+- Ronin: A typical example of this is Axie Infinity, which, instead of relying on other third parties, went down the road of building its own sidechain, Ronin, which has so far been effective in reducing gas costs and increasing user adoption .
+
+3. **Token Standard**
+
+At present, the most mainstream token standards are ERC-721, ERC-1155 and ERC-998, which have been introduced above.
+
+4. **Development Tools**
+
+- Forte: It will provide developers with a complete set of tools so that developers can integrate blockchain technology and NFTs into game products without breaking existing games (of course, they can also create new ones from 0). games); players do not need complex operations, they can directly manage their own NFTs and conduct transactions through Forte's platform.
+- Stardust: is a platform designed for game developers to easily build games in the metaverse. Just as PlayFab provides a platform for anyone to build scalable games, Stardust enables game developers to easily create and manage NFTs in their games without requiring any blockchain code. The platform is accessible to everyone from indie developers to AAA studios, and it is currently very time-consuming and expensive for developers to build a fast, secure and scalable game on the blockchain, and Stardust solves this problem.
+
+5. **钱包**
+
+- Rainbow: is a fun, easy and secure way to create an Ethereum wallet, collect NFTs and explore the new world of Web3.
+- MetaMask: Also known as Little Fox Wallet, is a software cryptocurrency wallet for interacting with the Ethereum blockchain. It allows users to access their Ethereum wallets through browser extensions or mobile apps, which can then be used to interact with decentralized applications.
+
+6.  **存储**
+
+- IPFS: InterPlanetary File System (IPFS for short) is a network transfer protocol designed to create persistent and distributed storage and sharing of files. It is a content-addressable peer-to-peer hypermedia distribution protocol. Nodes in the IPFS network will constitute a distributed file system. It is an open source project that has been developed with the help of the open source community since 2014.
+- NFT.Storage: is a long-term storage service designed for off-chain NFT data (such as metadata, images, and other assets) up to 31GiB. Data is content addressed using IPFS, which means that a URL pointing to a piece of data ("ipfs://...") is completely unique to that data. IPFS URLs can be used for NFTs and metadata to ensure that NFTs can always actually reference the expected data (eliminating things like rug pulls).
+- Pinata: is the first multimedia hub for NFT creators, builders and artists in the Web 3 decentralized world. Since 2018, Pinata's vision has been to create a unique sense of belonging for every creator on the internet. Pinata is the largest pinning service on IPFS, enabling users to upload, manage and share content with anyone, anywhere, anytime.
+
+### Protocol layer
+
+This layer includes the NFT minting protocol (Mint & Launch) and the primary circulation market (Sell & Trade) and some financial applications.
+
+Most of the protocols take into account NFT casting and first-level circulation to further capture value, which is why Mintable introduces the concept of Gasless item to attract users to mint and conduct subsequent transactions on the same platform. Only after the transaction is NFT on the chain to capture the first-level Transaction value, this part can be divided into P2E, C2E and community mode according to the gameplay mode.
+
+The combination of NFT and finance has an extremely wide range of applications. The protocol layer mainly includes liquidity protocols and decentralized finance (DeFi). Liquidity protocols are mainly used for value discovery of NFTs. This type of agreement does not mint NFTs, but price NFTs in various ways. In the future, value capture is likely to be similar to DEXs and oracles, based on providing liquidity and basic financial services. DeFi NFTs, mainly NFTs minted by DeFi activities, unlike other minting protocols, mainly capture value through minting activities.
+
+1. **P2E (Play to Earn)**
+
+Projects in this mode mainly include sports (which can also be grouped into IP projects) and games/metaverses. Participants can gain profits from the game. The representative projects are as follows:
+
+- [NBA Top Shot](https://nbatopshot.com/) (Sports): A game focusing on NBA NFT card collection jointly launched in cooperation with the NBA League, the content of the cards is mainly the iconic characters of some star players action. NBA fans buy, sell, trade and collect digital signature moves of the season. Features of the game include buying, collecting, trading, and tournament gameplay.
+- [Sorare](https://sorare.com/) (Sports): Based on Ethereum, a fantasy football game developed by the startup Sorare. Players can buy and trade club- or league-certified NFT player cards to form their own teams, each with its own level of scarcity and uniqueness, and each player card is rated based on their performance in real-world games. Players can participate in fantasy football matches on the platform and receive card and token rewards after matching the full lineup.
+- [Axie Infinity](https://axieinfinity.com/) (game): Axie Infinity is a chain game that collects and raises all kinds of strange creatures. In addition to the ordinary collection attributes, Axie also added unique combat attributes, becoming one of the earliest NFT pets that can fight. The Axie team also launched a customized Ethereum sidechain Ronin for the game in February, which uses POA consensus to increase the verification speed to relieve the pressure of Ethereum network congestion and player gas fees.
+- [Alien Worlds](https://alienworlds.io/) (game): DeFi games based on the WAX ​​public chain, players can earn Trilium (TLM) through mining, and there is a certain chance for each mining Mine NFTs. Trilium can be used to pledge to one or more of the six planets in the game, and after signing up as a planetary director candidate, players will have the possibility to rule the planet. NFT game cards introduce innovative gameplay over time, including "shining" to upgrade cards and combat in fighting games.
+- [Decentraland](https://decentraland.org/) (Metaverse): A virtual world built on Ethereum, similar to Cryptovoxel, providing land in the form of NFT, avatar outfits, and content servers. In addition, Decentraland utilizes its proprietary cryptocurrency, MANA, to subsidize the operations and programs of the Metaverse, and act as a currency for transactions between users.
+- [The Sandbox](https://www.sandbox.game/) (Metaverse): A pixel sandbox building game similar to Minecraft and Roblox, players can create digital assets in the form of NFTs in The Sandbox VoxEdit Upload it to the store, and create games on your own property with Game Maker's simple drag-and-drop method to attract other players to participate.
+
+2. **C2E (Create to Earn)**
+
+Projects in this mode need to be realized by creators providing value-added services to players, mainly including music, fashion, art/primary market, content and comprehensive types of projects. The representative projects are as follows:
+
+- [Royal](https://royal.io/) (Music): On this platform, users can buy the rights to the songs of their favorite musicians and get royalties through this.
+- [Digitalax](https://www.digitalax.xyz/homepage) (fashion): is the first NFT live marketplace to bring users' unique personality and style into the native digital realm - with a verifiable utility layer , open source material library, sustainable digital physical supply chain and can be used for staking. It's easy to find and collect digital fashion NFTs, all made by outstanding independent designers and brands.
+- [Makersplace](https://makersplace.com/) (primary market): Established in 2018, the earliest NFT artwork casting platform has certain thresholds for artworks and artists.
+- [SuperRare](https://superrare.co/) (primary market): Rare art minting trading platform.
+- [CryptoPunks](https://www.larvalabs.com/cryptopunks) (art): An NFT built on Ethereum founded in 2017 and the first to inspire the ERC-721 standard. It issues tokens by transforming an ERC-20 contract, generating 10,000 completely different 24x24, 8-bit style pixel art images.
+- [Autoglyphs](https://larvalabs.com/autoglyphs) (art): The second NFT project of Larva Labs, the development team of CryptoPunks, is a Generative Art platform.
+- [Mirror](https://mirror.xyz/) (content): Mirror's platform token $WRITE (ERC-20) represents the author's right to publish content on the platform, and content creators need to destroy $WRITE in order to To open their own column, the Mirror team chose a group of creators as the platform's first writers and held a weekly $WRITE Race, and put tokens to the authors voted by the community users to allow them to open the column. Crowdfunding is conducted by issuing work tokens to fans. After the work is completed, it will be put on the chain in the form of NFT. The income generated by article reprinting, rewarding, and auction will be divided according to the contribution of fans in crowdfunding.
+- [Darkblock](https://www.darkblock.io/) (content): Darkblock gives creators more control over the distribution of their content, including comics, ebooks, podcasts, music, movies, news, pay-per-view Paid, YouTube, OnlyFans, Patreon, Metaverse Assets, and more. Whether through sales, advertising revenue, or rentals, the goal is to keep revenue flowing to creators by giving them the keys to their content.
+- [TerraVirtua](https://terravirtua.io/) (comprehensive): Minting and trading platform for art, collectibles, game IP, etc. The operating environment is highly compatible, enabling users to display, trade, and interact with NFTs in an immersive way; at the same time, its virtual interfaces based on 3D Fancave, Terradome, and Galleries, as well as mobile AR applications, have a good user experience and strong IP resources.
+- [Mintbase](https://www.mintbase.io/zh) (comprehensive): A trading market based on NEAR ecology, users can create and sell NFTs such as music, artwork, tickets, photography, etc.
+
+3. **Community**
+
+This model is mainly established by creating a community atmosphere, which is different from DAO, which does not necessarily require the formation of an organized autonomous community. This article categorizes it as IP/fan economy and social.
+
+- Next World Culture (IP): Next World Culture is a cross-dimensional virtual IP content development operator. It develops content around the pan-entertainment field and cross-circle carriers. It has developed a "live-action animation" web drama "The Hidden Rivers and Lakes". After 2018, the company officially transformed, developed virtual idol IPs around artists and brands, and produced Di Lieba's avatar "Dilli Lengba" and Huang Zitao's avatar IP "Taosman"; then it turned to expand original Virtual idol IP development, launched the original national style hyper-realistic virtual KOL "Ling" and domestic virtual DJ "Purple".
+- [SportZchain](https://www.sportzchain.com/) (Fan Economy): A blockchain-powered platform that allows fans to manage their favorite teams, games, leagues, events, and more . Provide direct power to fans not only to follow and interact, but also to actively participate in various decisions of the team. SportZchain provides blockchain-based tools for sports teams and leagues to help them better engage and monetize their audiences.
+- [Chingari](https://chingari.io/) (Social): Founded in November 2018, users can download and upload short videos, and purchase items in the app, and its co-founder believes it will become Fastest Growing "Social Token App" in India. Since its redesign in June 2020, Chingari has been trying to fill the vacuum created by TikTok's ban in India. Since then, Chingari's user base is said to have grown exponentially.
+- [Monaco Planet](https://monaconft.io/) (social): The next-generation SocailFi platform, as a SocialFi product that focuses on the development concept of "ownership and governance rights are determined by users", Monaco Planet adopts "content mining The "mine" model allows users to get the native token MONA rewards by following, commenting and liking, as well as NFT display and pledge.
+
+4. **Finance**
+
+Finance at the protocol layer is mainly liquidity protocols and DeFi.
+
+Liquidity protocols are mainly protocols that provide pricing for NFTs. At present, the three solutions are: one is buyer pricing, such as TopBidder pricing through auction; the other is seller pricing, such as NiftEx / NFT20 / NFTX through sellers pledge NFT and generate ERC-20 to provide initial liquidity to generate pricing; third, third-party pricing Pricing, such as Upshot, generates pricing through the predicted behavior of random users. These liquidity protocols are necessary financial infrastructure, providing NFT value discovery for upper-layer complex applications.
+
+- [NiftEx](https://www.niftex.com/) (Liquidity Protocol): Launched in May 2020, allows staking NFTs and splitting their ownership into ERC-20 to facilitate liquidity, as of July 7 As of today, the market value of all staked NFTs is $4.4M.
+- [Upshot](https://upshot.io/) (Liquidity Protocol): Open Beta will be launched in May 2021, using the prediction market to provide price discovery of NFTs, no need to enter exact prices, just complete a series of simple choices question, choose the one you think is more valuable from two random pictures.
+- [NFT20](https://nft20.io/) (Liquidity Protocol): Launched in November 2020, allowing NFT to be pledged and generate its ERC-20 token derivatives, which can be traded on dex such as Uniswap to promote liquidity sex. As of July 7, the market value of all staked NFTs is $1.4M.
+- [NFTX](https://nftx.org/) (Liquidity Protocol): Launched in January 2021, allows staking NFTs and splitting their ownership into ERC-20, as of July 7, the market value of all staked NFTs for $3.2M.
+
+DeFi mainly represents protocols that utilize NFTs as asset representation tools, such as Uniswap LP tokens and yinsure policies. Compared with the NFTs minted by the art and collectibles minting protocol, these NFTs are mainly reflected in the different minting methods, which are minted through financial activities.
+
+- [Uniswap V3](https://uniswap.org/) (DeFi): Launched in May 2021, representing LP Token as NFT, defining the liquidity value under different market-making strategies. As of December 11, the total locked volume is $8.29B.
+- [Aavegotchi](http://www.aavegotchi.com/) (DeFi): Launched in March 2021, obtained by mortgaging the interest-paying deposit certificate aToken on the Aave lending platform, expanding the use of NFT to game scenarios. As of December 11, the total locked volume is $11.15B.
+- [Yinsure.finance](https://yinsure.finance/) (DeFi): The unique policy is tokenized with NFT, which can flow in the secondary market, increasing the liquidity of the policy. As of December 11, the total locked volume is $3.93B.
+
+### Application layer
+
+The applications derived from the tokens generated by the protocol layer, such as the NFT traded in the representative project OpenSea in the pan-secondary market, are mainly composed of various minting protocol platforms in the protocol layer. The value capture at this level is mainly based on traffic and demand realization, such as social networking and curation. How to gather traffic and realize is the core value point. This layer mainly includes vertical fields, pan-secondary markets and finance.
+
+1. **Vertical field**
+
+The vertical field mainly refers to NFT data analysis providers/platforms in the data field, which also includes data trading platforms, as well as DAOs and curatorial communities.
+
+A comprehensive data provider has not yet emerged in the NFT data field. Existing data is either not comprehensive enough in NFT coverage or incomplete in data dimension. In addition, there is also a lack of a full-featured NFT search engine, which is an important traffic portal in the future.
+
+- [Cryptoart.io](https://cryptoart.io/) (Data Platform): A data platform focusing on the field of crypto art. Provides information on crypto art, crypto artists, and macro crypto art data analysis.
+- [Nonfungible](https://nonfungible.com/) (data platform): Data platform covering Ethereum NFT, including mainstream NFT projects in the market, historical and real-time NFT industry data, and NFT-related industry research.
+- [Ocean](https://oceanprotocol.com/) (Data Exchange Platform): Ocean Protocol is a decentralized data exchange protocol designed to unlock data and provide fairer results for data users. Ocean Protocol allows data providers to interact with data consumers through a decentralized data marketplace, while guaranteeing control, auditability, transparency, and compliance for all participants.
+
+The DAO community is driven by intrinsic values ​​(like social status) and extrinsic values ​​(like future development). The job of the curator is to create an ecosystem for these two motives to live in harmony. For ordinary NFT creators, one of the pain points is that their works cannot get initial traffic. We are now seeing curators build deeper relationships with their superfans by bundling premium services. Therefore, curation projects can discover more potential value for users while helping NFT creators to market themselves.
+
+- [Whale DAO](https://whale.me/) (DAO): Curated community, by issuing a community token, issue FT token Whale based on pledged "valuable" NFT, as of July 7th , the Whale asset pool is valued at $4.5m.
+- [Flamingo](https://flamingo.finance/) (DAO): Flamingo is a DAO organization focusing on encrypted art investment, its members have the right to jointly decide the NFT artwork to be purchased, and can transfer the NFT purchased by DAO Conduct spinoffs, lending, staking, curation, and more. There are certain threshold requirements to become a Flamingo DAO. You need to donate some ETH as a condition for membership, and the number of members is limited to 100.
+- [MetaPurse](https://www.metapurse.fund/) (curated): MetaPurse is a MetaKoven-funded crypto-community-native venture capital fund focused on investing in crypto art, virtual assets, and funding early-stage projects. Different from other ROI-driven crypto funds, MetaPurse takes promoting NFT ecology as its main goal. It recently showcased its purchased crypto art by curating an NFT VR exhibition.
+- [Collab.land](https://collab.land/) (curated): Collab.land is a Telegram Bot-based solution to help crypto startups build early communities. For NFT creators, Collab.land will assist them in curating, and participants at different levels in the creator's community will present exclusive content.
+
+2. **Secondary market**
+
+This category is mainly the secondary market formed after NFT is minted. Different from the primary market, this type of platform will assume the responsibilities of the secondary market, and most of them include the NFTs produced by the main casting platforms.
+
+- [OpenSea](https://opensea.io/) (pan-secondary market): Launched in December 2017, it is currently the largest NFT trading platform, with sales exceeding 10 billion US dollars in November.
+- [Auctionity](https://www.auctionity.com/) (Pan-Secondary Market): Launched in beta in January 2018, it is an on-chain auction house for crypto collectibles.
+- [TokenTrove](https://tokentrove.com/) (pan-secondary market): launched in October 2019. Mainly for the secondary market of games, especially Gods Unchained.
+
+3. **Finance**
+
+Financial projects at the unknown application layer mainly include mortgage lending and asset management tools.
+
+Mortgage lending mainly represents an agreement for NFT as the underlying asset to realize mortgage lending. At present, due to the lack of NFT liquidity and pricing problems, mortgage lending can only be realized in the form of P2P. But referring to the DeFi iteration path, from ETHLend to Aave, P2Pool may be the next upgrade path.
+
+- [NFTfi](https://nftfi.com/) (Lending): Launched in February 2020, in the form of P2P, borrowers put their NFT assets on the market as collateral, and then lenders in the market People come to quote. As of July 7, the loan amount was $4.8m.
+- [Pawnhouse](https://pawnhouse.io/) (lending): The beta version will be launched in July 2021, also in the form of P2P, borrowers put their NFT assets on the market as collateral, and then the market Lenders on the list to quote.
+
+Asset management tools are mainly asset management tools in the upper layer of the NFT industry chain, similar to asset management platforms such as Zapper and DeBank in DeFi. There are currently fewer projects.
+
+- [NFT Bank](https://nftbank.ai/) (asset management): Launched in June 2020, an asset management platform for NFTs.
+
+# Problems with NFTs
+
+1. The legal protection system is not sound enough
+
+As mentioned earlier in this article, the field of NFT is an application form that extends around the concept of ownership, which is the so-called NFT for everything. It is worth mentioning, however, that ownership is a legal concept as old as human civilization. In law, property is "the right to enjoy and dispose of things in the most absolute manner", and when it comes to your house, it's clear that you bought it - it's your absolute property. There are two types of tangible property (such as house, car, etc.) and intangible property (such as intellectual property).
+
+The law does not specify that mere data or information can be protected by intellectual property rules so that it can be "owned" by someone. In a democratic society, information and data, like ideas, flow freely, and data itself is not something that can be appropriated or "owned." It is likely that some common law systems are flexible enough to extend the application of property law to certain types of information-only cryptoassets, but reconciling this concept with freedom of speech and information enshrined in international conventions23 seems comparable difficulty.
+
+Without legislative intervention, the absence of information property rights will continue to pose thorny issues for digital asset stakeholders.
+
+Another challenge posed by using NFTs to "sell" limited licenses or rights to use certain digital artworks is - how to effectively "attach" contracts/terms and conditions to NFTs so that NFT buyers (and future purchasers) are bound by it.
+
+2. There is currently no means to prevent counterfeiting
+
+There is currently no way to determine who is the real human creator of a piece of art by looking at the data contained in an NFT. The result is an increasing number of cases of NFT forgery, in which scammers create NFTs and present them as the work of a particular well-known artist. A quick Google search on the topic reveals that NFT forgery is a rapidly growing problem. In some cases, scammers take an image/photo of a real work of art created by an artist, convert it into an NFT, then pretend to be the artist and sell the NFT.
+
+3. Storage is not safe and stable enough
+
+NFT creators can choose two ways to store metadata on-chain and off-chain. On-chain storage costs are high and traffic is congested, but metadata will exist permanently with the token. Off-chain storage restrictions are small, but metadata exists in theory. risk of loss. At present, the solutions available for off-chain storage include centralized data storage, IPFS, and decentralized cloud storage.
+
+Centralized storage is obviously not a good approach, the original file may be lost or corrupted, but even if the data is stored on IPFS, it is possible that only one node hosts the content and no other nodes back it up, if the storage Its only node is disconnected from the network and data may become unavailable. The Memo project is trying to use the developed MEFS system to make up for this deficiency of IPFS. Also, an NFT may point to a wrong file address. If this is the case, the user cannot prove that he actually owns the NFT. All in all, relying on an external system as the core component of an NFT system is fragile.
+
+4. The technology is not mature enough to cause security problems
+
+The technology behind NFTs is only a few years old and still hasn't reached maturity. This has led many to question the security and authenticity of NFTs. This is mainly due to the crackability of smart contracts. The recent frequent incidents of hackers stealing assets have constantly reminded people that the security issues of NFT technology cannot be ignored. In addition, the lack of sufficient technical foundation and economic infrastructure, as well as the scalability of blockchain technology, have affected the mainstream use of NFTs.
+
+# The future direction of NFT
+
+NFT is too simple, it just performs a digital confirmation.
+
+NFT is too complicated, and everything can be NFT, which means that it has countless ways to play. This way of playing is to move the real world into the virtual world. This step sounds simple, but there are indeed many difficulties to overcome, and the road is long.
+
+At present, NFT is only a carnival for a few people, and its most popular, most participated and most funded areas are still concentrated on art collections. This is still an economic model that gathers traffic and attention, such as The influence and appeal of a celebrity like Elon Musk is enormous. As Tesla CEO, he has driven and influenced the direction of the digital asset market many times, whether it was Dogecoin before or more recently. PEOPLE. Twitter CEO Jack Dorsey has also cast his eye on NFTs, auctioning off his “first tweet” NFT to charity for $2.9 million.
+
+However, if the focus of NFT is still on these people, then NFT may lose its real social influence. There is little real social value in adding $1 million to a celebrity like Elon Musk by selling NFTs.
+
+However, I firmly believe that NFTs are revolutionary because the essence of NFTs is a revolution in ownership.
+
+> "Ownership is undoubtedly the most basic concept in society. All forms determine the character of each society, and its form of existence is also the basis for the division of times such as primitive communist society, slave society, feudal society, capitalist society, and socialist society." — - "The Birth of "Ownership" Masanobu Kato
+
+I can't predict what the impact and change that NFT can ultimately achieve in this society, but whatever it is, I think it can be called a revolution.
+
+This is essentially a distant and bold speculation about NFTs, so what is the direction of NFTs in the near future?
+
+> "I'm not sure how big the bubble of a single NFT in the market can go, but I know that there is still a lack of reliable and universal NFT infrastructure. NFT trading platforms, developer tools, community-oriented business models, and decentralized identity Management/credit management systems are still in their infancy. These core infrastructures will be one of the hottest areas of investment in 2022." - "Crypto Theses for 2022" from Messari
+
+I very much agree with Messari's point of view. At present, the NFT field is full of bubbles and opportunities, and the problem that NFT still has is the opportunity for NFT. In addition to the first point I mentioned in the previous section, it takes time for NFT to gradually attract the attention of the entire real society and establish supervision, the other three points are inseparable from the infrastructure construction of NFT.
+
+First, prevent counterfeiting problems. This can not only start with smart contracts, there are many things that can be done from NFT trading platforms. In addition to this, the investment value of the NFT trading platform also benefits from the "bubble" of NFT. It is foreseeable that the use of NFT as a supporting technology for digital collections in a short period of time is still one of its main value functions. With NFT sweeping the art, music, fashion and content worlds, NFT trading platforms are bound to usher in a wave of positives. These fields all rely on creations. In this process, the trading platform that can solve the problem of counterfeiting will inevitably win the game.
+
+Second, storage issues. Relying on an external system as a core component of an NFT system is vulnerable, even though the Memo project is trying to use the developed MEFS system to make up for the shortcomings of IPFS. The ultimate solution is to store NFTs directly on the blockchain, but there are still many problems due to this storage method, such as high fees, very low confirmation speed, anonymity and privacy issues. If these problems can be solved, the value of NFTs can truly be brought into play, and projects that solve these problems will inevitably be valued.
+
+Again, security issues. Although the core of this problem is the smart contract, a complete contract design that is difficult to be broken by calculation is far from being completed by the human brain alone. If developer tools can focus on this point, it will solve one of the core problems of NFTs, and NFTs that solve security problems will truly symbolize ownership. In addition, with the current explosion of NFT projects, a convenient and available one-stop developer tool that integrates multiple functions will inevitably be sought after, which is also in urgent need.
+
+In addition, not to mention the recent popularity of DAOs, the community-oriented (DAO) business model deserves attention. For centralized identity management/credit management, in [Mason Nystrom](https://messari.io/research/mason-nystrom) "*[Curation Tokens: Examining the Types of Crypto Curation](https: //messari.io/article/curation-tokens-examining-types-of-crypto-curation)*", proposes that NFTs such as NFTs will play an integral role in porting real-world certificates and identities to the new world the role of such a view. I agree with it very much, but I think that this day will not come too soon if the three core issues just now are not resolved. Real-world certificates and identity certificates, as active and important information proof materials for users, are important in fidelity, storage and security. On the issue, there is no room for loss. There may be small-scale and experimental applications in the early stage, but large-scale social applications will take time. This is not only a technical issue, but also involves regulatory compliance. Perhaps the alliance chain is the real landing scenario for this application.
+
+In addition, the recent fire of GameFi. In my opinion, it may not be a good choice to invest in specific game projects. Behind the popularity of Axie Infinity, there are not only the general environmental reasons for the epidemic, but also professional community promoters and the environment of countries with a large number of idle labor such as the Philippines. Just because one game is successful doesn't make all game projects full of confidence. The most attractive point of GameFi is that players can make money. This model has already appeared in legendary games around 2000. For players, it is not so important to sell NFT-based game equipment, even if it can bring another game. . There are many factors that affect whether a blockchain game can really become popular. In addition to the ability to make money, other factors such as playability, community operation, stability and bandwidth are all factors to be considered. However, it is a good choice to jump out of GameFi itself and invest in platforms that support GameFi game projects. They can increase the efficiency of new game projects and improve the innovation ability of game projects. For example, rct AI is a good choice. Additionally, gaming guilds like the Good Games Guild and development tools like Stardust are great investment options.
+
+Finally, I will focus on the contribution of NFTs to the data market, which I think is one of the most promising applications of NFTs, although it has not received enough attention. The NFTization of data assets is one of the most important links in the transformation of the entire society from financial capital into the era of data capital. According to the International Data Corporation, while the amount of "potentially useful" data doubled from 20% to 40% from 2012 to 2020, less than 1% of the world's data is actually used and analyzed. The data analytics market will balloon to nearly $100 billion by the end of next year, with companies and users looking to better monetize their data. In Web3, protocols such as Ocean provide a wrapper for these data packets by encouraging public sharing and secure monetization of data and better price discovery through liquid data markets.
+
+Although data as a means of production is the main competitive advantage of many companies, such as advertising revenue and marketing profits involving FAMGA and domestic BATTMD, there are many stakes, but even so, the revolution brought by NFT to the data market is still inevitable of. It is not difficult to argue this point, as Victor Mayer-Schoenberg, the father of big data, has argued and emphasized in his new book, The Age of Data Capital, that our economy is about to shift from financial capitalism to data capitalism era, and the most critical issue in this era is to protect data markets from excessive concentration, not only at the level of participants, but also in the decision-making process.
