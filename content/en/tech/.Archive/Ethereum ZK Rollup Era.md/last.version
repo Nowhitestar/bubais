@@ -45,7 +45,7 @@ There are two (main) types of rollups in current solutions: ZK Rollup (ZKRU) and
 
 Optimistic Rollup is a more mature solution than ZKRU. Products from Optimstic and Arbiturm are already available to Ethereum developers. However, due to the use of the fraud proof mechanism, its withdrawal time and security are currently debatable, and its cost optimization is slightly inferior to ZK. The weaknesses of ZK Rollup are basically technical problems. With a large number of excellent developers investing in related research, most people including Vitalik agree that ZK Rollup will be a better expansion solution in the future. Comparing the two, [the gas cost and TPS of each solution are as follows](https://w3hitchhiker.mirror.xyz/7dwD76ZZIlR7ep731K6y9vTTuXGHOojxWSnkXKzqPzI)：
 
-![untitled](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bizskocfj216u0n4q78.jpg "The cost of each of the four methods Source: Xiang｜W3.Hitchhiker，*The premise of the above calculation is that the current Eth price is 2500u, the block gas limit is 30000000, the gas cost is 30Gwei, and the average block time is 13 seconds. The limit TPS refers to the corresponding operating environment occupying all Ethereum block space (in the proof verification Costs 500,000 gas), ordinary TPS means that the corresponding operating environment occupies 1/3 of the block space of all Ethereum.*")
+![untitled](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bizskocfj216u0n4q78.jpg "The cost of each of the four methods Source: Xiang｜W3.Hitchhiker，The premise of the above calculation is that the current Eth price is 2500u, the block gas limit is 30000000, the gas cost is 30Gwei, and the average block time is 13 seconds. The limit TPS refers to the corresponding operating environment occupying all Ethereum block space (in the proof verification Costs 500,000 gas), ordinary TPS means that the corresponding operating environment occupies 1/3 of the block space of all Ethereum.")
 
 In terms of efficiency and cost, the ZK scheme is more efficient than the OR scheme, with higher TPS and lower costs.
 
@@ -201,17 +201,13 @@ Nonetheless, issuing tokens is necessary for L2s to promote decentralization and
 
 According to the organizational structure and economic incentive model of Web3, A16Z defines the [GTM matrix](https://future.a16z.com/go-to-market-in-web3) as follows:
 
-![Web3 走向市场矩阵 来源：a16z](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj1p5k5dj21bu0u076h.jpg)
-
-Web3 GTM Matrix Source:a16z
+![Web3 走向市场矩阵 来源：a16z](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj1p5k5dj21bu0u076h.jpg "Web3 GTM Matrix Source:a16z")
 
 They argued that the Go to Market (GTM) strategy of Web3 is hugely different from that of Web2. The most innovative part is the introduction of tokens and the emergence of the new organizational structure Decentralized Autonomous Organization (DAO). GTM differs in each of the quadrants and can span everything from traditional web2-style strategies to emerging and experimental strategies. 
 
 Metrics that measure whether Layer1/Layer2 gains the market include the number of Github stars, protocol developers, project integrations, protocol forks, and TVL.
 
-![L1 公链走向市场矩阵 来源：a16z](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj2657llj21kw0fo0u4.jpg)
-
-L1 Public Chain GTM Matrix Source: a16z
+![L1 公链走向市场矩阵 来源：a16z](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj2657llj21kw0fo0u4.jpg "L1 Public Chain GTM Matrix Source: a16z")
 
 Here, there is no way to compare StarkWare as it is not open source. Looking at the data in March 2022, the situation of zkSync, Optimism and Arbitrum are as follows:
 
@@ -230,13 +226,9 @@ It can be seen that the present Rollups are far from being called a market winne
 
 Currently, with the launch of the StarkNet Alpha and zkSync 2.0 testnets, ZK Rollup technology is rapidly being adopted, and the ecosystems of both are expanding. Some people have organized the ecology of the two major technologies as shown below.
 
-![StarkWare Landscape 来源：ZK_Daily](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj2eewsbj21gs0u07dh.jpg)
+![StarkWare Landscape 来源：ZK_Daily](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj2eewsbj21gs0u07dh.jpg "StarkWare Landscape Source: ZK_Daily")
 
-StarkWare Landscape Source: ZK_Daily
-
-![zkSync Landscape 来源：ZK_Daily](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj2mr8ayj21gf0u0qch.jpg)
-
-zkSync Landscape Source: ZK_Daily
+![zkSync Landscape 来源：ZK_Daily](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj2mr8ayj21gf0u0qch.jpg "zkSync Landscape Source: ZK_Daily")
 
 The two ecosystems have comparable levels of prosperity. It can be seen that zkSync is supported by more cross-chain, DeFi and wallet applications, while there is a more prosperous Games & NFTs ecosystem on StarkWare. 
 
@@ -244,15 +236,11 @@ For an L1s/L2s ecosystem, [liquidity is equivalent to bandwidth](https://newslet
 
 I divide the liquidity in the ecosystem into horizontal and vertical liquidity. In L2s, the role of the bridge is to bridge between different Rollups horizontally. Recently, there is an innovative way called LayerZero, which innovates the liquidity bridging way of traditional bridges and brings better security and trustlessness. The vertical liquidity mainly lies in different applications. End Users connect to the whole ecosystem through Wallet. Sometimes they top up and buy cryptocurrency through Payment to get value and exchange value in different applications. Sometimes intermediate exchange is required through Marketplace apps.
 
-![L2 生态价值流动图](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj2v0ef5j20ma0f9q3p.jpg)
-
-L2 Eco-value Flow Diagram
+![L2 生态价值流动图](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj2v0ef5j20ma0f9q3p.jpg "L2 Eco-value Flow Diagram")
 
 At present, in each liquidity node, StarkWare and zkSync have corresponding applications deployed, most of which are in the testing phase, and their ecosystems are compared in the chart below.
 
-![zkSync 和 StarkWare 生态对比 来源：ZK_Daily](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj34ji7lj21gx0u0gtw.jpg)
-
-zkSync and StarkWare Ecosystem Comparison Source: ZK_Daily
+![zkSync 和 StarkWare 生态对比 来源：ZK_Daily](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bj34ji7lj21gx0u0gtw.jpg "zkSync and StarkWare Ecosystem Comparison Source: ZK_Daily")
 
 Go to Community (Ecosystem), first of all, needs to be able to open up vertical liquidity internally, which requires support for composability so that there is a unified standard in the ecosystem that enables permissionless mutual integration between different application protocols just as Lego blocks. This is easy to do on Ethereum, but due to the zero-knowledge proof issue, both StarkWare and zkSync have worked very hard to solve this problem.
 

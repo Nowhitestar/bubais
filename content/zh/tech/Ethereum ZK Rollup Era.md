@@ -47,9 +47,7 @@ slug: Ethereum ZK Rollup Era
 
 Optimistic Rollup 相对于 ZKRU 是一个更加成熟的解决方案。目前 Optimstic 和 Arbiturm 的产品已经可供以太坊开发人员使用。但是由于使用欺诈证明机制，其提款时间和安全性目前来看值得商榷，同时其成本优化相比 ZK 也略逊一筹。而 ZK Rollup 的弱点基本都属于技术问题，随着大量优秀的开发人员投入到相关研究，包括 Vitalik 在内的大多数人都认同 ZK Rollup 在未来会是更优秀的扩容方案。两者相较，[各解决方案的 Gas 费用和 TPS 如下](https://w3hitchhiker.mirror.xyz/7dwD76ZZIlR7ep731K6y9vTTuXGHOojxWSnkXKzqPzI)：
 
-![四大方案各自费用 来源：Xiang｜W3.Hitchhiker，*以上计算前提是以当前 Eth 价格为 2500u，区块 gaslimit 为 30000000，gas 费用为 30Gwei，平均 13 秒的出块时间计算， 极限 TPS 指对应运行环境占领了所有以太坊区块空间 (在证明验证上花费 500000 gas)，普通 TPS 指对应运行环境占领了所有以太坊 1/3 的区块空间。*](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bizskocfj216u0n4q78.jpg)
-
-四大方案各自费用 来源：Xiang｜W3.Hitchhiker，*以上计算前提是以当前 Eth 价格为 2500u，区块 gaslimit 为 30000000，gas 费用为 30Gwei，平均 13 秒的出块时间计算， 极限 TPS 指对应运行环境占领了所有以太坊区块空间 (在证明验证上花费 500000 gas)，普通 TPS 指对应运行环境占领了所有以太坊 1/3 的区块空间。*
+![untitled](https://tva1.sinaimg.cn/large/e6c9d24egy1h2bizskocfj216u0n4q78.jpg "四大方案各自费用 来源：Xiang｜W3.Hitchhiker，以上计算前提是以当前 Eth 价格为 2500u，区块 gaslimit 为 30000000，gas 费用为 30Gwei，平均 13 秒的出块时间计算， 极限 TPS 指对应运行环境占领了所有以太坊区块空间 (在证明验证上花费 500000 gas)，普通 TPS 指对应运行环境占领了所有以太坊 1/3 的区块空间。")
 
 从效率成本上来说， ZK 方案要比 OR 方案的效率更高，具有更高的 TPS 和更低的费用。
 
