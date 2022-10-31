@@ -90,7 +90,7 @@ Some of the [major differences](https://news.ethereum.cn/Layer2/zksync-vs-starkw
 | Team | Established in May 2018. Its core members include a former Chief Scientist of Zcash and professors at Technion Israel Institute of Technology | Established in December 2019. Alex G. is its co-founder |
 | Technology | zk-STARKs | zk-SNARKs（like PLONK） |
 | Data Availability | Off-chain solution: Volition | Off-chain solution: zkPorter (based on Volition architecture, more decentralized) |
-| Financing and Supporters | A seed round funding of $6 million in May 2018 (Pantera/Naval/Vitalik) <br> A Series A funding of $30 million in October 2018 (Paradigm/Sequoia/Cb Ventures) <br> A Series B funding of $75 million in March 2021 (Paradigm/3AC/Alameda) <br> A Series C funding of $50 million in November 2021 (Paradigm/3AC/Alameda) <br> Supporters: Ethereum Foundation members, prominent investment institutions | A Series A funding of 6 million in March 2021 (Binance/Cb Ventures/AAVE/Balancer/Curve) <br> A Series B funding of 50 million in November 2021 (a16z/Placeholdxr/Crypto.com, etc.) <br> Supporters: comparatively not so many famous investors |
+| Financing and Supporters | A seed round funding of 6 million USD in May 2018 (Pantera/Naval/Vitalik) <br> A Series A funding of 30 million USD in October 2018 (Paradigm/Sequoia/Cb Ventures) <br> A Series B funding of 75 million USD in March 2021 (Paradigm/3AC/Alameda) <br> A Series C funding of $50 million in November 2021 (Paradigm/3AC/Alameda) <br> Supporters: Ethereum Foundation members, prominent investment institutions | A Series A funding of 6 million in March 2021 (Binance/Cb Ventures/AAVE/Balancer/Curve) <br> A Series B funding of 50 million in November 2021 (a16z/Placeholdxr/Crypto.com, etc.) <br> Supporters: comparatively not so many famous investors |
 | Current Products | StarEx、StarkNet、Volition、Validium | zkSync、zkPorter |
 | Roadmap | Planets-> Constellations-> Universe | Scalable Payments -> Smart Contracts -> Privacy -> Censorship Resistance |
 
@@ -104,7 +104,7 @@ Technology. StarkWare is still a better choice. It provides blockchain finality,
 
 Data availability (DA). StarkWare invented the Volition system to solve DA problems. Volition allows end-users to choose between the rollup solution (on-chain data availability) and the validium solution (off-chain data availability) for each transaction. ZkSync uses the zkPorter technology based on Volition. The main difference between Volition and zkPorter is: in the Volition solution, users can choose the data storage method based on each transaction, while in zkPorter solution, users can choose the transaction settlement method based on each account (zkPorter accounts can only be accessed through off-chain data-available ways to make transactions). In addition, zkPorter’s off-chain DA system is more decentralized, because its DA is motivated by Guardian, actuated by zkSync native tokens to provide security, rather than a centralized “DAC”.
 
-Financing and supporters. StarkWare is valued at $2 billion and is in the process of raising a Series D funding worth approximately $6 billion. This is a world-class financing process, attracting many famous investors. Some tycoons and members of Ethereum Foundation have been involved. Vitalik itself has also reviewed most of the articles published by StarkWare. Compared with StarkWare, zkSync has fewer prominent investors, and it looks like large-scale DeFi/CEX encrypted family financing. Each of these projects is well-recognized,  and together they can form a good ecosystem. It’s important to note that the success of ZK Rollup will depend heavily on the addition of the DeFi protocol and the direct integration with CEX. 
+Financing and supporters. StarkWare is valued at 2 billion USD and is in the process of raising a Series D funding worth approximately 6 billion USD. This is a world-class financing process, attracting many famous investors. Some tycoons and members of Ethereum Foundation have been involved. Vitalik itself has also reviewed most of the articles published by StarkWare. Compared with StarkWare, zkSync has fewer prominent investors, and it looks like large-scale DeFi/CEX encrypted family financing. Each of these projects is well-recognized,  and together they can form a good ecosystem. It’s important to note that the success of ZK Rollup will depend heavily on the addition of the DeFi protocol and the direct integration with CEX. 
 
 Current products and roadmap. In June 2020, StarkWare first launched StarEx, which represents the “Planets” phase of their roadmap and allows the creation of permissioned, application-specific ZK Rollup supported by Cairo and STARKs, such as [dydx](https://twitter.com/dydxprotocol), [Immutable](https://twitter.com/Immutable), [Deversifi](https://twitter.com/deversifi), [Sorare](https://sorare.com/?action=signin). They are the four main applications supported by the production version of StarkEx. As of March 2022, StarkEx has processed 134 million transactions, and its cumulative transaction volume amounts to $490 billion and the Total Value Locked hit $1.1 billion.
 
@@ -163,8 +163,6 @@ In general, [Rollup is undoubtedly the best option for Ethereum scaling](https:/
 > In the medium to long term, ZK rollups will win out in all use cases as ZK-SNARK technology improves. — Vitalik Buterin
 
 Nevertheless, there are many issues to be addressed before ZK Rollup can be actually adopted on a large scale, including [technology](https://hackmd.io/@yezhang/S1_KMMbGt), [GTM ](https://future.a16z.com/go-to-market-in-web3)(Go to Market) and [GTC](https://future.a16z.com/community-%E2%89%A0-marketing-why-we-need-go-to-community-not-just-go-to-market/) (Go to Community).
-
-尽管如此，ZK Rollup 要真正走向大规模应用，还要很多问题需要克服，其中就包括[技术](https://hackmd.io/@yezhang/S1_KMMbGt)、[GTM](https://future.a16z.com/go-to-market-in-web3)（Go to Market）和 [GTC](https://future.a16z.com/community-%E2%89%A0-marketing-why-we-need-go-to-community-not-just-go-to-market/)（Go to Community）等问题。
 
 ## Technology Issues
 
@@ -350,7 +348,7 @@ With the gradual application of ZK Rollup in the L2 era and even [the arrival of
 
 # Worth Reading
 
-[Unfollow The Money](https://wrongalot.substack.com/p/unfollow-the-money?token=eyJ1c2VyX2lkIjo2NTk5MTM0MCwicG9zdF9pZCI6NTAzNjg3NjYsIl8iOiI3VnR1NSIsImlhdCI6MTY0NzM1Njc5MiwiZXhwIjoxNjQ3MzYwMzkyLCJpc3MiOiJwdWItMjU5MTUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lYPfVwsDOu7GtYm4WMA6wlK0XyPGAGXaqlFDkjDGLCg&s=r)
+[Uhttps://www.bubais.top/en/tech/nft-a-revolution/nfollow The Money](https://wrongalot.substack.com/p/unfollow-the-money?token=eyJ1c2VyX2lkIjo2NTk5MTM0MCwicG9zdF9pZCI6NTAzNjg3NjYsIl8iOiI3VnR1NSIsImlhdCI6MTY0NzM1Njc5MiwiZXhwIjoxNjQ3MzYwMzkyLCJpc3MiOiJwdWItMjU5MTUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lYPfVwsDOu7GtYm4WMA6wlK0XyPGAGXaqlFDkjDGLCg&s=r)
 
 [A Look Under the Hood Into Ethereum Technology and Scaling Solut...](https://mirror.xyz/0x3D5FE39342e661776bb5273521F52E99B624288c/I_zTz72C8lZtteRYBxco9p2iPUE77a6rwtgRWeP9e-s)
 
