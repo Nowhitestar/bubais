@@ -1,150 +1,114 @@
 ---
-title: "横向流动性：价值如何跨链"
-date: 2022-06-16T17:53:33+08:00
+title: "Vertical Liquidity: How Value Interconnects"
+date: 2022-07-27T10:50:02+08:00
 description:
 tags:
-- 基础设施
+- Infrastructure
 - Web 3.0
 indent: false
 comments: false
 toc: false
-slug: Horizontal Liquidity
-draft: true
+slug: Vertical Liquidity
 ---
 
-流动性的本质是价值交换。近年来，以太坊的市场占有率逐渐下降，越来越多的公链被广泛地使用。当一个新的公链/L2 生态形成的时候，用户产生了将资产从原来的生态迁移到新的生态，以及跨链信息传递的需求。我将这些跨链行为称为横向流动性。
+Some people call the blockchain the value settlement layer of the Internet, so Web3 based on blockchain technology is called the Internet of Value. The blockchain itself, as a distributed ledger, is closely associated with "value". Its [basic value](https://cryptobriefing.com/why-bitcoin-how-money-works-today/) is embodied in Bitcoin, a peer-to-peer electronic cash system, and with the invention of smart contracts, people have discovered Its potential is much more than that. Blockchain technology constructs a brand-new trust system, so that anything with "value" can be transferred between networks.
 
-横向流动性需求的产生就是人们希望可以在不同的区块链之间做原本在同一个区块链中可以完成的事情。那么阻止人们这么做的原因就是横向流动性的阻碍，区块链的价值就在于其防篡改、去信任化的特性，而这些来自于去中心化的共识，使得每一笔交易都是可信的，从而杜绝了欺骗。而跨链的核心就在于共识能够达成和传递（即使是原子交换，也需要验证凭证进行双方的单点共识），这是区块链的基础价值体现。
+The high degree of decentralization of the blockchain makes it difficult to tamper with, and the global consensus recorded on the decentralized ledger is where all value is generated.
 
-共识的达成和传递要求一个区块链能够可靠地访问另一个区块链的状态。由于每一个区块链都有自己的规则、治理机制、原生资产和数据格式，区块链之间的信息传递和资产迁移不是天然无障碍的。因此，我们需要一套系统以支撑在两个或多个区块链之间进行价值传输，这些价值包括资产、合约调用、证明或状态信息。
+A smart contract is a code published on the blockchain. Due to the characteristics of a decentralized ledger, it is also difficult to tamper with, but it can be upgraded to a certain extent. Smart contracts solidify code constraints on the blockchain, and through global consensus, make everyone abide by the same set of governance logic. Open source free and unified standards creatively make smart contracts composable, and value is connected from then on.
 
-这个系统我们常常称之为“桥”，桥依赖以下几个组成部分以实现区块链之间的状态访问：
+Tokens often refer to data units written on the blockchain defined by a contract standard. Through composability, it cooperates with other smart contracts to achieve ownership definition, profit distribution and other purposes through global consensus, thereby financializing the scene, thereby realizing multi-party governance and coordination in the scene, and exchanging value accordingly.
 
-1. 状态监控：通常有一个角色， 如 "Oracle"、"Validator" 或 "Relayer"，负责监控源链上的状态。
-2. 信息传递/转发：在该角色接收到一个事件后，它需要将信息从源链传输到目的链。
-3. 状态共识：在一些模型中，监控源链的角色之间需要达成共识，以便将该信息传递给目的链。
-4. 信息签名：角色需要对发送到目的链的信息进行加密签名，可以是单独签名，也可以是作为阈值签名方案的一部分。
+# The carrier of value flow
 
-可以得知，跨链迁移的可靠性完全取决于以上几个环节是如何协作的。它们需要一个验证人来保证各个环节没有问题，这个验证人的选择是桥工作方式的主要区别：有的桥使用受信任的系统，有的桥则使用去信任化的系统。
+The value flow carrier of Web3 is the basic element supporting the entire network value flow. According to the different levels of abstraction, we divide it into three layers. The bottom layer is the medium of exchange and value storage, which is the medium of value flow; the second layer is identity, relationship, and property rights, which defines the social trust. Basic structure; the top layer is decentralized organization and society, etc., which undertakes new human collaboration methods based on the second layer.
 
-# 受信任的桥
+## Medium of exchange and store of value
 
-这样的桥需要用户信任第三方机构，并且允许第三方机构持有他们的资金，这类桥最为常见的是中心化交易所的桥，如币安桥。
+Fungible Token (FT) is the most direct value as [Store of Value](https://cryptobriefing.com/why-bitcoin-wealth-transfer/) and [Medium of Exchange](https://cryptobriefing.com/why-bitcoin-wealth-transfer/) vitalik.ca/general/2017/10/17/moe.html). As a value recorded on a distributed ledger, scarcity is the basis for it as a store of value, and a steady stream of buyers and sellers is the reason for the continued value of the token, and illiquid money is worthless. Therefore, as a medium of exchange, not all homogenized tokens are valuable. What needs to be established here is not only a literal global consensus based on the ledger, but also a global consensus based on psychological utility. This psychological utility, also known by some as [internal coordination](https://mirror.xyz/0xe7175fe936E9AfdEb0CACe5b88E45CEe3387ffb8/RLDoHJMElSOVPVFtVmQsgtsWCw96C1ulhPsnQGZlIhQ), describes how digital media as a whole reflects the internal & organic content verification system of.
 
-这类桥梁的优点非常明显：
+> It is the opposite of the hype-driven, narrative-driven, meme market. The main driver of investment interest is distributed peer-to-peer learning. The more memes are marketed and promoted, the more people call crypto a Ponzi scheme. But the deeper the content clues and thought snippets, the more outsiders and onlookers believe in its value.
 
-1. 简单易用
-2. 成本低廉：大多数交易所只对简单的转正收取汽油费，没有链上计算的费用
+A typical example of this is ETH. At this stage, the mission of BTC is more of a better store of value, while ETH has slowly become the hard currency of the blockchain world. What makes this happen is not hype, narrative, and memes, but a content consensus around ETH’s distributed peer-to-peer learning. The ETH ecosystem is constantly building and developing, producing more and more utilities, such as smart contract standards, Ethereum login, and more. At the same time, as one of the most influential KOLs in the blockchain world, Vitalik continues to lead the innovation of blockchain ideas, from [blockchain governance](https://vitalik.ca/general/2017/12/17/voting. html) to [Extended Endgame](https://vitalik.ca/general/2021/12/06/endgame.html) and then to [Soul Binding](https://vitalik.ca/general/2022/01/ 26/soulbound.html) etc. The ethereum souls represented by Vitalik have a very high influence in driving industry cognition and ideological improvement. These in-depth content clues and thought fragments make the outside world full of confidence in the value of ethereum.
 
-但它们的缺点也比较明显：
+The value flow as a homogenized token, either as a pure medium of exchange like Bitcoin, or with various utilities like Ethereum, or as a pure stable currency like USDT for online circulation.
 
-1. 无控制权：在价值传输的过程当中，用户必须放弃对其资产的控制权
-2. 功能有限：主要体现在两方面，首先这种桥都只是用来传递资产，无法进行合约调用、证明或状态信息传递，其次只能够用来传递 CEX 上市的代币
-3. 许可与信任风险：用户需要 KYC 才能够使用这类桥，而且需要完全信任该桥的开发商，且需要冒着开发商随时会中断资产桥接的风险，如 [Binance suspends dogecoin withdrawals](https://member.fintech.global/2021/11/12/binance-suspends-dogecoin-withdrawals/#:~:text=Crypto%20currency%20exchange%20Binance%20has,version%20update%20on%20November%2011.)
+Bitcoin's model is The Store of Value Hypothesis (SoV). The SoV system design can be simple and useless but needs to be strong and stable. Flow in the Internet of Value in the form of a value storage medium. This flow can be slow and low-frequency, and performance is not its first consideration. It needs to have world-class autonomy, censorship resistance, and security. This type of monetary asset is also Monero, Zcash, etc.
 
-# 去信任化的桥
+The Ethereum model is The Utility Hypothesis. The utility system design needs to pursue performance and functions. It is based on smart contracts and is oriented to solve real problems in real life or the network world. These utilities include, but are not limited to, transaction throughput, speed, privacy, price stability, contract flexibility and programmability, and more. Likewise, it is pursuing world-class autonomy, censorship resistance, and security, although some believe this can be compromised. This type of monetary asset also includes Bitcoin Cash, SOL, BNB, and more.
 
-一切都是关于信任。去信任化意味着用户不用担心自己的资产被第三方控制，也意味着此类桥可以成为公共产品。
+USDT falls into the category of the utility hypothesis, which needs to maximize the utility of price stability. Its biggest feature is that it turns electronic currency into encrypted currency, so as to achieve platform-level and even world-class resistance to censorship. Anyone, anywhere, anytime, as long as they can connect to the network, can always have legal currency (such as US dollars) forever. Equivalent cryptocurrency. This impact is far-reaching. In the traditional world, there are various restrictions and obstacles in exchanging national currencies into legal currencies such as the US dollar. Stablecoins break these restrictions and make currency circulation more free. This is a highly potential scenario. This type of currency also includes USDC, DAI, BUSD, and more.
 
-那么什么是去信任化呢？John Adler 和 Mikerah Quintyne-Collins 在其[研究论文](https://arxiv.org/pdf/1904.06441.pdf)中解释为，“*当且仅当其状态（即其所有状态元素）既有效又安全时，区块链系统才是去信任的。*”
+## Identity, relationship and property rights
 
-这里有几个关键词，状态、有效和安全：
+Blockchain will be the only source of truth in the digital world. Tim Sweeney of Epic Games has publicly stated that the metaverse can only exist if there is a true digital native property rights system, and the blockchain is providing such underlying capabilities. In the book Inevitably, Kevin Kelly states that "We cannot prevent free copying on a large scale. Doing so would not only destroy the dynamics of wealth creation, it would bring the Internet itself to a standstill. Free-flowing copies are already on the Internet. The nature of this global communication system has left its mark. Network technology requires unconstrained replication. Replicas must flow.”
 
-1. 状态：可以理解为“谁”在“任何时间”“拥有什么”，这一切由区块链记录
-2. 有效：这意味着用户在有限的时间内能够改变资金的状态
-3. 安全：这意味着用户的资金不会被盗取、永远冻结，只有拥有者才能够改变资金的状态
+Reproduction of the digital world is inevitable, it is part of the nature of the Internet. The Internet adds value to free replicas through [native](https://www.woshipm.com/pd/454843.html) so that they become commodities that can be sold, and blockchain through global consensus provides Originally free copies define property rights and derive definitions of identity and relationship.
 
-需要注意，去信任化不是意味着完全无需信任，而是将信任最小化，这一点在任何公链上也是如此。一个完全无需信息的跨链交易是，区块链 A 上的 Alice 直接向她在区块链 B 上的钱包地址发送 1000 USDC，然后 Alice 在区块链 B 上的钱包地址直接完成接收，就像现实世界我将钞票从一个钱包放入另一个钱包一样。这个过程完全无需信任，因为没有任何第三方参与，但这是不可能的，因为不同区块链直接无法直接访问和修改对方状态。
+The technical means to achieve these include Non-Fungible Token (NFT), Soul Bound Token (SBT) and Decentralized IDentify (DID).
 
-因此，[去信任化是一个程度](https://blog.li.fi/li-fi-with-bridges-trust-is-a-spectrum-354cd5a1a6d8)，不同机制的去信任化的程度是不一样的。如果说上面完全无需信任的例子信任成本是 0，那么受信任的桥其信任成本则为 1。去信任化的桥，其信任成本就介于 0 和 1 之间，用数学表示就是 (0, 1)。
+NFT is [a revolution in digital ownership](https://mirror.xyz/bubai.eth/KAgr16vN8IRtjHARFQ6Wx35OmgLj9Oh2qcRkiiNw_OE), it is defined and "minted" by smart contracts, cannot be copied and tampered with, and can be used as physical collectibles and images, music, games The "digital fingerprint" of virtual assets such as props. It defines the property rights, relationships and identities that can be exchanged. People can purchase NFTs of encrypted art works to declare their sovereignty, purchase PROOF Collective or BAYC to obtain membership in the corresponding clubs, enjoy corresponding value-added services, and can also purchase StepN’s running shoes NFT to Owning a pair of digital running shoes, you can use it to "run" and get corresponding rewards, etc. However, identity, relationship, and property rights are not all tradable, and they cannot define the totality of social ownership.
 
-当谈到去信任化桥的时候，我们需要弄清楚的第一个问题是，“[系统的验证人是谁？](https://blog.connext.network/the-interoperability-trilemma-657c2cf69f17)”，[不同的设计机制](https://blog.li.fi/what-are-blockchain-bridges-and-how-can-we-classify-them-560dc6ec05fa)给出了不同的答案：
+[SBT](https://vitalik.ca/general/2022/01/26/soulbound.html) implements the definition of non-tradable ownership, which is the gateway to a [decentralized society](https://papers.ssrn .com/sol3/papers.cfm?abstract_id=4105763). Identities and relationships such as personal contributions, positions, and skill certifications are non-tradable and describe a person's abilities, experiences, and identity as much as they describe a person's "soul". It has many application scenarios, such as wallet's [social recovery](https://vitalik.ca/general/2021/01/11/recovery.html), skill certificate, on-chain unsecured lending, decentralized governance, etc. . Combined with NFTs, they make it possible for everyone to disaggregate, trade, share, and own rights in the digital world.
 
-1. 外部验证：外部验证器不属于相关区块链中的任何一条，由桥引入，有自己独特的信任假设。依赖于外部验证者或联盟，安全性取决于外部验证者/联盟的安全和不同的抵押机制（下文会详细介绍），如 Thorchain, Anyswap, Biconomy, Celer, Synapse, PolyNetwork 等等。
-2. 乐观验证：乐观验证依赖于外部验证者，但通过使用诚实的观察者来监控操作并报告欺诈行为作为验证。其安全性取决于乐观机制，由于攻击者在攻击的时候不知道欺诈行为是否会被发现，这使得攻击者永远无法确信自己能够成功窃取资金，从而极大地增加了攻击系统的经济成本，如 Nomad。
-3. 本地验证：相关区块链的底层两个验证器互相验证对方。依赖于流动性网络，原子交换过程可以有效地让每条链上的验证者无法串通和窃取资金，然而流动性网络缺乏跨链消息传递能力，会依赖于乐观或者外部验证桥梁以加强桥的功能，从而降低安全性，如 Connext, Hop 和其他原子交换系统。
-4. 原生验证：相关区块链的底层所有验证者都负责验证系统。有的原生验证依赖于轻客户端和中继者，中继是由 oracle 或者节点中继器负责，中继者将源链的信息传送给目标链的轻客户端，原生验证节点将会验证该信息的正确性并触发相应的智能合约，因此安全性取决于中继者，如 Stargate, Cosmos IBC, Near RainbowBridge 等等；有的原生验证依赖于 ZKP，安全性取决于相关区块链，如 Starkgate 等汇总桥。
+DID defines the identity of an individual in the digital world. It is the basic component of the sociality of the digital world. It makes the flow of value not only stay at the financial level, but also extends to the social credit level. Lacking a native Web3 identity, today's DeFi ecosystem cannot support activities that are ubiquitous in the real economy, such as undercollateralized loans, or simple contracts like apartment rentals. SBT is a small step in creating this kind of social identity, composability and [the construction of composite meaning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763) is what DID can apply to the ground The essential. Composability requires a unified standard, and the construction of composite meaning includes predictive models based on user data, composite artificial intelligence, and programmable composite privacy.
 
-![桥的信任频谱 来源：Li.Fi](https://tva1.sinaimg.cn/large/e6c9d24egy1h3a7w545irj20v90fn0ul.jpg "桥的信任频谱 来源：Li.Fi")
+The digital construction of identities, relationships, and property rights is far-reaching, allowing Web3 to transform society broadly, not just the financial system. All social structures today can thus be built in the digital world and avoid witch attacks, collusion and material over-financing.
 
-从上面可知，从去信任化程度上来说，原生验证 > 本地验证 > 乐观验证 > 外部验证。
+## Decentralized Organizations and Society
 
-## 原生验证与本地验证的比较
+The improvement of social trust level [conducive to economic development](http://www.shkxjk.com/CN/abstract/abstract3675.shtml), its [influence mechanism](https://books.google.com.hk/books /about/%E4%BF%A1%E4%BB%BB.html?id=FJ9LAAAACAAJ&redir_esc=y) is that trust directly affects the size, organization, transaction scope and transaction form of a social and economic entity, as well as the indirect effects of social The scale and intensity of productive profit-seeking activities. As the basic technology, blockchain technology has built a trustless value network system through the successful definition of identity, relationship and property rights, as well as the realization of economic incentives through tokens, and the realization of governance logic through smart contracts. This cryptography-based value network provides an organizational mechanism for a new society. These networks are bound by protocols, and protocols are bound by mathematics. Relevant parties can participate in the protocol governance in a trustless manner in accordance with the methods stipulated in the agreement, and cooperate with each other, jointly produce and distribute profits, so that for the first time, humans can coordinate a large number of related parties in a real-time and trustless manner on a global scale, greatly It reduces the cost of trust seeking of relevant parties, thereby reducing transaction costs, expanding social division of labor, production and transaction scale, stimulating economic vitality and promoting economic development.
 
-原生验证和本地验证由于依赖于相关区块链自身的验证者，原本它们去信任化的程度是一样的。但本地验证由于由于使用原子交换的方式，不能支持链间的通用数据传递，所以往往会引入一些其他信任假设以支持更多功能，如 Hop 是本地验证，但引入了一个快速的任意信息桥（AMB）以实现对乐观汇总资金的快速桥接。如果给定目标链没有 AMB 的存在，该协议甚至还需要依赖一个外部验证的桥。因此，去信任化程度原生验证 > 本地验证。
+Decentralized Autonomous Organization (DAO) is the embryonic form of this new social organization mechanism, and Decentralized Society (DeSoc) is the end point of this organizational mechanism. In 2022, a variety of DAO organizations will sprout up. The trustless collaboration within these organizations needs to improve organizational incentive rules, reward contributions and punish evildoers. Asset disposal, organizational development, etc. need to be decided through proposals and voting to ensure that the organization Everyone inside has a voice. All behaviors are made public, and the rules will be encoded into the decentralized autonomous organization through code.
 
-原子交换的特点是在一个状态更新里面实现交换操作，一般包括哈希时间锁和有条件转让等方式。
+In the traditional world, modern civilizations such as literature, thinking, science, laws and regulations are all created on paper media. Every word written on a book records the culture and rules of the traditional world. It is difficult to tamper with and spread through books. reach a broad consensus. In the digital world, code logic is digital regulations, and the traditional Internet can only provide platform-level centralized credit and security commitments, which is highly vulnerable. Governance rules defined by blockchain technology, just like the legal provisions in the real world, need to be approved by the People's Congress. Even hackers cannot tamper with the rules. Civilization products such as literature, thinking, science, laws and regulations can exist in the digital world in new forms. It is written on the blockchain, just like written in a book, which is real, tangible and endless.
 
-> **跨层的原子交换：**第一层跨层到第二层由于是同一套账本下进行记账，其天然连接的性质使得他们可以轻松地进行有条件转让。有条件转让即操作的第一段由第二段触发，这是一种原子交换方式，比哈希锁（HTLCs）更直接。
-此外还有第二层之间的跨层。有些人会将第二层跨层与跨链区分来看，实际上他们的区别少之又少。第二层跨层与跨链的唯一区别就是它们之前通过第一层网络进行连接了起来，这允许它们通过有条件转让的方式进行通信。但这种方式费用实在是太高了，每次跨层都需要经过第一层网络，而且还存在速度慢和拥堵问题。因此，第二层跨层往往会视为没有连接的不同区块链进行看待。
+At present, many conditions are not met. The lack of infrastructure conditions makes the current DAO still maintain a strong centralized operation. At the same time, although many construction contents are open, they are difficult to trace, verify, and can be tampered with, such as records of members' contributions, certification, profit distribution, etc. These contents At present, it still requires a lot of labor costs, is inefficient, and there is still the possibility of fraud.
 
-## 乐观验证与外部验证的比较
+There is still a lot of work to be done in this new form of collaboration between decentralized organizations and society. In addition to technology, there is a need for a lot of exploration and innovation in governance models.
 
-乐观验证与外部验证本质上都有一组第三方（非相关区块链）节点进行验证。除了技术细节上的诸多差异，其核心区别在于其加密经济学：
+## The stack of the value network
 
-- 外部验证（即多重签名、验证器、PoS、MPC 或门限签名）跨链桥利用了诚实多数假设。
-- 乐观验证使用观察者 + 欺诈证明模式，即一个诚实者的验证者假设。
+We try to delineate the stack of the Web3 value network:
 
-因此从去信任化角度，乐观验证所需要的信任成本大大低于外部验证。
+1. The bottom layer is the blockchain technology itself. It has been innovating continuously since its birth. The most mainstream view is that the first-layer blockchain network is combined with the second-layer blockchain network to modularize the blockchain. , thereby improving blockchain performance.
+2. The second layer is the state converter and middleware, which connect the protocol built on the blockchain and the blockchain itself, state converters such as EVM and the second-layer network CariroVM, ZKEVM, ZKVM, etc. Middleware mainly includes storage, indexing, nodes and message passing. Storage solutions are constantly being upgraded and innovated, ranging from IPFS to Filecoin to Arweave to Ceramic, etc.; indexing tools are mainly the index of data on the chain (such as The Graph) and the index of storage tools (such as Kwil), the main purpose of which is to directly The data used is converted into a data set with a friendly format and easy to use; the node provides some hosting services to facilitate developers to quickly test and build their own protocols, and provide some functional APIs such as storage service APIs for developers to directly call, improve development Speed; Messaging tools are designed to open up on-chain and off-chain communication and between different blockchains, including oracles (such as Chainlink) and cross-chain protocols (such as Connext) in general.
+3. The third layer is tokens and smart contracts, which are the continuation of value flow scenarios. Tokens can be used as value storage and exchange media, and the combination of smart contract standards and tokens makes tokens have governance utility. The code contract logic deployed on the blockchain has innovatively optimized the circulation of tokens from the perspective of liquidity, such as AMM-based DEX (such as Uniswap), collateralized lending (such as Aave), insurance and derivatives (such as Everlasting). Renewal contract exchange GMX, dYdX) and so on.
+4. The fourth layer is the user terminal, which is the entrance to the value flow scenario, including deposit and withdrawal solutions, wallets, and Dapps. The difference between Dapp and the third-layer protocol here is mainly that it refers to the application itself, which is not composable, while the third layer mainly refers to the protocol itself, which is composable. At the same time, Dapp also has More complex interactive scenarios, such as GameFi with a lot of playable content and interactions, and SocialFi with a lot of user interaction content, are protocol-independent.
+5. The fifth layer is the decentralized organization. It is not only the use of the Internet of Values ​​by individuals, but also the collaboration of a group of people under the Internet of Values. It requires more cooperation between people. These cooperation methods are not yet available. Not clear, we call these collaborative Dapps DAO Tools (eg Dework).
 
-而在外部验证当中，有两种主要的经济模式：
+![](https://s2.loli.net/2022/08/06/TySN4MxuabqneW6.png)
 
-- 罚没型（Bonded）：恶意活动发生后，节点抵押品会被罚没，但系统不保证补偿用户损失，如 [Polygon PoS 桥](https://docs.polygon.technology/docs/develop/ethereum-polygon/pos/getting-started/)。
-- 削减型（Insured）：恶意活动发生后，节点抵押品会被削减，削减的抵押品用于补偿用户损失，如 [Axelar](https://axelar.network/)。
 
-从这个角度来看，削减型的外部验证桥，能够相对将信任程度更小化。
+The entire value Internet stack supports the value flow scenario. There are still many technical solutions that are not perfect, and the mode of cooperation between each component is constantly changing. We realize that there may be some adjustments in the classification of some modules. And there are great innovations happening all the time in the crypto space, which may be hard to include in this chart. This is a dynamically adjusted version of the stack model for peer discussion.
 
-# 去信任化桥的性能
+# Realization scenario of value network
 
-不同的验证机制也带来不同的安全性、速度、连接性、资本效率和状态性相关，这几个因素通常会用来[评估桥的设计](https://medium.com/1kxnetwork/blockchain-bridges-5db6afac44f8)。
+The flow of value is generated in the interaction between entities and entities, which can be people, robots, digital items or even a fixed piece of smart contract code. In this process, it involves the definition of identity, relationship and rights, resulting in sociality, and the link connecting this sociality is trust. The blockchain-centered Internet of Value is reducing the cost of trust, including investment, consumption, certification, and credit endorsement.
 
-- 安全性（Security）：信任和有效假设、对恶意行为者的容忍度、用户资金的安全性和反身性
-- 速度（Speed）：完成交易的延迟，以及最终性保证。通常在速度和安全性之间进行权衡。
-- 连接性（Connectivity）：为用户和开发人员选择目标链，以及集成附加目标链的不同难度级别。连接性好即对公链的兼容程度很高，不容易受不同公链共识算法和数据结构差异的限制。
-- 资本效率（Capital efficiency）：围绕确保系统安全所需的资本和转移资产的交易成本的经济学。
-- 状态性（Statefulness）：转移特定资产、更复杂状态和/或执行跨链合约调用的能力。
+Transactions are the most basic realization of value networks. When it comes to transactions, we immediately think of consumer behaviors such as food, clothing, housing, and transportation and financial behaviors such as investment and loans, but blockchain is not born to undertake financial transaction scenarios in real life, it provides the truth of the digital world. In the short term, real-life legal tokens and financial transactions will not and do not need to be optimized and replaced. When we look at the protocol or application of a transaction scenario, we should think about:
+1. Is the transaction scenario problem it solves real-world interaction or digital-native?
+    1. If it is a real interaction, is this issue important at this stage? Will it bring large-scale applications?
+    2. If it is digital native, why does this transaction problem need to be solved?
+2. Is the problem it solves optimized or innovative compared to competing products?
+3. Is its implementation safe? (such as low degree of decentralization, immature technology, etc.)
+4. Does this specific transaction scenario need to guarantee privacy?
+5. ……
 
-不同的验证方式具有不同的取舍，各有优劣。虽然将各个维度简单相加计算总分进行比较的方式有一些缺点，但姑且如此粗略的看起来，总分 ZKP > Light Clients & Relayers > Liquidity Networks = Optimistic > External Validators & Federations。
+Pan-entertainment is a transaction-based derivation of value networks. The entertainment here includes games, fan economy, content consumption, etc. Any entertainment related to the community and financial behavior can be included. Compared with transactions, the main services of entertainment scenarios are not related to the blockchain. Blockchain will only be used in financial scenarios. However, what is often overlooked here is that the data generated by users in the process of using these applications should also be counted as financial scenarios. Data is one of the factors of production, and its capital attributes determine its financial attributes. The traditional Internet grabs a lot of benefits from the data capital provided by users. The traditional technical architecture and application logic make the centralized entities have no motivation to use the interests originally belonging to users. It is returned to users, and the lag of laws and regulations has led to the monopoly of data by centralized entities and the lack of awareness. When we look at the application of a pan-entertainment scene, we should think about:
+1. What kind of financialization problem is it solving?
+2. What does its decentralized solution look like?
+3. How does it handle user data?
+4. Does it provide a new profit distribution mechanism?
+5. What is the distribution of power in the application? How do entities interact?
+6. ……
 
-![不同验证机制桥的性能](https://tva1.sinaimg.cn/large/e6c9d24egy1h3a7wgi6akj21150i6aby.jpg "不同验证机制桥的性能")
+Coordination is the ultimate goal of value networks. By redesigning money, providing a multitude of public goods, and inventing governance mechanisms based on cryptoeconomics, blockchains coordinate the division of labor, production, and life of humans and goods in new ways. This is a medium- and long-term goal, although a non-standard form has been seen - a decentralized organization. Most of the current decentralized organizations are non-standard, they have strong centralized attributes, but are not as serious as corporations and governments, like a gang, with strong leaders and a common vision driven. This is mainly because people have not yet explored an efficient decentralized collaboration method. This process is an evolutionary process, and problems need to be encountered to solve problems, so that more DAO tools are born to provide weapons for decentralized coordination. When we look at an application that coordinates scenarios, we should think about:
+1. What kind of coordination problem is it solving?
+2. Is it decentralized and how efficient is it?
+3. How does it handle user data?
+4. ……
 
-外部验证在状态性和连接性方面表现出色，因为它们可以触发事务、存储数据并允许在任意数量的目标链上与该数据进行交互。通常这样的第三方节点都需要质押机制来保障安全性，因此这类桥的资本效率是最低的。从安全性来说，由于外部验证桥有很多类型，不同的外部验证联盟也具有不同的共识算法安全，因此其安全性不能一概而论，但由于信任假设和第三方机制，一旦桥被攻破，用户可能会损失全部资金，而且会波及所有与该桥相关的应用，其安全性综合来说是最低的。
+The blockchain brings rules and truth to the digital world. In the modern age where the real human society and the digital virtual society are further integrated, the changes brought about by this technology are predictable. At Zonff Partners, we believe that Web3 will create a value layer for the Internet, where human beings can truly own and freely dispose of their own assets in the digital world, data will become assets that can flow, and trust between entities will be guaranteed by the network, thus forming A more efficient form of human coordination that increases productivity.
 
-乐观验证，在状态性和连接性方面表现出色，其理由与外部验证一样。但由于乐观验证的机制，其资本效率要高于外部验证但低于无需加密经济机制保障的桥设计。由于验证窗口期的存在，其速度也是最低的。从安全性来说，攻击具有 `n` 个验证者的 Optimistic 跨链桥的成本，等于破坏或黑掉 n 个验证者的成本。而相对于外部验证，攻击具有 `n` 个验证者的外部验证跨链桥的成本，等于破坏或黑掉 `m` 个验证者的成本，这里 `m`< `n` 。此外，在乐观验证机制下，即使 `n` 个验证者被黑攻击者也不能保证窃取资金，只要有一个诚实的观察者“抓住欺诈”并撤销攻击者对资金的访问权限即可。因此乐观验证的安全性总体来说大于外部验证者，但小于攻击者根本无法窃取资金的本地验证和原生验证机制。
-
-本地验证（流动性网络）在安全性和速度方面表现出色，因为使用哈希时间锁的原子交换机制使得资金不可能被窃取，无需达成通用共识的本地验证也大大提高了速度。它们也比保税/保险的外部验证者更具资本效率，因为资本效率与交易流量/交易量而非安全性相关。但由于本地验证的系统不能支持链间的通用数据传递，其状态性较差，这导致其往往需要引入其他技术支持才能实现更多功能，如 Hop 引入任意信息桥（AMB），Connext 与 Nomad 合作等。
-
-原生验证在安全性、资本效率和状态性方面表现都非常出色，因为它依赖于底层的信任和/或域的共识机制来运作，区块头中继系统可以传递任何类型的数据，且无需任何质押。同样地，它也必须为每种类型的域进行定制。以太坊的生态系统是高度异质的：ZK/乐观汇总、侧链以及运行大量共识算法的基础链，如 ETH-PoW、Nakamoto-PoW、Tendermint-PoS、Snowball-PoS、PoA，以及其他许多算法。这些领域中的每一个都需要一个独特的策略来实现原生验证的互操作性系统。从连接性上来说，使用 ZKP 的原生验证系统则更加差一点，因为不是每一个共识模型都能够在零知识的情况下证明。从速度上来说，ZKP 跨链桥有很好的低延迟属性，也可能比常规的区块头中继系统要便宜得多，因为证明共识不需要在链上发生。
-
-> 此外，LayerZero 属于原生验证，其创新即使微小但也非常的重要，引入预言机以实现区块头按需流式传输（而非保留所有区块头，降低费用），同时由于在预言机的基础上加上独立的中继系统，保证安全性。
-
-## 状态性：通用消息传递
-
-通用消息传递就是可以在不同区块链上调用任意合约。那为什么本地验证网络的跨链方式不支持通用消息传递？
-其实本地验证的系统有可能实现跨域合约的调用，但前提是被调用的函数有某种形式的逻辑所有者。例如，可以去受信任化地跨链调用Uniswap 的 swap 功能，因为任何拥有可交换代币的人都可以调用 swap 功能。然而，本地验证中不可能跨链去信任化地锁定和铸造NFT——这是因为目的链上的 `mint` 函数的逻辑所有者应该是源链上的 `lock` 合约。
-
-直观地说，本地验证的消息，是通过单点相互验证的方式从链上的一个合约发送到另一个链上的相同合约进行函数调用，在一个原子交换过程内完成交易，状态更改，因此存在调用的逻辑问题；而其他验证方式的消息，通过多点验证的方式将已（快）更改状态进行传递，不存在调用的逻辑问题。
-
-## 连接性：状态验证与共识达成
-
-前文已经谈到，是由于不同的链的不同共识算法将连接性破坏。这一点如何理解呢？
-
-拿转账举例子，简要的说，当一个转账发生的时候，此时会生成一个凭证，另一条链通过验证改凭证得知这比转账为真，才能够发起下一步动作。这个凭证生成的过程就是共识算法发挥作用的过程，另一条链需要理解该凭证（如对哈希进行验证）就需要模拟该凭证生成的方式，这时不同的共识算法就会造成阻碍。这一点上，ZKP的逻辑又稍有不同，虽然ZKP的生成算法可以采用同一种，但有些的共识模型很难通过零知识的方式进行证明。
-
-# 关于横向流动性的一点思考
-
-横向流动性指的就是跨链的互操作，以支持消息传递和资产转移。目前来说，还没有一个方案可以解决横向流动性的[三难问题](https://blog.connext.network/the-interoperability-trilemma-657c2cf69f17)（互操作性三难问题）：去信任化、可扩展性和可通用性。Connext 提出的 NXTP 借鉴的以太坊第二层的思路，尝试构建一个互操作网络“第二层”来解决这个问题，我觉得这个解决方案能否有效依然有待考察。
-
-以太坊的可扩展性三难问题中，起到榫卯结构连接点作用的是验证，因此可以将其以验证为榫卯拆解为执行（计算以验证）、（验证结果以）共识和数据可用性（以验证），从而发展为模块化区块链。
-
-最近有声音在提起模块化跨链桥，其尝试将不同的跨链方案进行组合，用同一个接口封装，这并没有改变封装下面运行逻辑的本质，该有的问题依然存在。我们需要找到跨链问题当中的榫卯结构，才能够把一个复杂问题干净利落地拆解下来，而不会破坏原本的零件。验证作为跨链的榫卯结构是行得通的，因为跨链本质上就是跨账本记账，非常核心的一点是验证，但由于不同区块链的共识机制和数据结构差异，另一个更核心的一点在于跨链消息识别，因为验证的前提是需要识别这些数据信息（在 L2 中不存在识别的问题）。
-
-那么如何去思考跨链消息识别作为跨链的榫卯结构呢？上文提到的，
-
-- 外部验证，通过在不同链上部署自己的智能合约将跨链消息在外部验证联盟中消化，因此我们要相信这个外部验证联盟，无法达到去信任化。
-- 本地验证，消息传递作为一个逻辑结构的形式（原子交换）写在合约当中，这直接导致了它较低的连接性和极低的状态性，它只能传递一个交换逻辑，而无法传递通用的账本变更类的消息，无法达到可通用性。
-- 原生验证，消息以原来的数据结构直接进行传递，到达目标区块链，再将以原区块链数据结构存储的数据进行解构、计算和验证。这要求中间有代码化的介质能够将两个区块链的数据结构进行理解和转译。不同的共识算法给这项工作带来了不少挑战，即使是作为验证“万金油”的 ZKP 也在这里遇到转译的问题。因此原生验证很难做到可扩展性。
-
-目前我能想到的解决路径大概有两条：一是支持通用共识算法的 ZKP 算法出现；二是通过非中间共识的方式搭建一个消息识别中间件。
-
-不成熟的思考，欢迎讨论。
+Thanks to Wang Xiang and Peng Yang for their suggestions and review of this article.
