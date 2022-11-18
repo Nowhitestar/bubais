@@ -1,96 +1,218 @@
 {
+  "path_name_info" : {
+    "zh\/tech\/Vertical Liquidity.md" : "纵向流动性：价值如何互联互通",
+    "en\/tech\/Horizontal Liquidity.md" : "Horizontal Liquidity: how value crosses the chain",
+    "zh\/life\/20210620_rent_house.md" : "租房见闻",
+    "zh\/life\/20200626-sum2019.md" : "迟到半年的2019年总结",
+    "zh\/life\/20151226-life-jiaofu.md" : "关于《教父》III",
+    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : "关于《禅与摩托车维修艺术》解读（二）",
+    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : "关于《禅与摩托车维修艺术》解读（一）",
+    "zh\/tech\/NFT a Revolution.md" : "NFT：数字所有权的革命",
+    "zh\/tech\/Web3 data.md" : "当我们谈 Web3 数据，我们在谈些什么？",
+    "zh\/life\/20180524-论阅历.md" : "论阅历",
+    "zh\/life\/20200703-newstart.md" : "续了五年",
+    "zh\/life\/20161231-无法想象的世界.md" : "无法想象的世界",
+    "zh\/life\/我的学生时代（二）.md" : "我的学生时代（二）",
+    "zh\/life\/20210616-我的学生时代.md" : "我的学生时代（一）",
+    "zh\/about\/_index.md" : "_index",
+    "zh\/tech\/20200620-hello-world.md" : "Hello World",
+    "zh\/tech\/Horizontal liquidity.md" : "纵向流动性：价值如何互联互通",
+    "zh\/life\/20181230-8102年啊.md" : "8102年啊",
+    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : "互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？",
+    "zh\/tech\/数据科学家与Web 3.0.md" : "数据科学家与 Web 3.0",
+    "zh\/life\/20171001-22岁.md" : "22岁",
+    "en\/tech\/Web3 data.md" : "When we talk about Web3 data, what are we talking about?",
+    "zh\/tech\/Ethereum ZK Rollup Era.md" : "以太坊的 ZK Rollup 时代",
+    "zh\/life\/20170826-死亡诗社.md" : "死亡诗社",
+    "en\/life\/20161101-GOT-Tyrion.md" : "Oedipus the King and Tyrion Lannister",
+    "zh\/life\/20161117-consulting-TSOC.md" : "《咨询的奥秘：寻求和提出建议的智慧》笔记",
+    "zh\/life\/20200707-学生毕业.md" : "我的学生毕业",
+    "en\/about\/_index.md" : "_index",
+    "zh\/tech\/技术时代重新思考教育.md" : "技术时代教育会发生怎样的变革？",
+    "zh\/life\/20180506-停电的红湖.md" : "停电的红湖",
+    "en\/tech\/Vertical Liquidity.md" : "Vertical Liquidity: How Value Interconnects",
+    "en\/tech\/Ethereum ZK Rollup Era.md" : "Ethereum's ZK Rollup Era",
+    "zh\/life\/20170910-我的唯一一个教师节.md" : "我的唯一一个教师节",
+    "en\/tech\/NFT a Revolution.md" : "NFTs: a revolution in digital ownership",
+    "zh\/tech\/Horizontal Liquidity.md" : "横向流动性：价值如何跨链"
+  },
+  "wiki_data_version" : "0.1",
+  "words_info" : {
+    "zh\/about\/_index.md" : 84,
+    "zh\/tech\/Vertical Liquidity.md" : 5504,
+    "zh\/tech\/数据科学家与Web 3.0.md" : 2557,
+    "zh\/tech\/NFT a Revolution.md" : 14032,
+    "zh\/life\/20171001-22岁.md" : 414,
+    "zh\/life\/20210616-我的学生时代.md" : 2322,
+    "zh\/tech\/Horizontal liquidity.md" : 5507,
+    "zh\/life\/20200703-newstart.md" : 350,
+    "zh\/life\/20161231-无法想象的世界.md" : 1231,
+    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : 3376,
+    "zh\/tech\/20200620-hello-world.md" : 70,
+    "zh\/life\/20181230-8102年啊.md" : 534,
+    "zh\/tech\/技术时代重新思考教育.md" : 3524,
+    "zh\/life\/20200626-sum2019.md" : 558,
+    "en\/tech\/Ethereum ZK Rollup Era.md" : 6931,
+    "zh\/life\/20170910-我的唯一一个教师节.md" : 755,
+    "en\/life\/20161101-GOT-Tyrion.md" : 603,
+    "en\/tech\/Horizontal Liquidity.md" : 3361,
+    "zh\/life\/我的学生时代（二）.md" : 1468,
+    "en\/tech\/NFT a Revolution.md" : 8911,
+    "zh\/life\/20170826-死亡诗社.md" : 412,
+    "zh\/life\/20210620_rent_house.md" : 2830,
+    "en\/about\/_index.md" : 71,
+    "zh\/life\/20161117-consulting-TSOC.md" : 14981,
+    "zh\/life\/20180524-论阅历.md" : 561,
+    "zh\/life\/20180506-停电的红湖.md" : 346,
+    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : 1523,
+    "zh\/life\/20200707-学生毕业.md" : 551,
+    "en\/tech\/Web3 data.md" : 4831,
+    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : 3614,
+    "zh\/tech\/Ethereum ZK Rollup Era.md" : 10662,
+    "zh\/tech\/Horizontal Liquidity.md" : 5506,
+    "zh\/tech\/Web3 data.md" : 7965,
+    "zh\/life\/20151226-life-jiaofu.md" : 1076,
+    "en\/tech\/Vertical Liquidity.md" : 3414
+  },
+  "relative_folders" : [
+    "zh",
+    "zh\/about",
+    "zh\/life",
+    "zh\/tech",
+    "zh\/tech\/_image",
+    "zh\/tech\/_image\/2022-05-17",
+    "en",
+    "en\/about",
+    "en\/tech",
+    "en\/life",
+    "zh\/tech\/_image\/2022-07-27"
+  ],
+  "filename_path_info" : {
+    "20161117-consulting-tsoc" : "zh\/life\/20161117-consulting-TSOC.md",
+    "vertical liquidity" : "en\/tech\/Vertical Liquidity.md",
+    "_index" : "en\/about\/_index.md",
+    "20171001-22岁" : "zh\/life\/20171001-22岁.md",
+    "数据科学家与web 3.0" : "zh\/tech\/数据科学家与Web 3.0.md",
+    "20161231-无法想象的世界" : "zh\/life\/20161231-无法想象的世界.md",
+    "horizontal liquidity" : "zh\/tech\/Horizontal Liquidity.md",
+    "20210620_rent_house" : "zh\/life\/20210620_rent_house.md",
+    "20170826-死亡诗社" : "zh\/life\/20170826-死亡诗社.md",
+    "20200626-sum2019" : "zh\/life\/20200626-sum2019.md",
+    "web3 data" : "en\/tech\/Web3 data.md",
+    "我的学生时代（二）" : "zh\/life\/我的学生时代（二）.md",
+    "20200703-newstart" : "zh\/life\/20200703-newstart.md",
+    "20180524-论阅历" : "zh\/life\/20180524-论阅历.md",
+    "20161026-关于《禅与摩托车维修艺术》解读（二）" : "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md",
+    "20210616-我的学生时代" : "zh\/life\/20210616-我的学生时代.md",
+    "20180506-停电的红湖" : "zh\/life\/20180506-停电的红湖.md",
+    "nft a revolution" : "zh\/tech\/NFT a Revolution.md",
+    "ethereum zk rollup era" : "en\/tech\/Ethereum ZK Rollup Era.md",
+    "20181230-8102年啊" : "zh\/life\/20181230-8102年啊.md",
+    "20200620-hello-world" : "zh\/tech\/20200620-hello-world.md",
+    "20151226-life-jiaofu" : "zh\/life\/20151226-life-jiaofu.md",
+    "20200707-学生毕业" : "zh\/life\/20200707-学生毕业.md",
+    "20161025-关于《禅与摩托车维修艺术》解读（一）" : "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md",
+    "20161101-got-tyrion" : "en\/life\/20161101-GOT-Tyrion.md",
+    "技术时代重新思考教育" : "zh\/tech\/技术时代重新思考教育.md",
+    "20170910-我的唯一一个教师节" : "zh\/life\/20170910-我的唯一一个教师节.md",
+    "互联网广告术语cpm、cpc、cpa、cps、cpl、cpr 是什么意思？" : "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md"
+  },
+  "name_path_info" : {
+    "horizontal mobility: how value crosses the chain" : "en\/tech\/HGX.md",
+    "死亡诗社" : "zh\/life\/20170826-死亡诗社.md",
+    "when we talk about web3 data, what are we talking about?" : "en\/tech\/Web3 data.md",
+    "我的学生时代（一）" : "zh\/life\/20210616-我的学生时代.md",
+    "无法想象的世界" : "zh\/life\/20161231-无法想象的世界.md",
+    "horizontal liquidity: how value crosses the chain" : "en\/tech\/Horizontal Liquidity.md",
+    "关于《禅与摩托车维修艺术》解读（一）" : "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md",
+    "关于《禅与摩托车维修艺术》解读（二）" : "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md",
+    "8102年啊" : "zh\/life\/20181230-8102年啊.md",
+    "横向流动性：价值如何跨链" : "zh\/tech\/Horizontal Liquidity.md",
+    "我的学生毕业" : "zh\/life\/20200707-学生毕业.md",
+    "22岁" : "zh\/life\/20171001-22岁.md",
+    "nft：数字所有权的革命" : "zh\/tech\/NFT a Revolution.md",
+    "《咨询的奥秘：寻求和提出建议的智慧》笔记" : "zh\/life\/20161117-consulting-TSOC.md",
+    "关于《教父》iii" : "zh\/life\/20151226-life-jiaofu.md",
+    "纵向流动性：价值如何互联互通" : "en\/tech\/Vertical Liquidity.md",
+    "vertical liquidity: how value interconnects" : "en\/tech\/Vertical Liquidity.md",
+    "_index" : "en\/about\/_index.md",
+    "ethereum's zk rollup era" : "en\/tech\/Ethereum ZK Rollup Era.md",
+    "租房见闻" : "zh\/life\/20210620_rent_house.md",
+    "oedipus the king and tyrion lannister" : "en\/life\/20161101-GOT-Tyrion.md",
+    "停电的红湖" : "zh\/life\/20180506-停电的红湖.md",
+    "当我们谈 web3 数据，我们在谈些什么？" : "en\/tech\/Web3 data.md",
+    "技术时代教育会发生怎样的变革？" : "zh\/tech\/技术时代重新思考教育.md",
+    "迟到半年的2019年总结" : "zh\/life\/20200626-sum2019.md",
+    "数据科学家与 web 3.0" : "zh\/tech\/数据科学家与Web 3.0.md",
+    "nfts: a revolution in digital ownership" : "en\/tech\/NFT a Revolution.md",
+    "lateral liquidity: how value crosses chains" : "en\/tech\/Vertical Liquidity.md",
+    "互联网广告术语cpm、cpc、cpa、cps、cpl、cpr 、ocpc是什么意思？" : "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md",
+    "hello world" : "zh\/tech\/20200620-hello-world.md",
+    "以太坊的 zk rollup 时代" : "zh\/tech\/Ethereum ZK Rollup Era.md",
+    "我的学生时代（二）" : "zh\/life\/我的学生时代（二）.md",
+    "我的唯一一个教师节" : "zh\/life\/20170910-我的唯一一个教师节.md",
+    "续了五年" : "zh\/life\/20200703-newstart.md",
+    "论阅历" : "zh\/life\/20180524-论阅历.md",
+    "horizontal liq: how value crosses the chain" : "en\/tech\/HGX.md",
+    "hgx" : "en\/tech\/HGX.md",
+    "horizontal liquidity: how value crosses chains" : "en\/tech\/Vertical Liquidity.md"
+  },
   "toc_info" : {
-    "zh\/life\/20161231-无法想象的世界.md" : [
-
-    ],
-    "zh\/life\/20170826-死亡诗社.md" : [
-
-    ],
-    "zh\/life\/20210616-我的学生时代.md" : [
-
-    ],
-    "zh\/life\/20170910-我的唯一一个教师节.md" : [
-
-    ],
-    "en\/tech\/Ethereum ZK Rollup Era.md" : [
-      "0,# Why focus on Zero-Knowledge (ZK) Rollup?",
-      "1,## Optimistic and Zero Knowledge method comparison",
-      "2,# What Is the Landscape of the ZK Rollup Scalability Solution?",
-      "3,## ZK Rollups Players Comparison",
-      "4,## Advantages of ZK Rollup",
-      "5,## Limitations of ZK Rollup",
-      "6,# What Does the Future of Scaling Look Like",
-      "7,## Technology Issues",
-      "8,# Go-to-Market Issues",
-      "9,## Go-to-Community Issues",
-      "10,# How to Invest in Scaling Ecosystem",
-      "11,# References",
-      "12,# Worth Reading"
-    ],
-    "zh\/tech\/Horizontal liquidity.md" : [
-      "0,# 价值流动的载体",
-      "1,## 交换媒介与价值存储",
-      "2,## 身份、关系与物权",
-      "3,## 去中心化组织与社会",
-      "4,## 价值网络的堆栈",
-      "5,# 价值网络的实现场景"
-    ],
-    "en\/life\/20161101-GOT-Tyrion.md" : [
-
-    ],
-    "zh\/tech\/NFT a Revolution.md" : [
-      "0,# NFT是什么",
-      "1,## 一、定义",
-      "2,## 二、特性与原理",
-      "3,# NFT 有什么用",
-      "4,## 一、所有通证本身",
-      "5,## 二、所有通证 + DeFi",
-      "6,## 三、所有通证 + P2E（Play to Earn）",
-      "7,## 四、所有通证 + C2E（Create to Earn）",
-      "8,## 五、所有通证 + IP \/ 粉丝经济",
-      "9,# NFT 行业市场",
-      "10,## 一、投资趋势",
-      "11,## 二、行业格局",
-      "12,### 基础设施层",
-      "13,### 协议层",
-      "14,### 应用层",
-      "15,# NFT 存在的问题",
-      "16,# NFT 未来方向"
-    ],
-    "zh\/tech\/20200620-hello-world.md" : [
-
-    ],
-    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : [
-      "0,# **克里斯的病**",
-      "1,# **理科男和文科男**",
-      "2,# **古典和浪漫**",
-      "3,# **沙子理论**",
-      "4,# **经验主义**",
-      "5,# **良质**"
-    ],
-    "zh\/tech\/Web3 data.md" : [
-      "0,# 一、数据的产生、收集和存储",
-      "1,## 趋势：去中心化存储——数据和应用主权",
-      "2,# 二、数据的管理",
-      "3,## 趋势：去中心化数据市场",
-      "4,### Ceramic 的数据模型市场",
-      "5,### Ocean 的数据交易市场",
-      "6,# 三、数据的使用与堆栈"
-    ],
-    "zh\/life\/20171001-22岁.md" : [
-
+    "zh\/tech\/技术时代重新思考教育.md" : [
+      "0,## 技术的优势",
+      "1,#### 1. 即时学习，新技术让信息传递更加即时。",
+      "2,#### 2. 用户定制，新技术可以满足个人偏好。",
+      "3,#### 3. 学习者控制，这与用户定制相对应。",
+      "4,#### 4. 即时反馈，更好的交互及模拟游戏。",
+      "5,#### 5. 引导，提供完成任务所需恰当的帮助。",
+      "6,#### 6. 反思，让学习者能够回顾和比较。",
+      "7,## 技术的困境",
+      "8,#### 1. 成本与管理，硬件配套与管理的难题。",
+      "9,#### 2. 机器的局限，计算机所不能教的东西。",
+      "10,#### 3. 教学和权威，教师所感到挑战的东西。",
+      "11,#### 4. 评价，标准化考试评价方式限制了计算机改变学校的方式。"
     ],
     "zh\/life\/20200626-sum2019.md" : [
 
     ],
+    "zh\/tech\/Horizontal Liquidity.md" : [
+      "0,# 受信任的桥",
+      "1,# 去信任化的桥",
+      "2,## 原生验证与本地验证的比较",
+      "3,## 乐观验证与外部验证的比较",
+      "4,# 去信任化桥的性能",
+      "5,## 状态性：通用消息传递",
+      "6,## 连接性：状态验证与共识达成",
+      "7,# 关于横向流动性的一点思考"
+    ],
+    "zh\/tech\/Ethereum ZK Rollup Era.md" : [
+      "0,# 为什么关注 Zero-Knowledge（ZK）  Rollup？",
+      "1,## Optimistic 与 ZK 方案对比",
+      "2,# ZK Rollup 扩容方案的格局是怎样的？",
+      "3,## ZK Rollups 玩家对比",
+      "4,## ZK Rollup 的优势",
+      "5,## ZK Rollup 的痛点",
+      "6,# 扩容的未来是怎样的",
+      "7,## 技术问题",
+      "8,# 走向市场问题",
+      "9,## 走向社区问题",
+      "10,# 如何投资扩容生态",
+      "11,# 参考阅读",
+      "12,# 值得一读"
+    ],
     "zh\/life\/20181230-8102年啊.md" : [
 
     ],
-    "zh\/life\/20151226-life-jiaofu.md" : [
-      "0,# _（1）麦克·柯里昂的忏悔_",
-      "1,# _（2）麦克与凯的对话_",
-      "2,# _（3）麦克与文森的对话_",
-      "3,# _（4）玛丽中弹身亡_"
+    "en\/tech\/Vertical Liquidity.md" : [
+      "0,# The carrier of value flow",
+      "1,## Medium of exchange and store of value",
+      "2,## Identity, relationship and property rights",
+      "3,## Decentralized Organizations and Society",
+      "4,## The stack of the value network",
+      "5,# Realization scenario of value network"
+    ],
+    "zh\/life\/20170910-我的唯一一个教师节.md" : [
+
     ],
     "en\/tech\/NFT a Revolution.md" : [
       "0,# What is NFT",
@@ -111,8 +233,116 @@
       "15,# Problems with NFTs",
       "16,# The future direction of NFT"
     ],
+    "zh\/tech\/20200620-hello-world.md" : [
+
+    ],
+    "en\/life\/20161101-GOT-Tyrion.md" : [
+
+    ],
+    "zh\/life\/20180506-停电的红湖.md" : [
+
+    ],
+    "zh\/life\/20180524-论阅历.md" : [
+
+    ],
+    "zh\/life\/20210616-我的学生时代.md" : [
+
+    ],
+    "zh\/tech\/Horizontal liquidity.md" : [
+      "0,# 价值流动的载体",
+      "1,## 交换媒介与价值存储",
+      "2,## 身份、关系与物权",
+      "3,## 去中心化组织与社会",
+      "4,## 价值网络的堆栈",
+      "5,# 价值网络的实现场景"
+    ],
+    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : [
+      "0,# **良质古典浪漫**",
+      "1,# **道德经与良质**",
+      "2,# **含有良质的解决方法**",
+      "3,# **陷阱：挫折和自我**",
+      "4,# **陷阱：忧虑和枯燥**"
+    ],
+    "zh\/life\/20171001-22岁.md" : [
+
+    ],
     "zh\/life\/20200703-newstart.md" : [
 
+    ],
+    "zh\/tech\/Web3 data.md" : [
+      "0,# 一、数据的产生、收集和存储",
+      "1,## 趋势：去中心化存储——数据和应用主权",
+      "2,# 二、数据的管理",
+      "3,## 趋势：去中心化数据市场",
+      "4,### Ceramic 的数据模型市场",
+      "5,### Ocean 的数据交易市场",
+      "6,# 三、数据的使用与堆栈"
+    ],
+    "en\/tech\/Web3 data.md" : [
+      "0,# 1. Data generation, collection and storage",
+      "1,## Trend: Decentralized Storage - Data and Application Sovereignty",
+      "2,# 2. Data management",
+      "3,## Trend: Decentralized Data Market",
+      "4,### Ceramic's Data Model Market",
+      "5,### Ocean's data trading market",
+      "6,# 3. Data usage and stack"
+    ],
+    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : [
+      "0,# **克里斯的病**",
+      "1,# **理科男和文科男**",
+      "2,# **古典和浪漫**",
+      "3,# **沙子理论**",
+      "4,# **经验主义**",
+      "5,# **良质**"
+    ],
+    "zh\/life\/20210620_rent_house.md" : [
+
+    ],
+    "en\/tech\/Ethereum ZK Rollup Era.md" : [
+      "0,# Why focus on Zero-Knowledge (ZK) Rollup?",
+      "1,## Optimistic and Zero Knowledge method comparison",
+      "2,# What Is the Landscape of the ZK Rollup Scalability Solution?",
+      "3,## ZK Rollups Players Comparison",
+      "4,## Advantages of ZK Rollup",
+      "5,## Limitations of ZK Rollup",
+      "6,# What Does the Future of Scaling Look Like",
+      "7,## Technology Issues",
+      "8,# Go-to-Market Issues",
+      "9,## Go-to-Community Issues",
+      "10,# How to Invest in Scaling Ecosystem",
+      "11,# References",
+      "12,# Worth Reading"
+    ],
+    "zh\/life\/20161231-无法想象的世界.md" : [
+
+    ],
+    "zh\/life\/20151226-life-jiaofu.md" : [
+      "0,# _（1）麦克·柯里昂的忏悔_",
+      "1,# _（2）麦克与凯的对话_",
+      "2,# _（3）麦克与文森的对话_",
+      "3,# _（4）玛丽中弹身亡_"
+    ],
+    "zh\/life\/我的学生时代（二）.md" : [
+
+    ],
+    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : [
+      "0,#### 1. CPM（Cost per mille），每千次展现成本",
+      "1,#### 2. CPC（Cost per click），每次点击成本",
+      "2,#### 3. CPA（Cost per action），每次动作成本",
+      "3,#### 4. CPS（Cost per sale），每次成功交易成本",
+      "4,#### 5. CPL（Cost per lead)，每条数据成本",
+      "5,#### 6. CPR（Cost per response），每次回应成本",
+      "6,#### 7. CPT（Cost per time），每时间段成本",
+      "7,#### 8. OCPC（Optimized Cost per Click），每次点击优化成本",
+      "8,#### 其它的一些广告模式"
+    ],
+    "zh\/tech\/数据科学家与Web 3.0.md" : [
+      "0,# **Web 3.0 到底是什么？**",
+      "1,# 我目前的理解",
+      "2,# 两种定义，至少",
+      "3,# 将数据科学家与 Web 3.0 配对",
+      "4,# 关于海洋协议等平台的最后一个想法",
+      "5,# 我的理解……明天"
     ],
     "zh\/life\/20161117-consulting-TSOC.md" : [
       "0,# 关于这个笔记",
@@ -219,6 +449,42 @@
       "101,## 信任第十定律",
       "102,# 在农场上学到的"
     ],
+    "zh\/life\/20170826-死亡诗社.md" : [
+
+    ],
+    "zh\/about\/_index.md" : [
+
+    ],
+    "zh\/tech\/NFT a Revolution.md" : [
+      "0,# NFT是什么",
+      "1,## 一、定义",
+      "2,## 二、特性与原理",
+      "3,# NFT 有什么用",
+      "4,## 一、所有通证本身",
+      "5,## 二、所有通证 + DeFi",
+      "6,## 三、所有通证 + P2E（Play to Earn）",
+      "7,## 四、所有通证 + C2E（Create to Earn）",
+      "8,## 五、所有通证 + IP \/ 粉丝经济",
+      "9,# NFT 行业市场",
+      "10,## 一、投资趋势",
+      "11,## 二、行业格局",
+      "12,### 基础设施层",
+      "13,### 协议层",
+      "14,### 应用层",
+      "15,# NFT 存在的问题",
+      "16,# NFT 未来方向"
+    ],
+    "zh\/tech\/Vertical Liquidity.md" : [
+      "0,# 价值流动的载体",
+      "1,## 交换媒介与价值存储",
+      "2,## 身份、关系与物权",
+      "3,## 去中心化组织与社会",
+      "4,## 价值网络的堆栈",
+      "5,# 价值网络的实现场景"
+    ],
+    "zh\/life\/20200707-学生毕业.md" : [
+
+    ],
     "en\/tech\/Horizontal Liquidity.md" : [
       "0,# Trusted Bridge",
       "1,# Trustless Bridge",
@@ -229,755 +495,48 @@
       "6,## Connectivity: State Verification and Consensus Reaching",
       "7,# A little reflection on horizontal mobility"
     ],
-    "en\/tech\/Vertical Liquidity.md" : [
-      "0,# The carrier of value flow",
-      "1,## Medium of exchange and store of value",
-      "2,## Identity, relationship and property rights",
-      "3,## Decentralized Organizations and Society",
-      "4,## The stack of the value network",
-      "5,# Realization scenario of value network"
-    ],
-    "zh\/life\/20180506-停电的红湖.md" : [
-
-    ],
-    "en\/tech\/Web3 data.md" : [
-      "0,# 1. Data generation, collection and storage",
-      "1,## Trend: Decentralized Storage - Data and Application Sovereignty",
-      "2,# 2. Data management",
-      "3,## Trend: Decentralized Data Market",
-      "4,### Ceramic's Data Model Market",
-      "5,### Ocean's data trading market",
-      "6,# 3. Data usage and stack"
-    ],
-    "zh\/tech\/Horizontal Liquidity.md" : [
-      "0,# 受信任的桥",
-      "1,# 去信任化的桥",
-      "2,## 原生验证与本地验证的比较",
-      "3,## 乐观验证与外部验证的比较",
-      "4,# 去信任化桥的性能",
-      "5,## 状态性：通用消息传递",
-      "6,## 连接性：状态验证与共识达成",
-      "7,# 关于横向流动性的一点思考"
-    ],
-    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : [
-      "0,# **良质古典浪漫**",
-      "1,# **道德经与良质**",
-      "2,# **含有良质的解决方法**",
-      "3,# **陷阱：挫折和自我**",
-      "4,# **陷阱：忧虑和枯燥**"
-    ],
-    "zh\/life\/20180524-论阅历.md" : [
-
-    ],
-    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : [
-      "0,#### 1. CPM（Cost per mille），每千次展现成本",
-      "1,#### 2. CPC（Cost per click），每次点击成本",
-      "2,#### 3. CPA（Cost per action），每次动作成本",
-      "3,#### 4. CPS（Cost per sale），每次成功交易成本",
-      "4,#### 5. CPL（Cost per lead)，每条数据成本",
-      "5,#### 6. CPR（Cost per response），每次回应成本",
-      "6,#### 7. CPT（Cost per time），每时间段成本",
-      "7,#### 8. OCPC（Optimized Cost per Click），每次点击优化成本",
-      "8,#### 其它的一些广告模式"
-    ],
-    "zh\/life\/20200707-学生毕业.md" : [
-
-    ],
-    "zh\/tech\/技术时代重新思考教育.md" : [
-      "0,## 技术的优势",
-      "1,#### 1. 即时学习，新技术让信息传递更加即时。",
-      "2,#### 2. 用户定制，新技术可以满足个人偏好。",
-      "3,#### 3. 学习者控制，这与用户定制相对应。",
-      "4,#### 4. 即时反馈，更好的交互及模拟游戏。",
-      "5,#### 5. 引导，提供完成任务所需恰当的帮助。",
-      "6,#### 6. 反思，让学习者能够回顾和比较。",
-      "7,## 技术的困境",
-      "8,#### 1. 成本与管理，硬件配套与管理的难题。",
-      "9,#### 2. 机器的局限，计算机所不能教的东西。",
-      "10,#### 3. 教学和权威，教师所感到挑战的东西。",
-      "11,#### 4. 评价，标准化考试评价方式限制了计算机改变学校的方式。"
-    ],
-    "zh\/tech\/Ethereum ZK Rollup Era.md" : [
-      "0,# 为什么关注 Zero-Knowledge（ZK）  Rollup？",
-      "1,## Optimistic 与 ZK 方案对比",
-      "2,# ZK Rollup 扩容方案的格局是怎样的？",
-      "3,## ZK Rollups 玩家对比",
-      "4,## ZK Rollup 的优势",
-      "5,## ZK Rollup 的痛点",
-      "6,# 扩容的未来是怎样的",
-      "7,## 技术问题",
-      "8,# 走向市场问题",
-      "9,## 走向社区问题",
-      "10,# 如何投资扩容生态",
-      "11,# 参考阅读",
-      "12,# 值得一读"
-    ],
-    "zh\/life\/我的学生时代（二）.md" : [
-
-    ],
-    "zh\/tech\/Vertical Liquidity.md" : [
-      "0,# 价值流动的载体",
-      "1,## 交换媒介与价值存储",
-      "2,## 身份、关系与物权",
-      "3,## 去中心化组织与社会",
-      "4,## 价值网络的堆栈",
-      "5,# 价值网络的实现场景"
-    ],
     "en\/about\/_index.md" : [
-
-    ],
-    "zh\/life\/20210620_rent_house.md" : [
-
-    ],
-    "zh\/tech\/数据科学家与Web 3.0.md" : [
-      "0,# **Web 3.0 到底是什么？**",
-      "1,# 我目前的理解",
-      "2,# 两种定义，至少",
-      "3,# 将数据科学家与 Web 3.0 配对",
-      "4,# 关于海洋协议等平台的最后一个想法",
-      "5,# 我的理解……明天"
-    ],
-    "zh\/about\/_index.md" : [
 
     ]
   },
-  "documents_meta_info" : {
-    "zh\/life\/20170910-我的唯一一个教师节.md" : {
-      "tags" : "",
-      "date" : "2017-09-10 00:00:00",
-      "title" : "我的唯一一个教师节",
-      "raw_metadata_str" : "title: 我的唯一一个教师节\ndate: 2017-09-10 00:00:00\ntags: \n- 随笔"
-    },
-    "zh\/tech\/Etheruem ZK Rollup Era.md" : {
-      "description" : "",
-      "raw_metadata_str" : "title: \"以太坊的 ZK Rollup 时代\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "tags" : "",
-      "date" : "2022-04-22T21:51:33+08:00",
-      "comments" : "false",
-      "indent" : "false",
-      "toc" : "false",
-      "title" : "以太坊的 ZK Rollup 时代"
-    },
-    "zh\/about\/_index.md" : {
+  "documents_info" : {
+    "zh\/life\/20161117-consulting-TSOC.md" : {
+      "images" : [
 
+      ],
+      "links" : [
+        {
+          "name" : "购买地址",
+          "url" : "https:\/\/www.amazon.cn\/dp\/B00HFWJI68\/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1479311464&sr=8-1"
+        },
+        {
+          "url" : "http:\/\/liaoyuxing.space\/2016\/10\/28\/mckinsey-interview\/",
+          "name" : "《<Staying one step ahead at Pixar: An interview with Ed Catmull>解读》"
+        },
+        {
+          "url" : "http:\/\/v.youku.com\/v_show\/id_XOTAwMjgwNDQw.html",
+          "name" : "罗辑思维：No.110 大门口的野蛮人"
+        }
+      ],
+      "attachments" : [
+
+      ]
     },
     "zh\/life\/20161231-无法想象的世界.md" : {
-      "date" : "2016-12-31 00:00:00",
-      "description" : "而现在，我正置身于那个“无法想象”的世界。如此一想，便觉得有点好笑。置身于此的我究竟是幸福还是不幸？",
-      "raw_metadata_str" : "title: 无法想象的世界\ndate: 2016-12-31 00:00:00\ndescription: 而现在，我正置身于那个“无法想象”的世界。如此一想，便觉得有点好笑。置身于此的我究竟是幸福还是不幸？\ntags: \n- 随笔\n- 年终总结",
-      "title" : "无法想象的世界",
-      "tags" : ""
-    },
-    "en\/tech\/Horizontal Liquidity.md" : {
-      "indent" : "false",
-      "tags" : "",
-      "raw_metadata_str" : "title: \"Horizontal Liquidity: how value crosses the chain\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- Infrastructure\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Horizontal Liquidity",
-      "description" : "",
-      "slug" : "Horizontal Liquidity",
-      "title" : "Horizontal Liquidity: how value crosses the chain",
-      "date" : "2022-06-16T17:53:33+08:00",
-      "url" : "Horizontal Liquidity",
-      "toc" : "false",
-      "comments" : "false"
-    },
-    "zh\/life\/20161101-GOT-Tyrion.md" : {
-      "description" : "Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.",
-      "raw_metadata_str" : "title: Oedipus the King and Tyrion Lannister\ndate: 2016-11-01 00:00:00\ntags:\n- GameOfThrones\n- 读后感\ndescription: Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.",
-      "title" : "Oedipus the King and Tyrion Lannister",
-      "date" : "2016-11-01 00:00:00",
-      "tags" : ""
-    },
-    "zh\/life\/20181230-8102年啊.md" : {
-      "date" : "2018-12-30 00:00:00",
-      "tags" : "",
-      "title" : "8102年啊",
-      "raw_metadata_str" : "title: 8102年啊\ndate: 2018-12-30 00:00:00\ntags: \n- 随笔\n- 年终总结"
-    },
-    "en\/tech\/Ethereum ZK Rollup Era.md" : {
-      "description" : "Ethereum is about to enter its Layer 2 era, and ZK Rollup is one of the best solutions among all L2 scaling technologies. What kind of sparks can zero-knowledge proof technology and aggregate expansion technology create? How is ZK Rollup better than other scaling technologies? How can it be adopted quickly? From the perspective of investment, how to capture the value of the ZK Rollup era, and what kind of innovative applications will it produce?",
-      "comments" : "false",
-      "indent" : "false",
-      "title" : "Ethereum's ZK Rollup Era",
-      "raw_metadata_str" : "title: \"Ethereum's ZK Rollup Era\"\ndate: 2022-04-22T21:51:33+08:00\ndescription: Ethereum is about to enter its Layer 2 era, and ZK Rollup is one of the best solutions among all L2 scaling technologies. What kind of sparks can zero-knowledge proof technology and aggregate expansion technology create? How is ZK Rollup better than other scaling technologies? How can it be adopted quickly? From the perspective of investment, how to capture the value of the ZK Rollup era, and what kind of innovative applications will it produce?\ntags:\n- Infrastructure\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Ethereum ZK Rollup Era",
-      "date" : "2022-04-22T21:51:33+08:00",
-      "slug" : "Ethereum ZK Rollup Era",
-      "toc" : "false",
-      "tags" : "",
-      "url" : "Ethereum ZK Rollup Era"
-    },
-    "zh\/tech\/数据科学家与Web 3.0.md" : {
-      "toc" : "true",
-      "title" : "数据科学家与 Web 3.0",
-      "comments" : "false",
-      "slug" : "data scientist and web3",
-      "description" : "",
-      "raw_metadata_str" : "title: \"数据科学家与 Web 3.0\"\ndate: 2021-11-22T21:51:33+08:00\ndescription:\ntags:\n- 互联网\n- 数据\n- Web 3.0\nindent: false\ncomments: false\ntoc: true\nslug: data scientist and web3",
-      "url" : "data scientist and web3",
-      "indent" : "false",
-      "tags" : "",
-      "date" : "2021-11-22T21:51:33+08:00"
-    },
-    "en\/tech\/NFT a Revolution.md" : {
-      "url" : "NFT a Revolution",
-      "date" : "2021-12-14T21:51:33+08:00",
-      "indent" : "false",
-      "tags" : "",
-      "comments" : "false",
-      "slug" : "NFT a Revolution",
-      "raw_metadata_str" : "title: \"NFTs: a revolution in digital ownership\"\ndate: 2021-12-14T21:51:33+08:00\ndescription:\ntags:\n- NFT\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: NFT a Revolution",
-      "title" : "NFTs: a revolution in digital ownership",
-      "toc" : "false",
-      "description" : ""
-    },
-    "zh\/tech\/Ethereum ZK Rollup Era.md" : {
-      "tags" : "",
-      "date" : "2022-04-22T21:51:33+08:00",
-      "indent" : "false",
-      "slug" : "Ethereum ZK Rollup Era",
-      "description" : "",
-      "title" : "以太坊的 ZK Rollup 时代",
-      "url" : "Ethereum ZK Rollup Era",
-      "raw_metadata_str" : "title: \"以太坊的 ZK Rollup 时代\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Ethereum ZK Rollup Era",
-      "comments" : "false",
-      "toc" : "false"
-    },
-    "en\/tech\/横向流动性：价值如何跨链.md" : {
-      "comments" : "false",
-      "toc" : "false",
-      "tags" : "",
-      "description" : "",
-      "date" : "2022-06-16T17:53:33+08:00",
-      "title" : "横向流动性：价值如何跨链",
-      "raw_metadata_str" : "title: \"横向流动性：价值如何跨链\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "indent" : "false"
-    },
-    "en\/tech\/当我们谈 Web3 数据，我们在谈些什么？.md" : {
-      "description" : "",
-      "raw_metadata_str" : "title: 当我们谈 Web3 数据，我们在谈些什么？\ndate: 2022-09-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\n- 数据\nindent: false\ncomments: false\ntoc: false",
-      "toc" : "false",
-      "date" : "2022-09-27T10:50:02+08:00",
-      "title" : "当我们谈 Web3 数据，我们在谈些什么？",
-      "comments" : "false",
-      "tags" : "",
-      "indent" : "false"
-    },
-    "zh\/life\/20200707-学生毕业.md" : {
-      "comments" : "false",
-      "toc" : "false",
-      "tags" : "",
-      "raw_metadata_str" : "title: \"我的学生毕业\"\ndate: 2020-07-07T11:15:53+08:00\ntags:\n- 随笔\ncomments: false\ntoc: false",
-      "title" : "我的学生毕业",
-      "date" : "2020-07-07T11:15:53+08:00"
-    },
-    "en\/tech\/Web3 data.md" : {
-      "title" : "When we talk about Web3 data, what are we talking about?",
-      "description" : "",
-      "indent" : "false",
-      "slug" : "Web3 data",
-      "url" : "Web3 data",
-      "tags" : "",
-      "comments" : "false",
-      "raw_metadata_str" : "title: When we talk about Web3 data, what are we talking about?\ndate: 2022-09-27T10:50:02+08:00\ndescription:\ntags:\n- Infrastructure\n- Web 3.0\n- Data\nindent: false\ncomments: false\ntoc: false\nslug: Web3 data",
-      "date" : "2022-09-27T10:50:02+08:00",
-      "toc" : "false"
-    },
-    "zh\/tech\/当我们谈 Web3 数据，我们在谈些什么？.md" : {
-      "tags" : "",
-      "description" : "",
-      "date" : "2022-09-27T10:50:02+08:00",
-      "title" : "当我们谈 Web3 数据，我们在谈些什么？",
-      "comments" : "false",
-      "indent" : "false",
-      "raw_metadata_str" : "title: 当我们谈 Web3 数据，我们在谈些什么？\ndate: 2022-09-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\n- 数据\nindent: false\ncomments: false\ntoc: false",
-      "toc" : "false"
-    },
-    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : {
-      "date" : "2016-10-25 00:00:00",
-      "description" : "Zen and the Art of Motorcycle Maintenance —— by Robert M. Pirsig",
-      "title" : "关于《禅与摩托车维修艺术》解读（一）",
-      "raw_metadata_str" : "title: 关于《禅与摩托车维修艺术》解读（一）\ndate: 2016-10-25 00:00:00\ntags:\n- 读后感\n- 新世相\ndescription: Zen and the Art of Motorcycle Maintenance —— by Robert M. Pirsig",
-      "tags" : ""
-    },
-    "en\/tech\/Vertical Liquidity.md" : {
-      "comments" : "false",
-      "date" : "2022-07-27T10:50:02+08:00",
-      "title" : "Vertical Liquidity: How Value Interconnects",
-      "description" : "",
-      "indent" : "false",
-      "url" : "Vertical Liquidity",
-      "tags" : "",
-      "toc" : "false",
-      "slug" : "Vertical Liquidity",
-      "raw_metadata_str" : "title: \"Vertical Liquidity: How Value Interconnects\"\ndate: 2022-07-27T10:50:02+08:00\ndescription:\ntags:\n- Infrastructure\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Vertical Liquidity"
-    },
-    "zh\/life\/我的学生时代（二）.md" : {
-      "toc" : "false",
-      "date" : "2021-07-02T13:27:04+08:00",
-      "raw_metadata_str" : "title: \"我的学生时代（二）\"\ndate: 2021-07-02T13:27:04+08:00\ndescription:\ntags:\n- 随笔\nindent: false\ncomments: false\ntoc: false",
-      "comments" : "false",
-      "title" : "我的学生时代（二）",
-      "indent" : "false",
-      "tags" : "",
-      "description" : ""
-    },
-    "zh\/tech\/Horizontal Liquidity.md" : {
-      "description" : "",
-      "comments" : "false",
-      "url" : "Horizontal Liquidity",
-      "title" : "横向流动性：价值如何跨链",
-      "slug" : "Horizontal Liquidity",
-      "indent" : "false",
-      "tags" : "",
-      "date" : "2022-06-16T17:53:33+08:00",
-      "raw_metadata_str" : "title: \"横向流动性：价值如何跨链\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Horizontal Liquidity",
-      "toc" : "false"
-    },
-    "zh\/tech\/Web3 data.md" : {
-      "raw_metadata_str" : "title: 当我们谈 Web3 数据，我们在谈些什么？\ndate: 2022-09-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\n- 数据\nindent: false\ncomments: false\ntoc: false\nslug: Web3 data",
-      "title" : "当我们谈 Web3 数据，我们在谈些什么？",
-      "url" : "Web3 data",
-      "indent" : "false",
-      "toc" : "false",
-      "description" : "",
-      "comments" : "false",
-      "tags" : "",
-      "slug" : "Web3 data",
-      "date" : "2022-09-27T10:50:02+08:00"
-    },
-    "zh\/life\/20151226-life-jiaofu.md" : {
-      "tags" : "",
-      "description" : "一个人无聊看教父",
-      "title" : "关于《教父》III",
-      "date" : "2015-12-26 00:00:00",
-      "raw_metadata_str" : "title: 关于《教父》III\ndate: 2015-12-26 00:00:00\ntags:\n- 影评\ndescription: 一个人无聊看教父"
-    },
-    "zh\/tech\/Vertical Liquidity.md" : {
-      "tags" : "",
-      "url" : "Vertical Liquidity",
-      "title" : "纵向流动性：价值如何互联互通",
-      "description" : "",
-      "toc" : "false",
-      "comments" : "false",
-      "date" : "2022-07-27T10:50:02+08:00",
-      "slug" : "Vertical Liquidity",
-      "raw_metadata_str" : "title: 纵向流动性：价值如何互联互通\ndate: 2022-07-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Vertical Liquidity",
-      "indent" : "false"
-    },
-    "zh\/tech\/NFT：数字所有权的革命 c316e90fc5494b8aadabca85ce5fd219.md" : {
-      "date" : "2021-12-14T21:51:33+08:00",
-      "toc" : "false",
-      "comments" : "false",
-      "raw_metadata_str" : "title: \"NFT：数字所有权的革命\"\ndate: 2021-12-14T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "tags" : "",
-      "title" : "NFT：数字所有权的革命",
-      "description" : "",
-      "indent" : "false"
-    },
-    "en\/tech\/HGX.md" : {
-      "toc" : "false",
-      "description" : "",
-      "tags" : "",
-      "indent" : "false",
-      "comments" : "false",
-      "title" : "Horizontal liquidity: how value crosses the chain",
-      "raw_metadata_str" : "title: \"Horizontal liquidity: how value crosses the chain\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- Infrastructure\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "date" : "2022-06-16T17:53:33+08:00"
-    },
-    "zh\/life\/20200626-sum2019.md" : {
-      "title" : "迟到半年的2019年总结",
-      "toc" : "false",
-      "tags" : "",
-      "comments" : "false",
-      "date" : "2020-06-26T12:26:59+08:00",
-      "raw_metadata_str" : "title: \"迟到半年的2019年总结\"\ndate: 2020-06-26T12:26:59+08:00\ntags:\n- 年终总结\ncomments: false\ntoc: false"
-    },
-    "zh\/tech\/以太坊的 ZK Rollup 时代 c011023e165642a8a52fdb3167a1703f.md" : {
-      "description" : "",
-      "comments" : "false",
-      "indent" : "false",
-      "tags" : "",
-      "toc" : "false",
-      "date" : "2022-04-22T21:51:33+08:00",
-      "raw_metadata_str" : "title: \"以太坊的 ZK Rollup 时代\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "title" : "以太坊的 ZK Rollup 时代"
-    },
-    "zh\/tech\/纵向流动性：价值如何互联互通.md" : {
-      "indent" : "false",
-      "raw_metadata_str" : "title: 纵向流动性：价值如何互联互通\ndate: 2022-07-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "title" : "纵向流动性：价值如何互联互通",
-      "tags" : "",
-      "description" : "",
-      "toc" : "false",
-      "date" : "2022-07-27T10:50:02+08:00",
-      "comments" : "false"
-    },
-    "zh\/life\/20171001-22岁.md" : {
-      "date" : "2017-10-01 00:00:00",
-      "title" : "22岁",
-      "tags" : "",
-      "raw_metadata_str" : "title: 22岁\ndate: 2017-10-01 00:00:00\ntags: \n- 随笔"
-    },
-    "zh\/tech\/20200620-hello-world.md" : {
-      "raw_metadata_str" : "title: \"Hello World\"\ndate: 2020-06-20T10:50:02+08:00\ntags:\n- Hello World\nslug: hello world",
-      "slug" : "hello world",
-      "title" : "Hello World",
-      "tags" : "",
-      "date" : "2020-06-20T10:50:02+08:00",
-      "url" : "hello world"
-    },
-    "zh\/life\/20170826-死亡诗社.md" : {
-      "date" : "2017-08-26 00:00:00",
-      "title" : "死亡诗社",
-      "tags" : "",
-      "raw_metadata_str" : "title: 死亡诗社\ndate: 2017-08-26 00:00:00\ntags: \n- 随笔"
-    },
-    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : {
-      "raw_metadata_str" : "title: 关于《禅与摩托车维修艺术》解读（二）\ndate: 2016-10-26 00:00:00\ntags:\n- 新世相\n- 读后感\ndescription: Zen and the Art of Motorcycle Maintenance——by Robert M. Pirsig",
-      "date" : "2016-10-26 00:00:00",
-      "tags" : "",
-      "title" : "关于《禅与摩托车维修艺术》解读（二）",
-      "description" : "Zen and the Art of Motorcycle Maintenance——by Robert M. Pirsig"
-    },
-    "en\/tech\/以太坊的 ZK Rollup 时代.md" : {
-      "toc" : "false",
-      "date" : "2022-04-22T21:51:33+08:00",
-      "tags" : "",
-      "comments" : "false",
-      "raw_metadata_str" : "title: \"以太坊的 ZK Rollup 时代\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "indent" : "false",
-      "description" : "",
-      "title" : "以太坊的 ZK Rollup 时代"
-    },
-    "zh\/tech\/横向流动性：价值如何跨链 881ba3d9cdb446888dcb41b0f3a89ffc.md" : {
-      "date" : "2022-06-16T17:53:33+08:00",
-      "tags" : "",
-      "raw_metadata_str" : "title: \"横向流动性：价值如何跨链\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "comments" : "false",
-      "indent" : "false",
-      "description" : "",
-      "toc" : "false",
-      "title" : "横向流动性：价值如何跨链"
-    },
-    "zh\/tech\/以太坊的 ZK Rollup 时代.md" : {
-      "raw_metadata_str" : "title: \"以太坊的 ZK Rollup 时代\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "tags" : "",
-      "description" : "",
-      "comments" : "false",
-      "date" : "2022-04-22T21:51:33+08:00",
-      "title" : "以太坊的 ZK Rollup 时代",
-      "toc" : "false",
-      "indent" : "false"
-    },
-    "zh\/life\/20180506-停电的红湖.md" : {
-      "title" : "停电的红湖",
-      "raw_metadata_str" : "title: 停电的红湖\ndate: 2018-05-06 00:00:00\ntags: \n- 随笔",
-      "tags" : "",
-      "date" : "2018-05-06 00:00:00"
-    },
-    "en\/tech\/NFT：数字所有权的革命.md" : {
-      "title" : "NFT：数字所有权的革命",
-      "date" : "2021-12-14T21:51:33+08:00",
-      "toc" : "false",
-      "comments" : "false",
-      "indent" : "false",
-      "tags" : "",
-      "description" : "",
-      "raw_metadata_str" : "title: \"NFT：数字所有权的革命\"\ndate: 2021-12-14T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false"
-    },
-    "zh\/life\/20210616-我的学生时代.md" : {
-      "tags" : "",
-      "toc" : "false",
-      "indent" : "false",
-      "comments" : "false",
-      "description" : "",
-      "title" : "我的学生时代（一）",
-      "date" : "2021-06-06T00:49:43+08:00",
-      "raw_metadata_str" : "title: \"我的学生时代（一）\"\ndate: 2021-06-06T00:49:43+08:00\ndescription:\ntags:\n- 随笔\nindent: false\ncomments: false\ntoc: false"
-    },
-    "zh\/life\/20200703-newstart.md" : {
-      "comments" : "false",
-      "raw_metadata_str" : "title: \"续了五年\"\ndate: 2020-07-03T10:40:07+08:00\ntags: \n- 杂记\ncomments: false\ntoc: true",
-      "tags" : "",
-      "toc" : "true",
-      "title" : "续了五年",
-      "date" : "2020-07-03T10:40:07+08:00"
-    },
-    "zh\/tech\/Horizontal liquidity.md" : {
-      "raw_metadata_str" : "title: 纵向流动性：价值如何互联互通\ndate: 2022-07-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "tags" : "",
-      "toc" : "false",
-      "title" : "纵向流动性：价值如何互联互通",
-      "indent" : "false",
-      "date" : "2022-07-27T10:50:02+08:00",
-      "comments" : "false",
-      "description" : ""
-    },
-    "zh\/tech\/NFT：数字所有权的革命.md" : {
-      "tags" : "",
-      "raw_metadata_str" : "title: \"NFT：数字所有权的革命\"\ndate: 2021-12-14T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "title" : "NFT：数字所有权的革命",
-      "description" : "",
-      "toc" : "false",
-      "date" : "2021-12-14T21:51:33+08:00",
-      "comments" : "false",
-      "indent" : "false"
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
     },
     "zh\/tech\/NFT a Revolution.md" : {
-      "url" : "NFT a Revolution",
-      "title" : "NFT：数字所有权的革命",
-      "tags" : "",
-      "description" : "",
-      "indent" : "false",
-      "toc" : "false",
-      "comments" : "false",
-      "raw_metadata_str" : "title: \"NFT：数字所有权的革命\"\ndate: 2021-12-14T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: NFT a Revolution",
-      "date" : "2021-12-14T21:51:33+08:00",
-      "slug" : "NFT a Revolution"
-    },
-    "zh\/life\/20161117-consulting-TSOC.md" : {
-      "date" : "2016-11-17 00:00:00",
-      "description" : "这是一篇关于一本富含智慧的书的笔记。",
-      "raw_metadata_str" : "title: \"《咨询的奥秘：寻求和提出建议的智慧》笔记\"\ndate: 2016-11-17 00:00:00\ntags:\n- 咨询\n- 读后感\ndescription: 这是一篇关于一本富含智慧的书的笔记。\ncomments: true",
-      "tags" : "",
-      "title" : "《咨询的奥秘：寻求和提出建议的智慧》笔记",
-      "comments" : "true"
-    },
-    "en\/tech\/Etheruem ZK Rollup Era.md" : {
-      "toc" : "false",
-      "tags" : "",
-      "title" : "Ethereum's ZK Rollup Era",
-      "description" : "",
-      "date" : "2022-04-22T21:51:33+08:00",
-      "raw_metadata_str" : "title: \"Ethereum's ZK Rollup Era\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "comments" : "false",
-      "indent" : "false"
-    },
-    "en\/life\/20161101-GOT-Tyrion.md" : {
-      "tags" : "",
-      "date" : "2016-11-01 00:00:00",
-      "title" : "Oedipus the King and Tyrion Lannister",
-      "raw_metadata_str" : "title: Oedipus the King and Tyrion Lannister\ndate: 2016-11-01 00:00:00\ntags:\n- GameOfThrones\n- 读后感\ndescription: Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.",
-      "description" : "Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character."
-    },
-    "zh\/life\/20210620_rent_house.md" : {
-      "title" : "租房见闻",
-      "description" : "",
-      "toc" : "false",
-      "date" : "2021-06-20T23:08:27+08:00",
-      "tags" : "",
-      "raw_metadata_str" : "title: \"租房见闻\"\ndate: 2021-06-20T23:08:27+08:00\ndescription:\ntags:\n- 随笔\ncomments: false\ntoc: false",
-      "comments" : "false"
-    },
-    "zh\/tech\/技术时代重新思考教育.md" : {
-      "comments" : "false",
-      "raw_metadata_str" : "title: \"技术时代教育会发生怎样的变革？\"\ndate: 2021-10-27T21:51:33+08:00\ndescription:\ntags:\n- 互联网\n- 教育\nindent: false\ncomments: false\ntoc: true\nslug: education in tech era",
-      "indent" : "false",
-      "description" : "",
-      "tags" : "",
-      "toc" : "true",
-      "date" : "2021-10-27T21:51:33+08:00",
-      "url" : "education in tech era",
-      "title" : "技术时代教育会发生怎样的变革？",
-      "slug" : "education in tech era"
-    },
-    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : {
-      "tags" : "",
-      "slug" : "what's the meaning of cpm cpc cpa cps cpl cpr and ocpc",
-      "toc" : "false",
-      "title" : "互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？",
-      "description" : "",
-      "comments" : "false",
-      "date" : "2021-10-27T17:40:34+08:00",
-      "url" : "what's the meaning of cpm cpc cpa cps cpl cpr and ocpc",
-      "indent" : "false",
-      "raw_metadata_str" : "title: \"互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？\"\ndate: 2021-10-27T17:40:34+08:00\ndescription:\ntags:\n- 互联网\n- 商业化\nindent: false\ncomments: false\ntoc: false\nslug: what's the meaning of cpm cpc cpa cps cpl cpr and ocpc"
-    },
-    "zh\/life\/20180524-论阅历.md" : {
-      "raw_metadata_str" : "title: 论阅历\ndate: 2018-05-24 00:00:00\ntags: \n- 随笔",
-      "title" : "论阅历",
-      "date" : "2018-05-24 00:00:00",
-      "tags" : ""
-    },
-    "en\/about\/_index.md" : {
-
-    },
-    "zh\/tech\/横向流动性：价值如何跨链.md" : {
-      "description" : "",
-      "raw_metadata_str" : "title: \"横向流动性：价值如何跨链\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
-      "title" : "横向流动性：价值如何跨链",
-      "indent" : "false",
-      "comments" : "false",
-      "toc" : "false",
-      "tags" : "",
-      "date" : "2022-06-16T17:53:33+08:00"
-    }
-  },
-  "toc_hash_info" : {
-
-  },
-  "relative_folders" : [
-    "zh",
-    "zh\/about",
-    "zh\/life",
-    "zh\/tech",
-    "zh\/tech\/_image",
-    "zh\/tech\/_image\/2022-05-17",
-    "en",
-    "en\/about",
-    "en\/tech",
-    "en\/life",
-    "zh\/tech\/_image\/2022-07-27"
-  ],
-  "documents_info" : {
-    "zh\/tech\/Vertical Liquidity.md" : {
-      "links" : [
-        {
-          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-how-money-works-today\/",
-          "name" : "最基本的价值"
-        },
-        {
-          "name" : "价值存储",
-          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-wealth-transfer\/"
-        },
-        {
-          "url" : "https:\/\/vitalik.ca\/general\/2017\/10\/17\/moe.html",
-          "name" : "交换媒介"
-        },
-        {
-          "name" : "内在协调",
-          "url" : "https:\/\/mirror.xyz\/0xe7175fe936E9AfdEb0CACe5b88E45CEe3387ffb8\/RLDoHJMElSOVPVFtVmQsgtsWCw96C1ulhPsnQGZlIhQ"
-        },
-        {
-          "name" : "区块链治理",
-          "url" : "https:\/\/vitalik.ca\/general\/2017\/12\/17\/voting.html"
-        },
-        {
-          "name" : "扩容终局",
-          "url" : "https:\/\/vitalik.ca\/general\/2021\/12\/06\/endgame.html"
-        },
-        {
-          "url" : "https:\/\/vitalik.ca\/general\/2022\/01\/26\/soulbound.html",
-          "name" : "灵魂绑定"
-        },
-        {
-          "url" : "https:\/\/www.woshipm.com\/pd\/454843.html",
-          "name" : "原生性"
-        },
-        {
-          "url" : "https:\/\/mirror.xyz\/bubai.eth\/KAgr16vN8IRtjHARFQ6Wx35OmgLj9Oh2qcRkiiNw_OE",
-          "name" : "数字所有权的革命"
-        },
-        {
-          "url" : "https:\/\/papers.ssrn.com\/sol3\/papers.cfm?abstract_id=4105763",
-          "name" : "去中心化社会"
-        },
-        {
-          "name" : "社交恢复",
-          "url" : "https:\/\/vitalik.ca\/general\/2021\/01\/11\/recovery.html"
-        },
-        {
-          "name" : "有利于经济发展",
-          "url" : "http:\/\/www.shkxjk.com\/CN\/abstract\/abstract3675.shtml"
-        },
-        {
-          "url" : "https:\/\/books.google.com.hk\/books\/about\/%E4%BF%A1%E4%BB%BB.html?id=FJ9LAAAACAAJ&redir_esc=y",
-          "name" : "影响机理"
-        }
-      ],
       "attachments" : [
 
       ],
-      "images" : [
-
-      ]
-    },
-    "zh\/tech\/Horizontal Liquidity.md" : {
-      "images" : [
-
-      ],
-      "attachments" : [
-
-      ],
-      "links" : [
-        {
-          "url" : "https:\/\/member.fintech.global\/2021\/11\/12\/binance-suspends-dogecoin-withdrawals\/#:~:text=Crypto%20currency%20exchange%20Binance%20has,version%20update%20on%20November%2011.",
-          "name" : "Binance suspends dogecoin withdrawals"
-        },
-        {
-          "name" : "研究论文",
-          "url" : "https:\/\/arxiv.org\/pdf\/1904.06441.pdf"
-        },
-        {
-          "url" : "https:\/\/blog.li.fi\/li-fi-with-bridges-trust-is-a-spectrum-354cd5a1a6d8",
-          "name" : "去信任化是一个程度"
-        },
-        {
-          "url" : "https:\/\/blog.connext.network\/the-interoperability-trilemma-657c2cf69f17",
-          "name" : "系统的验证人是谁？"
-        },
-        {
-          "name" : "不同的设计机制",
-          "url" : "https:\/\/blog.li.fi\/what-are-blockchain-bridges-and-how-can-we-classify-them-560dc6ec05fa"
-        },
-        {
-          "name" : "Polygon PoS 桥",
-          "url" : "https:\/\/docs.polygon.technology\/docs\/develop\/ethereum-polygon\/pos\/getting-started\/"
-        },
-        {
-          "url" : "https:\/\/axelar.network\/",
-          "name" : "Axelar"
-        },
-        {
-          "url" : "https:\/\/medium.com\/1kxnetwork\/blockchain-bridges-5db6afac44f8",
-          "name" : "评估桥的设计"
-        }
-      ]
-    },
-    "zh\/life\/20200707-学生毕业.md" : {
-      "images" : [
-
-      ],
-      "links" : [
-
-      ],
-      "attachments" : [
-
-      ]
-    },
-    "en\/about\/_index.md" : {
-      "images" : [
-
-      ],
-      "links" : [
-
-      ],
-      "attachments" : [
-
-      ]
-    },
-    "zh\/life\/20161231-无法想象的世界.md" : {
-      "links" : [
-
-      ],
-      "attachments" : [
-
-      ],
-      "images" : [
-
-      ]
-    },
-    "zh\/life\/20200626-sum2019.md" : {
-      "attachments" : [
-
-      ],
-      "links" : [
-
-      ],
-      "images" : [
-
-      ]
-    },
-    "en\/tech\/NFT a Revolution.md" : {
       "links" : [
         {
           "name" : "What Are NFTs and How Can They Be Used in Decentralized Finance? DEFI Explained",
@@ -1012,12 +571,12 @@
           "name" : "Axie Infinity"
         },
         {
-          "url" : "https:\/\/alienworlds.io\/",
-          "name" : "Alien Worlds"
+          "name" : "Alien Worlds",
+          "url" : "https:\/\/alienworlds.io\/"
         },
         {
-          "url" : "https:\/\/decentraland.org\/",
-          "name" : "Decentraland"
+          "name" : "Decentraland",
+          "url" : "https:\/\/decentraland.org\/"
         },
         {
           "url" : "https:\/\/www.sandbox.game\/",
@@ -1032,36 +591,36 @@
           "name" : "Digitalax"
         },
         {
-          "url" : "https:\/\/makersplace.com\/",
-          "name" : "Makersplace"
+          "name" : "Makersplace",
+          "url" : "https:\/\/makersplace.com\/"
         },
         {
-          "url" : "https:\/\/superrare.co\/",
-          "name" : "SuperRare"
+          "name" : "SuperRare",
+          "url" : "https:\/\/superrare.co\/"
         },
         {
-          "name" : "CryptoPunks",
-          "url" : "https:\/\/www.larvalabs.com\/cryptopunks"
+          "url" : "https:\/\/www.larvalabs.com\/cryptopunks",
+          "name" : "CryptoPunks"
         },
         {
-          "url" : "https:\/\/larvalabs.com\/autoglyphs",
-          "name" : "Autoglyphs"
+          "name" : "Autoglyphs",
+          "url" : "https:\/\/larvalabs.com\/autoglyphs"
         },
         {
-          "name" : "Mirror",
-          "url" : "https:\/\/mirror.xyz\/"
+          "url" : "https:\/\/mirror.xyz\/",
+          "name" : "Mirror"
         },
         {
-          "url" : "https:\/\/www.darkblock.io\/",
-          "name" : "Darkblock"
+          "name" : "Darkblock",
+          "url" : "https:\/\/www.darkblock.io\/"
         },
         {
           "name" : "TerraVirtua",
           "url" : "https:\/\/terravirtua.io\/"
         },
         {
-          "url" : "https:\/\/www.mintbase.io\/zh",
-          "name" : "Mintbase"
+          "name" : "Mintbase",
+          "url" : "https:\/\/www.mintbase.io\/zh"
         },
         {
           "name" : "SportZchain",
@@ -1076,8 +635,8 @@
           "name" : "Monaco Planet"
         },
         {
-          "name" : "NiftEx",
-          "url" : "https:\/\/www.niftex.com\/"
+          "url" : "https:\/\/www.niftex.com\/",
+          "name" : "NiftEx"
         },
         {
           "name" : "Upshot",
@@ -1088,352 +647,12 @@
           "name" : "NFT20"
         },
         {
-          "name" : "NFTX",
-          "url" : "https:\/\/nftx.org\/"
+          "url" : "https:\/\/nftx.org\/",
+          "name" : "NFTX"
         },
         {
           "name" : "Uniswap V3",
           "url" : "https:\/\/uniswap.org\/"
-        },
-        {
-          "name" : "Aavegotchi",
-          "url" : "http:\/\/www.aavegotchi.com\/"
-        },
-        {
-          "url" : "https:\/\/yinsure.finance\/",
-          "name" : "Yinsure.finance"
-        },
-        {
-          "url" : "https:\/\/cryptoart.io\/",
-          "name" : "Cryptoart.io"
-        },
-        {
-          "name" : "Nonfungible",
-          "url" : "https:\/\/nonfungible.com\/"
-        },
-        {
-          "url" : "https:\/\/oceanprotocol.com\/",
-          "name" : "Ocean"
-        },
-        {
-          "name" : "Whale DAO",
-          "url" : "https:\/\/whale.me\/"
-        },
-        {
-          "name" : "Flamingo",
-          "url" : "https:\/\/flamingo.finance\/"
-        },
-        {
-          "name" : "MetaPurse",
-          "url" : "https:\/\/www.metapurse.fund\/"
-        },
-        {
-          "name" : "Collab.land",
-          "url" : "https:\/\/collab.land\/"
-        },
-        {
-          "url" : "https:\/\/opensea.io\/",
-          "name" : "OpenSea"
-        },
-        {
-          "name" : "Auctionity",
-          "url" : "https:\/\/www.auctionity.com\/"
-        },
-        {
-          "name" : "TokenTrove",
-          "url" : "https:\/\/tokentrove.com\/"
-        },
-        {
-          "name" : "NFTfi",
-          "url" : "https:\/\/nftfi.com\/"
-        },
-        {
-          "url" : "https:\/\/pawnhouse.io\/",
-          "name" : "Pawnhouse"
-        },
-        {
-          "url" : "https:\/\/nftbank.ai\/",
-          "name" : "NFT Bank"
-        },
-        {
-          "url" : "https:\/\/messari.io\/research\/mason-nystrom",
-          "name" : "Mason Nystrom"
-        }
-      ],
-      "images" : [
-
-      ],
-      "attachments" : [
-
-      ]
-    },
-    "en\/tech\/Horizontal Liquidity.md" : {
-      "links" : [
-        {
-          "name" : "Binance suspends dogecoin withdrawals",
-          "url" : "https:\/\/member.fintech.global\/2021\/11\/12\/binance-suspends-dogecoin-withdrawals\/#:~:text=Crypto%20currency%20exchange%20Binance%20has,version%20update%20on%20November%2011."
-        },
-        {
-          "name" : "research paper",
-          "url" : "https:\/\/arxiv.org\/pdf\/1904.06441.pdf"
-        },
-        {
-          "url" : "https:\/\/blog.li.fi\/li-fi-with-bridges-trust-is-a-spectrum-354cd5a1a6d8",
-          "name" : "trustless is a spectrum"
-        },
-        {
-          "url" : "https:\/\/blog.connext.network\/the-interoperability-trilemma-657c2cf69f17",
-          "name" : "Who is the verifier of the system?"
-        },
-        {
-          "url" : "https:\/\/blog.li.fi\/what-are-blockchain-bridges-and-how-can-we-classify-them-560dc6ec05fa",
-          "name" : "different design mechanisms"
-        },
-        {
-          "name" : "Polygon PoS Bridge",
-          "url" : "https:\/\/docs.polygon.technology\/docs\/develop\/ethereum-polygon\/pos\/getting-started\/"
-        },
-        {
-          "name" : "Axelar",
-          "url" : "https:\/\/axelar.network\/"
-        },
-        {
-          "name" : "to evaluate bridge design",
-          "url" : "https:\/\/medium.com\/1kxnetwork\/blockchain-bridges-5db6afac44f8"
-        }
-      ],
-      "images" : [
-
-      ],
-      "attachments" : [
-
-      ]
-    },
-    "zh\/tech\/技术时代重新思考教育.md" : {
-      "images" : [
-
-      ],
-      "attachments" : [
-
-      ],
-      "links" : [
-
-      ]
-    },
-    "zh\/tech\/Horizontal liquidity.md" : {
-      "attachments" : [
-
-      ],
-      "images" : [
-
-      ],
-      "links" : [
-        {
-          "name" : "English Version",
-          "url" : "https:\/\/www.bubais.top\/en\/tech\/hgx\/"
-        },
-        {
-          "name" : "最基本的价值",
-          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-how-money-works-today\/"
-        },
-        {
-          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-wealth-transfer\/",
-          "name" : "价值存储"
-        },
-        {
-          "name" : "交换媒介",
-          "url" : "https:\/\/vitalik.ca\/general\/2017\/10\/17\/moe.html"
-        },
-        {
-          "url" : "https:\/\/mirror.xyz\/0xe7175fe936E9AfdEb0CACe5b88E45CEe3387ffb8\/RLDoHJMElSOVPVFtVmQsgtsWCw96C1ulhPsnQGZlIhQ",
-          "name" : "内在协调"
-        },
-        {
-          "url" : "https:\/\/vitalik.ca\/general\/2017\/12\/17\/voting.html",
-          "name" : "区块链治理"
-        },
-        {
-          "name" : "扩容终局",
-          "url" : "https:\/\/vitalik.ca\/general\/2021\/12\/06\/endgame.html"
-        },
-        {
-          "name" : "灵魂绑定",
-          "url" : "https:\/\/vitalik.ca\/general\/2022\/01\/26\/soulbound.html"
-        },
-        {
-          "name" : "原生性",
-          "url" : "https:\/\/www.woshipm.com\/pd\/454843.html"
-        },
-        {
-          "url" : "https:\/\/mirror.xyz\/bubai.eth\/KAgr16vN8IRtjHARFQ6Wx35OmgLj9Oh2qcRkiiNw_OE",
-          "name" : "数字所有权的革命"
-        },
-        {
-          "name" : "去中心化社会",
-          "url" : "https:\/\/papers.ssrn.com\/sol3\/papers.cfm?abstract_id=4105763"
-        },
-        {
-          "name" : "社交恢复",
-          "url" : "https:\/\/vitalik.ca\/general\/2021\/01\/11\/recovery.html"
-        },
-        {
-          "url" : "http:\/\/www.shkxjk.com\/CN\/abstract\/abstract3675.shtml",
-          "name" : "有利于经济发展"
-        },
-        {
-          "name" : "影响机理",
-          "url" : "https:\/\/books.google.com.hk\/books\/about\/%E4%BF%A1%E4%BB%BB.html?id=FJ9LAAAACAAJ&redir_esc=y"
-        }
-      ]
-    },
-    "zh\/tech\/20200620-hello-world.md" : {
-      "attachments" : [
-
-      ],
-      "images" : [
-
-      ],
-      "links" : [
-
-      ]
-    },
-    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : {
-      "images" : [
-
-      ],
-      "attachments" : [
-
-      ],
-      "links" : [
-        {
-          "url" : "http:\/\/v.youku.com\/v_show\/id_XMTM0Mzg5MzU4NA==.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0",
-          "name" : "在这里"
-        }
-      ]
-    },
-    "zh\/tech\/NFT a Revolution.md" : {
-      "images" : [
-
-      ],
-      "attachments" : [
-
-      ],
-      "links" : [
-        {
-          "url" : "https:\/\/www.youtube.com\/watch?v=Xdkkux6OxfM",
-          "name" : "What Are NFTs and How Can They Be Used in Decentralized Finance? DEFI Explained"
-        },
-        {
-          "name" : "Dak Prescott",
-          "url" : "https:\/\/medium.com\/ethernitychain\/dak-prescott-x-ethernity-89e558ebd880"
-        },
-        {
-          "name" : "NFT 融资轮次",
-          "url" : "https:\/\/www.notion.so\/66f7d6cdc07241c180b02037150324d6"
-        },
-        {
-          "url" : "https:\/\/www.notion.so\/dc233522b8ec43b5a70b207d1a70b04f",
-          "name" : "融资金额"
-        },
-        {
-          "name" : "NFT 产业赛道",
-          "url" : "https:\/\/www.notion.so\/1177a7bb3a904b05aa7867f0a34a9620"
-        },
-        {
-          "name" : "NBA Top Shot",
-          "url" : "https:\/\/nbatopshot.com\/"
-        },
-        {
-          "url" : "https:\/\/sorare.com\/",
-          "name" : "Sorare"
-        },
-        {
-          "url" : "https:\/\/axieinfinity.com\/",
-          "name" : "Axie Infinity"
-        },
-        {
-          "name" : "Alien Worlds",
-          "url" : "https:\/\/alienworlds.io\/"
-        },
-        {
-          "url" : "https:\/\/decentraland.org\/",
-          "name" : "Decentraland"
-        },
-        {
-          "name" : "The Sandbox",
-          "url" : "https:\/\/www.sandbox.game\/"
-        },
-        {
-          "url" : "https:\/\/royal.io\/",
-          "name" : "Royal"
-        },
-        {
-          "name" : "Digitalax",
-          "url" : "https:\/\/www.digitalax.xyz\/homepage"
-        },
-        {
-          "name" : "Makersplace",
-          "url" : "https:\/\/makersplace.com\/"
-        },
-        {
-          "url" : "https:\/\/superrare.co\/",
-          "name" : "SuperRare"
-        },
-        {
-          "name" : "CryptoPunks",
-          "url" : "https:\/\/www.larvalabs.com\/cryptopunks"
-        },
-        {
-          "name" : "Autoglyphs",
-          "url" : "https:\/\/larvalabs.com\/autoglyphs"
-        },
-        {
-          "name" : "Mirror",
-          "url" : "https:\/\/mirror.xyz\/"
-        },
-        {
-          "url" : "https:\/\/www.darkblock.io\/",
-          "name" : "Darkblock"
-        },
-        {
-          "url" : "https:\/\/terravirtua.io\/",
-          "name" : "TerraVirtua"
-        },
-        {
-          "url" : "https:\/\/www.mintbase.io\/zh",
-          "name" : "Mintbase"
-        },
-        {
-          "url" : "https:\/\/www.sportzchain.com\/",
-          "name" : "SportZchain"
-        },
-        {
-          "url" : "https:\/\/chingari.io\/",
-          "name" : "Chingari"
-        },
-        {
-          "name" : "Monaco Planet",
-          "url" : "https:\/\/monaconft.io\/"
-        },
-        {
-          "name" : "NiftEx",
-          "url" : "https:\/\/www.niftex.com\/"
-        },
-        {
-          "name" : "Upshot",
-          "url" : "https:\/\/upshot.io\/"
-        },
-        {
-          "name" : "NFT20",
-          "url" : "https:\/\/nft20.io\/"
-        },
-        {
-          "name" : "NFTX",
-          "url" : "https:\/\/nftx.org\/"
-        },
-        {
-          "url" : "https:\/\/uniswap.org\/",
-          "name" : "Uniswap V3"
         },
         {
           "url" : "http:\/\/www.aavegotchi.com\/",
@@ -1460,16 +679,16 @@
           "name" : "Whale DAO"
         },
         {
-          "name" : "Flamingo",
-          "url" : "https:\/\/flamingo.finance\/"
+          "url" : "https:\/\/flamingo.finance\/",
+          "name" : "Flamingo"
         },
         {
-          "name" : "MetaPurse",
-          "url" : "https:\/\/www.metapurse.fund\/"
+          "url" : "https:\/\/www.metapurse.fund\/",
+          "name" : "MetaPurse"
         },
         {
-          "name" : "Collab.land",
-          "url" : "https:\/\/collab.land\/"
+          "url" : "https:\/\/collab.land\/",
+          "name" : "Collab.land"
         },
         {
           "url" : "https:\/\/opensea.io\/",
@@ -1480,237 +699,260 @@
           "url" : "https:\/\/www.auctionity.com\/"
         },
         {
-          "url" : "https:\/\/tokentrove.com\/",
-          "name" : "TokenTrove"
+          "name" : "TokenTrove",
+          "url" : "https:\/\/tokentrove.com\/"
         },
         {
-          "name" : "NFTfi",
-          "url" : "https:\/\/nftfi.com\/"
+          "url" : "https:\/\/nftfi.com\/",
+          "name" : "NFTfi"
         },
         {
           "name" : "Pawnhouse",
           "url" : "https:\/\/pawnhouse.io\/"
         },
         {
-          "name" : "NFT Bank",
-          "url" : "https:\/\/nftbank.ai\/"
+          "url" : "https:\/\/nftbank.ai\/",
+          "name" : "NFT Bank"
         },
         {
-          "url" : "https:\/\/messari.io\/research\/mason-nystrom",
-          "name" : "Mason Nystrom"
+          "name" : "Mason Nystrom",
+          "url" : "https:\/\/messari.io\/research\/mason-nystrom"
         },
         {
-          "name" : "Curation Tokens: Examining the Types of Crypto Curation",
-          "url" : "https:\/\/messari.io\/article\/curation-tokens-examining-types-of-crypto-curation"
+          "url" : "https:\/\/messari.io\/article\/curation-tokens-examining-types-of-crypto-curation",
+          "name" : "Curation Tokens: Examining the Types of Crypto Curation"
         }
+      ],
+      "images" : [
+
+      ]
+    },
+    "zh\/life\/20200707-学生毕业.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "en\/tech\/Vertical Liquidity.md" : {
+      "links" : [
+        {
+          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-how-money-works-today\/",
+          "name" : "basic value"
+        },
+        {
+          "name" : "Store of Value",
+          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-wealth-transfer\/"
+        },
+        {
+          "name" : "internal coordination",
+          "url" : "https:\/\/mirror.xyz\/0xe7175fe936E9AfdEb0CACe5b88E45CEe3387ffb8\/RLDoHJMElSOVPVFtVmQsgtsWCw96C1ulhPsnQGZlIhQ"
+        },
+        {
+          "url" : "https:\/\/vitalik.ca\/general\/2017\/12\/17\/voting.",
+          "name" : "blockchain governance"
+        },
+        {
+          "name" : "Extended Endgame",
+          "url" : "https:\/\/vitalik.ca\/general\/2021\/12\/06\/endgame.html"
+        },
+        {
+          "url" : "https:\/\/vitalik.ca\/general\/2022\/01\/",
+          "name" : "Soul Binding"
+        },
+        {
+          "url" : "https:\/\/www.woshipm.com\/pd\/454843.html",
+          "name" : "native"
+        },
+        {
+          "url" : "https:\/\/mirror.xyz\/bubai.eth\/KAgr16vN8IRtjHARFQ6Wx35OmgLj9Oh2qcRkiiNw_OE",
+          "name" : "a revolution in digital ownership"
+        },
+        {
+          "url" : "https:\/\/vitalik.ca\/general\/2022\/01\/26\/soulbound.html",
+          "name" : "SBT"
+        },
+        {
+          "url" : "https:\/\/papers.ssrn",
+          "name" : "decentralized society"
+        },
+        {
+          "url" : "https:\/\/vitalik.ca\/general\/2021\/01\/11\/recovery.html",
+          "name" : "social recovery"
+        },
+        {
+          "name" : "the construction of composite meaning",
+          "url" : "https:\/\/papers.ssrn.com\/sol3\/papers.cfm?abstract_id=4105763"
+        },
+        {
+          "url" : "http:\/\/www.shkxjk.com\/CN\/abstract\/abstract3675.shtml",
+          "name" : "conducive to economic development"
+        },
+        {
+          "url" : "https:\/\/books.google.com.hk\/books",
+          "name" : "influence mechanism"
+        }
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "zh\/life\/20180506-停电的红湖.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+        {
+          "url" : "https:\/\/www.coursera.org\/",
+          "name" : "coursera"
+        },
+        {
+          "name" : "HUJI",
+          "url" : "https:\/\/itunes.apple.com\/us\/app\/huji-cam\/id781383622?mt=8"
+        }
+      ]
+    },
+    "zh\/tech\/Horizontal liquidity.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+        {
+          "url" : "https:\/\/www.bubais.top\/en\/tech\/hgx\/",
+          "name" : "English Version"
+        },
+        {
+          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-how-money-works-today\/",
+          "name" : "最基本的价值"
+        },
+        {
+          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-wealth-transfer\/",
+          "name" : "价值存储"
+        },
+        {
+          "url" : "https:\/\/vitalik.ca\/general\/2017\/10\/17\/moe.html",
+          "name" : "交换媒介"
+        },
+        {
+          "name" : "内在协调",
+          "url" : "https:\/\/mirror.xyz\/0xe7175fe936E9AfdEb0CACe5b88E45CEe3387ffb8\/RLDoHJMElSOVPVFtVmQsgtsWCw96C1ulhPsnQGZlIhQ"
+        },
+        {
+          "url" : "https:\/\/vitalik.ca\/general\/2017\/12\/17\/voting.html",
+          "name" : "区块链治理"
+        },
+        {
+          "url" : "https:\/\/vitalik.ca\/general\/2021\/12\/06\/endgame.html",
+          "name" : "扩容终局"
+        },
+        {
+          "name" : "灵魂绑定",
+          "url" : "https:\/\/vitalik.ca\/general\/2022\/01\/26\/soulbound.html"
+        },
+        {
+          "url" : "https:\/\/www.woshipm.com\/pd\/454843.html",
+          "name" : "原生性"
+        },
+        {
+          "name" : "数字所有权的革命",
+          "url" : "https:\/\/mirror.xyz\/bubai.eth\/KAgr16vN8IRtjHARFQ6Wx35OmgLj9Oh2qcRkiiNw_OE"
+        },
+        {
+          "name" : "去中心化社会",
+          "url" : "https:\/\/papers.ssrn.com\/sol3\/papers.cfm?abstract_id=4105763"
+        },
+        {
+          "url" : "https:\/\/vitalik.ca\/general\/2021\/01\/11\/recovery.html",
+          "name" : "社交恢复"
+        },
+        {
+          "name" : "有利于经济发展",
+          "url" : "http:\/\/www.shkxjk.com\/CN\/abstract\/abstract3675.shtml"
+        },
+        {
+          "url" : "https:\/\/books.google.com.hk\/books\/about\/%E4%BF%A1%E4%BB%BB.html?id=FJ9LAAAACAAJ&redir_esc=y",
+          "name" : "影响机理"
+        }
+      ],
+      "images" : [
+
       ]
     },
     "en\/life\/20161101-GOT-Tyrion.md" : {
       "images" : [
 
       ],
-      "links" : [
+      "attachments" : [
 
       ],
-      "attachments" : [
+      "links" : [
 
       ]
     },
-    "en\/tech\/Ethereum ZK Rollup Era.md" : {
-      "images" : [
+    "en\/about\/_index.md" : {
+      "attachments" : [
 
       ],
       "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "en\/tech\/Horizontal Liquidity.md" : {
+      "links" : [
         {
-          "name" : "ZK Rollup: The Future of Ethereum Scaling",
-          "url" : "https:\/\/mirror.xyz\/bubai.eth\/CfIJX6ASjERg-MdYccN7QYf0T88Ey3fCk-F7MNLtq9I"
+          "url" : "https:\/\/member.fintech.global\/2021\/11\/12\/binance-suspends-dogecoin-withdrawals\/#:~:text=Crypto%20currency%20exchange%20Binance%20has,version%20update%20on%20November%2011.",
+          "name" : "Binance suspends dogecoin withdrawals"
         },
         {
-          "name" : "Protecting user data, designing sensitive systems or contracts, proving fairness in the distribution of public goods, and enabling more efficient and economical government agencies",
-          "url" : "https:\/\/zeroknowledge.fm\/zero-knowledge-cryptography-the-next-digital-revolution\/"
+          "name" : "research paper",
+          "url" : "https:\/\/arxiv.org\/pdf\/1904.06441.pdf"
         },
         {
-          "name" : "Ethereum is currently embracing a rollup-centric scaling solution",
-          "url" : "https:\/\/ethereum-magicians.org\/t\/a-rollup-centric-ethereum-roadmap\/4698"
+          "name" : "trustless is a spectrum",
+          "url" : "https:\/\/blog.li.fi\/li-fi-with-bridges-trust-is-a-spectrum-354cd5a1a6d8"
         },
         {
-          "name" : "the gas cost and TPS of each solution are as follows",
-          "url" : "https:\/\/w3hitchhiker.mirror.xyz\/7dwD76ZZIlR7ep731K6y9vTTuXGHOojxWSnkXKzqPzI"
+          "name" : "Who is the verifier of the system?",
+          "url" : "https:\/\/blog.connext.network\/the-interoperability-trilemma-657c2cf69f17"
         },
         {
-          "name" : "he design of EVM and the algorithm principles of ZK Proof",
-          "url" : "https:\/\/hackmd.io\/@yezhang\/S1_KMMbGt"
+          "url" : "https:\/\/blog.li.fi\/what-are-blockchain-bridges-and-how-can-we-classify-them-560dc6ec05fa",
+          "name" : "different design mechanisms"
         },
         {
-          "name" : "pros and cons",
-          "url" : "https:\/\/mirror.xyz\/0x3D5FE39342e661776bb5273521F52E99B624288c\/NFOsWYCb2eVk612VSnrrCsoKcwI_EMObp_q9uNKa4uA"
+          "name" : "Polygon PoS Bridge",
+          "url" : "https:\/\/docs.polygon.technology\/docs\/develop\/ethereum-polygon\/pos\/getting-started\/"
         },
         {
-          "name" : "zkSync",
-          "url" : "https:\/\/twitter.com\/zksync"
+          "name" : "Axelar",
+          "url" : "https:\/\/axelar.network\/"
         },
         {
-          "name" : "StarkWare",
-          "url" : "https:\/\/twitter.com\/StarkWareLtd"
-        },
-        {
-          "name" : "major differences",
-          "url" : "https:\/\/news.ethereum.cn\/Layer2\/zksync-vs-starkware"
-        },
-        {
-          "name" : "main advantages",
-          "url" : "https:\/\/www.geekmeta.com\/article\/3421070.html"
-        },
-        {
-          "name" : "dydx",
-          "url" : "https:\/\/twitter.com\/dydxprotocol"
-        },
-        {
-          "name" : "Immutable",
-          "url" : "https:\/\/twitter.com\/Immutable"
-        },
-        {
-          "name" : "Deversifi",
-          "url" : "https:\/\/twitter.com\/deversifi"
-        },
-        {
-          "url" : "https:\/\/sorare.com\/?action=signin",
-          "name" : "Sorare"
-        },
-        {
-          "name" : "some technical difficulties",
-          "url" : "https:\/\/blog.matter-labs.io\/zksync-2-0-developer-update-d25417f16446"
-        },
-        {
-          "name" : "unique advantages",
-          "url" : "https:\/\/mp.weixin.qq.com\/s\/r7cNMWYPP-9sqjLcKz64Aw"
-        },
-        {
-          "name" : "the reasons why DeFi is growing rapidly",
-          "url" : "https:\/\/future.a16z.com\/how-composability-unlocks-crypto-and-everything-else\/"
-        },
-        {
-          "url" : "https:\/\/www.panewslab.com\/zh\/articledetails\/D56636383.html",
-          "name" : "Rollup is undoubtedly the best option for Ethereum scaling"
-        },
-        {
-          "name" : "GTM",
-          "url" : "https:\/\/future.a16z.com\/go-to-market-in-web3"
-        },
-        {
-          "url" : "https:\/\/future.a16z.com\/community-%E2%89%A0-marketing-why-we-need-go-to-community-not-just-go-to-market\/",
-          "name" : "GTC"
-        },
-        {
-          "url" : "https:\/\/tlu.tarilabs.com\/cryptography\/r1cs-bulletproofs\/mainreport.html#rank-1-constraint-systems",
-          "name" : "R1CS"
-        },
-        {
-          "name" : "Cairo, a brand new Turing-complete programming language",
-          "url" : "https:\/\/medium.com\/starkware\/starknet-alpha-2-4aa116f0ecfc"
-        },
-        {
-          "name" : "is helping",
-          "url" : "https:\/\/medium.com\/nethermind-eth\/warp-your-way-to-starknet-ddd6856875e0"
-        },
-        {
-          "name" : "zkSync uses zkEVM solution for EVM compatibility",
-          "url" : "https:\/\/mirror.xyz\/kuiqian.eth\/FW6gE79ksYDgfrDOhW9zse-bGhLBzaMizIlid3iKZ8Q"
-        },
-        {
-          "name" : "increases security",
-          "url" : "https:\/\/medium.com\/starkware\/hello-cairo-3cb43b13b209"
-        },
-        {
-          "name" : "some people",
-          "url" : "https:\/\/multicoin.capital\/2022\/03\/15\/move-move-move\/?mc_cid=43fd88cdd6&mc_eid=0b68dd5aad"
-        },
-        {
-          "name" : "Tokens, as a good incentive tool, can also help to better govern the community",
-          "url" : "https:\/\/newsletter.banklesshq.com\/p\/rollup-tokens-are-coming?s=r"
-        },
-        {
-          "url" : "https:\/\/newsletter.banklesshq.com\/p\/liquidity-is-bandwidth",
-          "name" : "liquidity is equivalent to bandwidth"
-        },
-        {
-          "name" : "data capital market",
-          "url" : "https:\/\/www.amazon.com\/%E6%95%B0%E6%8D%AE%E8%B5%84%E6%9C%AC%E6%97%B6%E4%BB%A3-%E6%89%98%E9%A9%AC%E6%96%AF%C2%B7%E6%8B%89%E5%A7%86%E4%BB%80-Thomas-%E7%BB%B4%E5%85%8B%E6%89%98%C2%B7%E8%BF%88%E5%B0%94-%E8%88%8D%E6%81%A9%E4%BC%AF%E6%A0%BC-Mayer-Sch%C3%B6nberger\/dp\/B07KLFLYH9"
-        },
-        {
-          "name" : "solve many problems",
-          "url" : "https:\/\/hackmd.io\/@kalmanlajko\/rkgg9GLG5"
-        },
-        {
-          "url" : "https:\/\/twitter.com\/pseudotheos\/status\/1511342937262759939",
-          "name" : "https:\/\/twitter.com\/pseudotheos\/status\/1511342937262759939"
-        },
-        {
-          "url" : "https:\/\/www.usv.com\/writing\/2016\/08\/fat-protocols\/",
-          "name" : "Fat Protocol Theory"
-        },
-        {
-          "name" : "debatable",
-          "url" : "https:\/\/messari.io\/article\/analyst-notes-cracks-in-the-fat-protocol-theory"
-        },
-        {
-          "url" : "https:\/\/medium.com\/starkware\/fractal-scaling-from-l2-to-l3-7fe238ecfb4f",
-          "name" : "the arrival of the era of L3 and L4"
-        },
-        {
-          "url" : "https:\/\/wrongalot.substack.com\/p\/unfollow-the-money?token=eyJ1c2VyX2lkIjo2NTk5MTM0MCwicG9zdF9pZCI6NTAzNjg3NjYsIl8iOiI3VnR1NSIsImlhdCI6MTY0NzM1Njc5MiwiZXhwIjoxNjQ3MzYwMzkyLCJpc3MiOiJwdWItMjU5MTUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lYPfVwsDOu7GtYm4WMA6wlK0XyPGAGXaqlFDkjDGLCg&s=r",
-          "name" : "Uhttps:\/\/www.bubais.top\/en\/tech\/nft-a-revolution\/nfollow The Money"
-        },
-        {
-          "name" : "A Look Under the Hood Into Ethereum Technology and Scaling Solut...",
-          "url" : "https:\/\/mirror.xyz\/0x3D5FE39342e661776bb5273521F52E99B624288c\/I_zTz72C8lZtteRYBxco9p2iPUE77a6rwtgRWeP9e-s"
-        },
-        {
-          "url" : "https:\/\/zeroknowledge.fm\/what-is-zexe-part-i\/",
-          "name" : "What is ZEXE? (Part I) - ZK Podcast"
-        },
-        {
-          "url" : "https:\/\/zeroknowledge.fm\/what-is-zexe-part-ii\/",
-          "name" : "What is ZEXE? (Part II) - ZK Podcast"
-        },
-        {
-          "url" : "https:\/\/zeroknowledge.fm\/what-is-zexe-part-iii\/",
-          "name" : "What is ZEXE? (PART III) - ZK Podcast"
-        },
-        {
-          "name" : "WTF is Data Availability?",
-          "url" : "https:\/\/medium.com\/blockchain-capital-blog\/wtf-is-data-availability-80c2c95ded0f"
-        },
-        {
-          "url" : "https:\/\/barnabe.substack.com\/p\/understanding-rollup-economics-from?utm_source=url#footnote-anchor-1",
-          "name" : "Understanding rollup economics from first principles"
-        },
-        {
-          "url" : "https:\/\/www.preethikasireddy.com\/post\/a-normies-guide-to-rollups",
-          "name" : "A normie's guide to rollups"
-        },
-        {
-          "url" : "https:\/\/dcbuilder.mirror.xyz\/QX_ELJBQBm1Iq45ktPsz8pWLZN1C52DmEtH09boZuo0",
-          "name" : "The ultimate guide to L2s on Ethereum"
-        },
-        {
-          "name" : "The best ways to invest in Layer 2",
-          "url" : "https:\/\/newsletter.banklesshq.com\/p\/the-best-ways-to-invest-in-layer?s=r"
-        },
-        {
-          "name" : "Blockchain Bridges",
+          "name" : "to evaluate bridge design",
           "url" : "https:\/\/medium.com\/1kxnetwork\/blockchain-bridges-5db6afac44f8"
-        },
-        {
-          "name" : "详解10大Layer1与4大Layer2年度进展与竞争格局 |链捕手",
-          "url" : "https:\/\/mp.weixin.qq.com\/s?__biz=MzU4MTQwMzMxOA==&mid=2247488686&idx=1&sn=a02c7db30f3dddb87ce1a1376b612d9c&chksm=fd494377ca3eca6189517e9c3cf739c2b352417928dccf066dc5cf748614dda77081eb97b89a&scene=21#wechat_redirect"
         }
       ],
       "attachments" : [
 
+      ],
+      "images" : [
+
       ]
     },
-    "zh\/tech\/Web3 data.md" : {
+    "zh\/life\/20171001-22岁.md" : {
       "images" : [
 
       ],
@@ -1718,174 +960,21 @@
 
       ],
       "links" : [
-        {
-          "url" : "https:\/\/www.preethikasireddy.com\/post\/the-architecture-of-a-web-3-0-application?ref=tokendaily",
-          "name" : "Web3 产品架构"
-        },
-        {
-          "url" : "https:\/\/www.metaid.io\/",
-          "name" : "有的项目"
-        },
-        {
-          "url" : "https:\/\/mirror.xyz\/0x31Ae182A31Bb2c3cfd9e2E3732cc53f7606FB773\/C1XwiABsyQ5-AKUCJVa4PyuEOwPe8hX-hsVXAqZfSJ4",
-          "name" : "「Web3 数据市场展望」"
-        },
-        {
-          "name" : "「Web3 - Let the \"right to data\" awaken」",
-          "url" : "https:\/\/mirror.xyz\/0xCD28A8eC501a0dDe7b27cC46965ceB7C3B35e1B7\/UfvwrDOP8R6JsEotTc4n3rB8LxNa0tcLiYEx_f4C4zo"
-        },
-        {
-          "name" : "纵向流动性：价值如何互联互通",
-          "url" : "https:\/\/mirror.xyz\/bubai.eth\/SzPjJLhZeRBmwuTFKxL8MG3HcWqmLYstqSHGCuY9rc4"
-        },
-        {
-          "name" : "NFT：数字所有权的革命",
-          "url" : "https:\/\/mirror.xyz\/bubai.eth\/KAgr16vN8IRtjHARFQ6Wx35OmgLj9Oh2qcRkiiNw_OE"
-        },
-        {
-          "url" : "https:\/\/moxie.org\/2022\/01\/07\/web3-first-impressions.html",
-          "name" : "一旦服务器崩溃或者被黑"
-        },
-        {
-          "url" : "https:\/\/blog.ceramic.network\/into-the-dataverse\/",
-          "name" : "数据宇宙"
-        },
-        {
-          "name" : "它创造了一个去中心化社交图谱协议",
-          "url" : "https:\/\/mirror.xyz\/cyberlab.eth\/Rqr8tiXed6helt5LfSotEdLFxB6Kv_fA1Poz3K_6g0c"
-        },
-        {
-          "url" : "https:\/\/jacob.energy\/hyperstructures.html",
-          "name" : "超级结构"
-        },
-        {
-          "url" : "https:\/\/home.treasury.gov\/news\/press-releases\/jy0916",
-          "name" : "tornado cash 事件"
-        },
-        {
-          "url" : "https:\/\/mirror.xyz\/asmp.eth\/LWQckvjXUxeIKH42U9c67JPYshX0XImycMl2ACz60F4",
-          "name" : "「Web3 去中心化存储进化史」"
-        },
-        {
-          "url" : "https:\/\/www.thestratos.org\/",
-          "name" : "Stratos"
-        },
-        {
-          "url" : "https:\/\/filecoin.io\/blog\/posts\/introducing-the-filecoin-virtual-machine\/",
-          "name" : "已经推出了 FVM 以支持在 Filecoin 上的计算"
-        },
-        {
-          "url" : "https:\/\/twitter.com\/cz_binance\/status\/1543700689611792386",
-          "name" : "某地区的公安数据泄露事件"
-        },
-        {
-          "url" : "https:\/\/filecoin.io\/zh-cn\/blog\/posts\/chainsafe-files\/",
-          "name" : "ChainSafe Files"
-        },
-        {
-          "name" : "3ID DID",
-          "url" : "https:\/\/developers.ceramic.network\/docs\/advanced\/standards\/accounts\/3id-did\/"
-        },
-        {
-          "name" : "Fivehive",
-          "url" : "https:\/\/github.com\/OB1Company\/filehive"
-        },
-        {
-          "url" : "https:\/\/ob1.io\/index.html",
-          "name" : "OB1"
-        },
-        {
-          "url" : "https:\/\/github.com\/ceramicstudio\/datamodels",
-          "name" : "DataModels Registry"
-        },
-        {
-          "url" : "https:\/\/github.com\/ceramicstudio\/datamodels\/discussions",
-          "name" : "DataModels 论坛"
-        },
-        {
-          "name" : "Acentrik",
-          "url" : "(https:\/\/acentrik.io\/"
-        },
-        {
-          "url" : "https:\/\/cerscan.com\/",
-          "name" : "Cerscan"
-        },
-        {
-          "name" : "Itheum",
-          "url" : "https:\/\/dev.to\/itheum\/itheum-data-dex-whitepaper-ooo"
-        },
-        {
-          "name" : "Navigate",
-          "url" : "https:\/\/www.nvg8.io\/"
-        },
-        {
-          "name" : "Swash",
-          "url" : "https:\/\/swashapp.io\/"
-        },
-        {
-          "name" : "Phyllo",
-          "url" : "https:\/\/www.getphyllo.com\/"
-        },
-        {
-          "name" : "Authtrail",
-          "url" : "https:\/\/authtrail.com\/blog\/authtrail-101-with-ceo-matjaz-sobocan\/"
-        },
-        {
-          "url" : "https:\/\/www.spaceandtime.io\/",
-          "name" : "Space and Time"
-        },
-        {
-          "url" : "https:\/\/www.pooldata.io\/",
-          "name" : "Pool"
-        }
+
       ]
     },
-    "zh\/tech\/数据科学家与Web 3.0.md" : {
-      "images" : [
+    "zh\/tech\/20200620-hello-world.md" : {
+      "attachments" : [
 
       ],
       "links" : [
-        {
-          "name" : "原文链接",
-          "url" : "https:\/\/towardsdatascience.com\/dear-data-scientists-i-love-you-sincerely-web-3-0-55049273905a"
-        },
-        {
-          "url" : "https:\/\/www.historyofinformation.com\/detail.php?id=3343",
-          "name" : "这里是"
-        },
-        {
-          "name" : "有人",
-          "url" : "https:\/\/www.igi-global.com\/dictionary\/infoxication\/32201"
-        },
-        {
-          "name" : "其他人",
-          "url" : "https:\/\/www.expert.ai\/blog\/web-3-0\/"
-        },
-        {
-          "name" : "其他人",
-          "url" : "https:\/\/www2.deloitte.com\/us\/en\/insights\/topics\/digital-transformation\/web-3-0-technologies-in-business.html"
-        },
-        {
-          "name" : "这篇",
-          "url" : "https:\/\/medium.com\/swlh\/the-new-content-platform-im-making-money-from-and-dominating-bf92646a160"
-        },
-        {
-          "url" : "https:\/\/appinventiv.com\/blog\/web-3-0-blockchain-impact-on-businesses\/",
-          "name" : "Web3技术栈"
-        },
-        {
-          "url" : "https:\/\/oceanprotocol.com\/",
-          "name" : "Ocean Protocol"
-        }
+
       ],
-      "attachments" : [
+      "images" : [
 
       ]
     },
     "zh\/tech\/Ethereum ZK Rollup Era.md" : {
-      "images" : [
-
-      ],
       "attachments" : [
 
       ],
@@ -1899,8 +988,8 @@
           "url" : "https:\/\/zeroknowledge.fm\/zero-knowledge-cryptography-the-next-digital-revolution\/"
         },
         {
-          "name" : "目前以太坊正在拥抱以 rollup 为中心的扩容方案",
-          "url" : "https:\/\/ethereum-magicians.org\/t\/a-rollup-centric-ethereum-roadmap\/4698"
+          "url" : "https:\/\/ethereum-magicians.org\/t\/a-rollup-centric-ethereum-roadmap\/4698",
+          "name" : "目前以太坊正在拥抱以 rollup 为中心的扩容方案"
         },
         {
           "url" : "https:\/\/w3hitchhiker.mirror.xyz\/7dwD76ZZIlR7ep731K6y9vTTuXGHOojxWSnkXKzqPzI",
@@ -1919,12 +1008,12 @@
           "name" : "zkSync"
         },
         {
-          "name" : "StarkWare",
-          "url" : "https:\/\/twitter.com\/StarkWareLtd"
+          "url" : "https:\/\/twitter.com\/StarkWareLtd",
+          "name" : "StarkWare"
         },
         {
-          "url" : "https:\/\/news.ethereum.cn\/Layer2\/zksync-vs-starkware",
-          "name" : "主要差别"
+          "name" : "主要差别",
+          "url" : "https:\/\/news.ethereum.cn\/Layer2\/zksync-vs-starkware"
         },
         {
           "name" : "主要优势",
@@ -1935,8 +1024,8 @@
           "name" : "dydx"
         },
         {
-          "name" : "Immutable",
-          "url" : "https:\/\/twitter.com\/Immutable"
+          "url" : "https:\/\/twitter.com\/Immutable",
+          "name" : "Immutable"
         },
         {
           "name" : "Deversifi",
@@ -1951,52 +1040,52 @@
           "name" : "由于一些技术难题而推迟了"
         },
         {
-          "name" : "独特的优势",
-          "url" : "https:\/\/mp.weixin.qq.com\/s\/r7cNMWYPP-9sqjLcKz64Aw"
+          "url" : "https:\/\/mp.weixin.qq.com\/s\/r7cNMWYPP-9sqjLcKz64Aw",
+          "name" : "独特的优势"
         },
         {
-          "name" : "发展迅速的原因",
-          "url" : "https:\/\/future.a16z.com\/how-composability-unlocks-crypto-and-everything-else\/"
+          "url" : "https:\/\/future.a16z.com\/how-composability-unlocks-crypto-and-everything-else\/",
+          "name" : "发展迅速的原因"
         },
         {
           "name" : "汇总无疑是以太坊扩容的最佳选择",
           "url" : "https:\/\/www.panewslab.com\/zh\/articledetails\/D56636383.html"
         },
         {
-          "url" : "https:\/\/future.a16z.com\/go-to-market-in-web3",
-          "name" : "GTM"
+          "name" : "GTM",
+          "url" : "https:\/\/future.a16z.com\/go-to-market-in-web3"
         },
         {
-          "url" : "https:\/\/future.a16z.com\/community-%E2%89%A0-marketing-why-we-need-go-to-community-not-just-go-to-market\/",
-          "name" : "GTC"
+          "name" : "GTC",
+          "url" : "https:\/\/future.a16z.com\/community-%E2%89%A0-marketing-why-we-need-go-to-community-not-just-go-to-market\/"
         },
         {
           "url" : "https:\/\/tlu.tarilabs.com\/cryptography\/r1cs-bulletproofs\/mainreport.html#rank-1-constraint-systems",
           "name" : "R1CS"
         },
         {
-          "url" : "https:\/\/medium.com\/starkware\/starknet-alpha-2-4aa116f0ecfc",
-          "name" : "采用了全新的图灵完备的编程语言 Cairo"
+          "name" : "采用了全新的图灵完备的编程语言 Cairo",
+          "url" : "https:\/\/medium.com\/starkware\/starknet-alpha-2-4aa116f0ecfc"
         },
         {
-          "name" : "正在",
-          "url" : "https:\/\/medium.com\/nethermind-eth\/warp-your-way-to-starknet-ddd6856875e0"
+          "url" : "https:\/\/medium.com\/nethermind-eth\/warp-your-way-to-starknet-ddd6856875e0",
+          "name" : "正在"
         },
         {
-          "name" : "采用 zkEVM 方案来实现 EVM 兼容",
-          "url" : "https:\/\/mirror.xyz\/kuiqian.eth\/FW6gE79ksYDgfrDOhW9zse-bGhLBzaMizIlid3iKZ8Q"
+          "url" : "https:\/\/mirror.xyz\/kuiqian.eth\/FW6gE79ksYDgfrDOhW9zse-bGhLBzaMizIlid3iKZ8Q",
+          "name" : "采用 zkEVM 方案来实现 EVM 兼容"
         },
         {
-          "url" : "https:\/\/medium.com\/starkware\/hello-cairo-3cb43b13b209",
-          "name" : "它还可以提高安全性"
+          "name" : "它还可以提高安全性",
+          "url" : "https:\/\/medium.com\/starkware\/hello-cairo-3cb43b13b209"
         },
         {
           "name" : "有些人",
           "url" : "https:\/\/multicoin.capital\/2022\/03\/15\/move-move-move\/?mc_cid=43fd88cdd6&mc_eid=0b68dd5aad"
         },
         {
-          "url" : "https:\/\/newsletter.banklesshq.com\/p\/rollup-tokens-are-coming?s=r",
-          "name" : "代币不仅仅是一个很好的激励工具，还能够帮助更好地治理社区"
+          "name" : "代币不仅仅是一个很好的激励工具，还能够帮助更好地治理社区",
+          "url" : "https:\/\/newsletter.banklesshq.com\/p\/rollup-tokens-are-coming?s=r"
         },
         {
           "name" : "流动性就相当于带宽",
@@ -2011,24 +1100,24 @@
           "url" : "https:\/\/www.amazon.com\/%E6%95%B0%E6%8D%AE%E8%B5%84%E6%9C%AC%E6%97%B6%E4%BB%A3-%E6%89%98%E9%A9%AC%E6%96%AF%C2%B7%E6%8B%89%E5%A7%86%E4%BB%80-Thomas-%E7%BB%B4%E5%85%8B%E6%89%98%C2%B7%E8%BF%88%E5%B0%94-%E8%88%8D%E6%81%A9%E4%BC%AF%E6%A0%BC-Mayer-Sch%C3%B6nberger\/dp\/B07KLFLYH9"
         },
         {
-          "url" : "https:\/\/hackmd.io\/@kalmanlajko\/rkgg9GLG5",
-          "name" : "很多问题"
+          "name" : "很多问题",
+          "url" : "https:\/\/hackmd.io\/@kalmanlajko\/rkgg9GLG5"
         },
         {
-          "url" : "https:\/\/twitter.com\/pseudotheos\/status\/1511342937262759939",
-          "name" : "https:\/\/twitter.com\/pseudotheos\/status\/1511342937262759939"
+          "name" : "https:\/\/twitter.com\/pseudotheos\/status\/1511342937262759939",
+          "url" : "https:\/\/twitter.com\/pseudotheos\/status\/1511342937262759939"
         },
         {
           "url" : "https:\/\/www.usv.com\/writing\/2016\/08\/fat-protocols\/",
           "name" : "胖协议理论"
         },
         {
-          "name" : "争议",
-          "url" : "https:\/\/messari.io\/article\/analyst-notes-cracks-in-the-fat-protocol-theory"
+          "url" : "https:\/\/messari.io\/article\/analyst-notes-cracks-in-the-fat-protocol-theory",
+          "name" : "争议"
         },
         {
-          "url" : "https:\/\/medium.com\/starkware\/fractal-scaling-from-l2-to-l3-7fe238ecfb4f",
-          "name" : "甚至 L3、L4 时代的到来"
+          "name" : "甚至 L3、L4 时代的到来",
+          "url" : "https:\/\/medium.com\/starkware\/fractal-scaling-from-l2-to-l3-7fe238ecfb4f"
         },
         {
           "url" : "https:\/\/wrongalot.substack.com\/p\/unfollow-the-money?token=eyJ1c2VyX2lkIjo2NTk5MTM0MCwicG9zdF9pZCI6NTAzNjg3NjYsIl8iOiI3VnR1NSIsImlhdCI6MTY0NzM1Njc5MiwiZXhwIjoxNjQ3MzYwMzkyLCJpc3MiOiJwdWItMjU5MTUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lYPfVwsDOu7GtYm4WMA6wlK0XyPGAGXaqlFDkjDGLCg&s=r",
@@ -2039,132 +1128,58 @@
           "name" : "A Look Under the Hood Into Ethereum Technology and Scaling Solut..."
         },
         {
-          "url" : "https:\/\/zeroknowledge.fm\/what-is-zexe-part-i\/",
-          "name" : "What is ZEXE? (Part I) - ZK Podcast"
+          "name" : "What is ZEXE? (Part I) - ZK Podcast",
+          "url" : "https:\/\/zeroknowledge.fm\/what-is-zexe-part-i\/"
         },
         {
           "url" : "https:\/\/zeroknowledge.fm\/what-is-zexe-part-ii\/",
           "name" : "What is ZEXE? (Part II) - ZK Podcast"
         },
         {
-          "name" : "What is ZEXE? (PART III) - ZK Podcast",
-          "url" : "https:\/\/zeroknowledge.fm\/what-is-zexe-part-iii\/"
+          "url" : "https:\/\/zeroknowledge.fm\/what-is-zexe-part-iii\/",
+          "name" : "What is ZEXE? (PART III) - ZK Podcast"
         },
         {
-          "url" : "https:\/\/medium.com\/blockchain-capital-blog\/wtf-is-data-availability-80c2c95ded0f",
-          "name" : "WTF is Data Availability?"
+          "name" : "WTF is Data Availability?",
+          "url" : "https:\/\/medium.com\/blockchain-capital-blog\/wtf-is-data-availability-80c2c95ded0f"
         },
         {
           "name" : "Understanding rollup economics from first principles",
           "url" : "https:\/\/barnabe.substack.com\/p\/understanding-rollup-economics-from?utm_source=url#footnote-anchor-1"
         },
         {
-          "url" : "https:\/\/www.preethikasireddy.com\/post\/a-normies-guide-to-rollups",
-          "name" : "A normie's guide to rollups"
+          "name" : "A normie's guide to rollups",
+          "url" : "https:\/\/www.preethikasireddy.com\/post\/a-normies-guide-to-rollups"
         },
         {
-          "url" : "https:\/\/dcbuilder.mirror.xyz\/QX_ELJBQBm1Iq45ktPsz8pWLZN1C52DmEtH09boZuo0",
-          "name" : "The ultimate guide to L2s on Ethereum"
+          "name" : "The ultimate guide to L2s on Ethereum",
+          "url" : "https:\/\/dcbuilder.mirror.xyz\/QX_ELJBQBm1Iq45ktPsz8pWLZN1C52DmEtH09boZuo0"
         },
         {
-          "name" : "The best ways to invest in Layer 2",
-          "url" : "https:\/\/newsletter.banklesshq.com\/p\/the-best-ways-to-invest-in-layer?s=r"
+          "url" : "https:\/\/newsletter.banklesshq.com\/p\/the-best-ways-to-invest-in-layer?s=r",
+          "name" : "The best ways to invest in Layer 2"
         },
         {
-          "url" : "https:\/\/medium.com\/1kxnetwork\/blockchain-bridges-5db6afac44f8",
-          "name" : "Blockchain Bridges"
+          "name" : "Blockchain Bridges",
+          "url" : "https:\/\/medium.com\/1kxnetwork\/blockchain-bridges-5db6afac44f8"
         },
         {
-          "name" : "详解10大Layer1与4大Layer2年度进展与竞争格局 |链捕手",
-          "url" : "https:\/\/mp.weixin.qq.com\/s?__biz=MzU4MTQwMzMxOA==&mid=2247488686&idx=1&sn=a02c7db30f3dddb87ce1a1376b612d9c&chksm=fd494377ca3eca6189517e9c3cf739c2b352417928dccf066dc5cf748614dda77081eb97b89a&scene=21#wechat_redirect"
-        }
-      ]
-    },
-    "zh\/life\/20151226-life-jiaofu.md" : {
-      "attachments" : [
-
-      ],
-      "links" : [
-
-      ],
-      "images" : [
-
-      ]
-    },
-    "en\/tech\/Vertical Liquidity.md" : {
-      "attachments" : [
-
-      ],
-      "links" : [
-        {
-          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-how-money-works-today\/",
-          "name" : "basic value"
-        },
-        {
-          "name" : "Store of Value",
-          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-wealth-transfer\/"
-        },
-        {
-          "url" : "https:\/\/mirror.xyz\/0xe7175fe936E9AfdEb0CACe5b88E45CEe3387ffb8\/RLDoHJMElSOVPVFtVmQsgtsWCw96C1ulhPsnQGZlIhQ",
-          "name" : "internal coordination"
-        },
-        {
-          "url" : "https:\/\/vitalik.ca\/general\/2017\/12\/17\/voting.",
-          "name" : "blockchain governance"
-        },
-        {
-          "url" : "https:\/\/vitalik.ca\/general\/2021\/12\/06\/endgame.html",
-          "name" : "Extended Endgame"
-        },
-        {
-          "name" : "Soul Binding",
-          "url" : "https:\/\/vitalik.ca\/general\/2022\/01\/"
-        },
-        {
-          "name" : "native",
-          "url" : "https:\/\/www.woshipm.com\/pd\/454843.html"
-        },
-        {
-          "name" : "a revolution in digital ownership",
-          "url" : "https:\/\/mirror.xyz\/bubai.eth\/KAgr16vN8IRtjHARFQ6Wx35OmgLj9Oh2qcRkiiNw_OE"
-        },
-        {
-          "url" : "https:\/\/vitalik.ca\/general\/2022\/01\/26\/soulbound.html",
-          "name" : "SBT"
-        },
-        {
-          "name" : "decentralized society",
-          "url" : "https:\/\/papers.ssrn"
-        },
-        {
-          "name" : "social recovery",
-          "url" : "https:\/\/vitalik.ca\/general\/2021\/01\/11\/recovery.html"
-        },
-        {
-          "name" : "the construction of composite meaning",
-          "url" : "https:\/\/papers.ssrn.com\/sol3\/papers.cfm?abstract_id=4105763"
-        },
-        {
-          "name" : "conducive to economic development",
-          "url" : "http:\/\/www.shkxjk.com\/CN\/abstract\/abstract3675.shtml"
-        },
-        {
-          "name" : "influence mechanism",
-          "url" : "https:\/\/books.google.com.hk\/books"
+          "url" : "https:\/\/mp.weixin.qq.com\/s?__biz=MzU4MTQwMzMxOA==&mid=2247488686&idx=1&sn=a02c7db30f3dddb87ce1a1376b612d9c&chksm=fd494377ca3eca6189517e9c3cf739c2b352417928dccf066dc5cf748614dda77081eb97b89a&scene=21#wechat_redirect",
+          "name" : "详解10大Layer1与4大Layer2年度进展与竞争格局 |链捕手"
         }
       ],
       "images" : [
 
       ]
     },
-    "zh\/life\/20210616-我的学生时代.md" : {
-      "images" : [
-
-      ],
+    "zh\/life\/20210620_rent_house.md" : {
       "links" : [
 
       ],
       "attachments" : [
+
+      ],
+      "images" : [
 
       ]
     },
@@ -2179,40 +1194,10 @@
 
       ]
     },
-    "zh\/life\/我的学生时代（二）.md" : {
-      "images" : [
-
-      ],
-      "links" : [
-
-      ],
-      "attachments" : [
-
-      ]
-    },
-    "zh\/life\/20200703-newstart.md" : {
-      "images" : [
-
-      ],
-      "links" : [
-
-      ],
-      "attachments" : [
-
-      ]
-    },
-    "zh\/life\/20170910-我的唯一一个教师节.md" : {
-      "images" : [
-
-      ],
-      "attachments" : [
-
-      ],
-      "links" : [
-
-      ]
-    },
     "en\/tech\/Web3 data.md" : {
+      "attachments" : [
+
+      ],
       "links" : [
         {
           "url" : "https:\/\/www.preethikasireddy.com\/post\/the-architecture-of-a-web-3-0-application?ref=tokendaily",
@@ -2227,20 +1212,20 @@
           "name" : "\"Web3 Data Market Outlook\""
         },
         {
-          "url" : "https:\/\/mirror.xyz\/0xCD28A8eC501a0dDe7b27cC46965ceB7C3B35e1B7\/UfvwrDOP8R6JsEotTc4n3rB8LxNa0tcLiYEx_f4C4zo",
-          "name" : "\"Web3 - Let the \" right to data \"awaken\""
+          "name" : "\"Web3 - Let the \" right to data \"awaken\"",
+          "url" : "https:\/\/mirror.xyz\/0xCD28A8eC501a0dDe7b27cC46965ceB7C3B35e1B7\/UfvwrDOP8R6JsEotTc4n3rB8LxNa0tcLiYEx_f4C4zo"
         },
         {
-          "url" : "https:\/\/mirror.xyz\/bubai.eth\/SzPjJLhZeRBmwuTFKxL8MG3HcWqmLYstqSHGCuY9rc4",
-          "name" : "Vertical Liquidity: How Value Interconnects"
+          "name" : "Vertical Liquidity: How Value Interconnects",
+          "url" : "https:\/\/mirror.xyz\/bubai.eth\/SzPjJLhZeRBmwuTFKxL8MG3HcWqmLYstqSHGCuY9rc4"
         },
         {
           "url" : "https:\/\/",
           "name" : "NFT: Revolution of Digital Ownership"
         },
         {
-          "url" : "https:\/\/moxie.org\/2022\/01\/07\/web3-first-impressions",
-          "name" : "once the server crashes or gets hacked"
+          "name" : "once the server crashes or gets hacked",
+          "url" : "https:\/\/moxie.org\/2022\/01\/07\/web3-first-impressions"
         },
         {
           "url" : "https:\/\/blog.ceramic.network\/into-the-dataverse\/",
@@ -2255,20 +1240,20 @@
           "url" : "https:\/\/jacob.energy\/hyperstructures.html"
         },
         {
-          "url" : "https:\/\/home.treasury.gov\/news",
-          "name" : "tornado cash incident"
+          "name" : "tornado cash incident",
+          "url" : "https:\/\/home.treasury.gov\/news"
         },
         {
           "name" : "“Web3 Decentralized Storage Evolution History”",
           "url" : "https:\/\/mirror.xyz\/asmp.eth\/LWQckvjXUxeIKH42U9c67JPYshX0XImycMl2ACz60F4"
         },
         {
-          "url" : "https:\/\/www.thestratos.org\/",
-          "name" : "Stratos"
+          "name" : "Stratos",
+          "url" : "https:\/\/www.thestratos.org\/"
         },
         {
-          "name" : "FVM has been launched to support computing on Filecoin",
-          "url" : "https:\/\/filecoin.io\/blog\/posts\/"
+          "url" : "https:\/\/filecoin.io\/blog\/posts\/",
+          "name" : "FVM has been launched to support computing on Filecoin"
         },
         {
           "url" : "https:\/\/twitter.com\/cz_binance\/status\/1543700689611792386",
@@ -2279,12 +1264,12 @@
           "url" : "https:\/\/filecoin.io\/zh"
         },
         {
-          "name" : "3ID DID",
-          "url" : "https:\/\/developers.ceramic.network\/docs\/advanced\/standards\/accounts\/3id-did\/"
+          "url" : "https:\/\/developers.ceramic.network\/docs\/advanced\/standards\/accounts\/3id-did\/",
+          "name" : "3ID DID"
         },
         {
-          "name" : "Fivehive",
-          "url" : "https:\/\/github.com\/OB1Company\/filehive"
+          "url" : "https:\/\/github.com\/OB1Company\/filehive",
+          "name" : "Fivehive"
         },
         {
           "url" : "https:\/\/ob1.io\/index.",
@@ -2297,6 +1282,294 @@
         {
           "url" : "https:\/\/github.com\/ceramicstudio\/datamodels\/discussions",
           "name" : "DataModels Forum"
+        },
+        {
+          "url" : "(https:\/\/acentrik.io\/",
+          "name" : "Acentrik"
+        },
+        {
+          "name" : "Cerscan",
+          "url" : "https:\/\/cerscan.com\/"
+        },
+        {
+          "url" : "https:\/\/dev.to\/itheum\/itheum-data-dex-whitepaper-ooo",
+          "name" : "Itheum"
+        },
+        {
+          "name" : "Navigate",
+          "url" : "https:\/\/www.nvg8.io\/"
+        },
+        {
+          "url" : "https:\/\/swashapp.io\/",
+          "name" : "Swash"
+        },
+        {
+          "url" : "https:\/\/www.getphyllo.com\/",
+          "name" : "Phyllo"
+        },
+        {
+          "name" : "Authtrail",
+          "url" : "https:\/\/authtrail.com\/blog\/authtrail-101-with-ceo-matjaz-sobocan\/"
+        },
+        {
+          "name" : "Space and Time",
+          "url" : "https:\/\/www.spaceandtime.io\/"
+        },
+        {
+          "name" : "Pool",
+          "url" : "https:\/\/www.pooldata.io\/"
+        }
+      ],
+      "images" : [
+
+      ]
+    },
+    "zh\/tech\/Horizontal Liquidity.md" : {
+      "links" : [
+        {
+          "name" : "Binance suspends dogecoin withdrawals",
+          "url" : "https:\/\/member.fintech.global\/2021\/11\/12\/binance-suspends-dogecoin-withdrawals\/#:~:text=Crypto%20currency%20exchange%20Binance%20has,version%20update%20on%20November%2011."
+        },
+        {
+          "url" : "https:\/\/arxiv.org\/pdf\/1904.06441.pdf",
+          "name" : "研究论文"
+        },
+        {
+          "name" : "去信任化是一个程度",
+          "url" : "https:\/\/blog.li.fi\/li-fi-with-bridges-trust-is-a-spectrum-354cd5a1a6d8"
+        },
+        {
+          "name" : "系统的验证人是谁？",
+          "url" : "https:\/\/blog.connext.network\/the-interoperability-trilemma-657c2cf69f17"
+        },
+        {
+          "name" : "不同的设计机制",
+          "url" : "https:\/\/blog.li.fi\/what-are-blockchain-bridges-and-how-can-we-classify-them-560dc6ec05fa"
+        },
+        {
+          "name" : "Polygon PoS 桥",
+          "url" : "https:\/\/docs.polygon.technology\/docs\/develop\/ethereum-polygon\/pos\/getting-started\/"
+        },
+        {
+          "url" : "https:\/\/axelar.network\/",
+          "name" : "Axelar"
+        },
+        {
+          "name" : "评估桥的设计",
+          "url" : "https:\/\/medium.com\/1kxnetwork\/blockchain-bridges-5db6afac44f8"
+        }
+      ],
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "zh\/about\/_index.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "zh\/tech\/数据科学家与Web 3.0.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+        {
+          "url" : "https:\/\/towardsdatascience.com\/dear-data-scientists-i-love-you-sincerely-web-3-0-55049273905a",
+          "name" : "原文链接"
+        },
+        {
+          "name" : "这里是",
+          "url" : "https:\/\/www.historyofinformation.com\/detail.php?id=3343"
+        },
+        {
+          "url" : "https:\/\/www.igi-global.com\/dictionary\/infoxication\/32201",
+          "name" : "有人"
+        },
+        {
+          "name" : "其他人",
+          "url" : "https:\/\/www.expert.ai\/blog\/web-3-0\/"
+        },
+        {
+          "url" : "https:\/\/www2.deloitte.com\/us\/en\/insights\/topics\/digital-transformation\/web-3-0-technologies-in-business.html",
+          "name" : "其他人"
+        },
+        {
+          "url" : "https:\/\/medium.com\/swlh\/the-new-content-platform-im-making-money-from-and-dominating-bf92646a160",
+          "name" : "这篇"
+        },
+        {
+          "name" : "Web3技术栈",
+          "url" : "https:\/\/appinventiv.com\/blog\/web-3-0-blockchain-impact-on-businesses\/"
+        },
+        {
+          "name" : "Ocean Protocol",
+          "url" : "https:\/\/oceanprotocol.com\/"
+        }
+      ]
+    },
+    "zh\/tech\/技术时代重新思考教育.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "zh\/life\/20200703-newstart.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "zh\/life\/20200626-sum2019.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "zh\/life\/20170910-我的唯一一个教师节.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "zh\/life\/20180524-论阅历.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "zh\/tech\/Web3 data.md" : {
+      "links" : [
+        {
+          "name" : "Web3 产品架构",
+          "url" : "https:\/\/www.preethikasireddy.com\/post\/the-architecture-of-a-web-3-0-application?ref=tokendaily"
+        },
+        {
+          "name" : "有的项目",
+          "url" : "https:\/\/www.metaid.io\/"
+        },
+        {
+          "url" : "https:\/\/mirror.xyz\/0x31Ae182A31Bb2c3cfd9e2E3732cc53f7606FB773\/C1XwiABsyQ5-AKUCJVa4PyuEOwPe8hX-hsVXAqZfSJ4",
+          "name" : "「Web3 数据市场展望」"
+        },
+        {
+          "url" : "https:\/\/mirror.xyz\/0xCD28A8eC501a0dDe7b27cC46965ceB7C3B35e1B7\/UfvwrDOP8R6JsEotTc4n3rB8LxNa0tcLiYEx_f4C4zo",
+          "name" : "「Web3 - Let the \"right to data\" awaken」"
+        },
+        {
+          "name" : "纵向流动性：价值如何互联互通",
+          "url" : "https:\/\/mirror.xyz\/bubai.eth\/SzPjJLhZeRBmwuTFKxL8MG3HcWqmLYstqSHGCuY9rc4"
+        },
+        {
+          "url" : "https:\/\/mirror.xyz\/bubai.eth\/KAgr16vN8IRtjHARFQ6Wx35OmgLj9Oh2qcRkiiNw_OE",
+          "name" : "NFT：数字所有权的革命"
+        },
+        {
+          "name" : "一旦服务器崩溃或者被黑",
+          "url" : "https:\/\/moxie.org\/2022\/01\/07\/web3-first-impressions.html"
+        },
+        {
+          "name" : "数据宇宙",
+          "url" : "https:\/\/blog.ceramic.network\/into-the-dataverse\/"
+        },
+        {
+          "url" : "https:\/\/mirror.xyz\/cyberlab.eth\/Rqr8tiXed6helt5LfSotEdLFxB6Kv_fA1Poz3K_6g0c",
+          "name" : "它创造了一个去中心化社交图谱协议"
+        },
+        {
+          "name" : "超级结构",
+          "url" : "https:\/\/jacob.energy\/hyperstructures.html"
+        },
+        {
+          "url" : "https:\/\/home.treasury.gov\/news\/press-releases\/jy0916",
+          "name" : "tornado cash 事件"
+        },
+        {
+          "name" : "「Web3 去中心化存储进化史」",
+          "url" : "https:\/\/mirror.xyz\/asmp.eth\/LWQckvjXUxeIKH42U9c67JPYshX0XImycMl2ACz60F4"
+        },
+        {
+          "name" : "Stratos",
+          "url" : "https:\/\/www.thestratos.org\/"
+        },
+        {
+          "url" : "https:\/\/filecoin.io\/blog\/posts\/introducing-the-filecoin-virtual-machine\/",
+          "name" : "已经推出了 FVM 以支持在 Filecoin 上的计算"
+        },
+        {
+          "url" : "https:\/\/twitter.com\/cz_binance\/status\/1543700689611792386",
+          "name" : "某地区的公安数据泄露事件"
+        },
+        {
+          "name" : "ChainSafe Files",
+          "url" : "https:\/\/filecoin.io\/zh-cn\/blog\/posts\/chainsafe-files\/"
+        },
+        {
+          "name" : "3ID DID",
+          "url" : "https:\/\/developers.ceramic.network\/docs\/advanced\/standards\/accounts\/3id-did\/"
+        },
+        {
+          "name" : "Fivehive",
+          "url" : "https:\/\/github.com\/OB1Company\/filehive"
+        },
+        {
+          "url" : "https:\/\/ob1.io\/index.html",
+          "name" : "OB1"
+        },
+        {
+          "name" : "DataModels Registry",
+          "url" : "https:\/\/github.com\/ceramicstudio\/datamodels"
+        },
+        {
+          "name" : "DataModels 论坛",
+          "url" : "https:\/\/github.com\/ceramicstudio\/datamodels\/discussions"
         },
         {
           "url" : "(https:\/\/acentrik.io\/",
@@ -2342,91 +1615,18 @@
 
       ]
     },
-    "zh\/life\/20161117-consulting-TSOC.md" : {
-      "attachments" : [
-
-      ],
-      "images" : [
-
-      ],
-      "links" : [
-        {
-          "url" : "https:\/\/www.amazon.cn\/dp\/B00HFWJI68\/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1479311464&sr=8-1",
-          "name" : "购买地址"
-        },
-        {
-          "url" : "http:\/\/liaoyuxing.space\/2016\/10\/28\/mckinsey-interview\/",
-          "name" : "《<Staying one step ahead at Pixar: An interview with Ed Catmull>解读》"
-        },
-        {
-          "name" : "罗辑思维：No.110 大门口的野蛮人",
-          "url" : "http:\/\/v.youku.com\/v_show\/id_XOTAwMjgwNDQw.html"
-        }
-      ]
-    },
-    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : {
-      "attachments" : [
-
-      ],
-      "links" : [
-
-      ],
-      "images" : [
-
-      ]
-    },
-    "zh\/life\/20180506-停电的红湖.md" : {
-      "links" : [
-        {
-          "name" : "coursera",
-          "url" : "https:\/\/www.coursera.org\/"
-        },
-        {
-          "url" : "https:\/\/itunes.apple.com\/us\/app\/huji-cam\/id781383622?mt=8",
-          "name" : "HUJI"
-        }
-      ],
-      "attachments" : [
-
-      ],
-      "images" : [
-
-      ]
-    },
-    "zh\/about\/_index.md" : {
-      "attachments" : [
-
-      ],
-      "images" : [
-
-      ],
-      "links" : [
-
-      ]
-    },
-    "zh\/life\/20180524-论阅历.md" : {
-      "attachments" : [
-
-      ],
-      "images" : [
-
-      ],
-      "links" : [
-
-      ]
-    },
-    "zh\/life\/20171001-22岁.md" : {
-      "images" : [
-
-      ],
-      "links" : [
-
-      ],
-      "attachments" : [
-
-      ]
-    },
     "zh\/life\/20170826-死亡诗社.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "zh\/life\/我的学生时代（二）.md" : {
       "links" : [
 
       ],
@@ -2434,25 +1634,496 @@
 
       ],
       "attachments" : [
+
+      ]
+    },
+    "zh\/life\/20151226-life-jiaofu.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+        {
+          "name" : "在这里",
+          "url" : "http:\/\/v.youku.com\/v_show\/id_XMTM0Mzg5MzU4NA==.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0"
+        }
+      ]
+    },
+    "en\/tech\/Ethereum ZK Rollup Era.md" : {
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ],
+      "links" : [
+        {
+          "url" : "https:\/\/mirror.xyz\/bubai.eth\/CfIJX6ASjERg-MdYccN7QYf0T88Ey3fCk-F7MNLtq9I",
+          "name" : "ZK Rollup: The Future of Ethereum Scaling"
+        },
+        {
+          "name" : "Protecting user data, designing sensitive systems or contracts, proving fairness in the distribution of public goods, and enabling more efficient and economical government agencies",
+          "url" : "https:\/\/zeroknowledge.fm\/zero-knowledge-cryptography-the-next-digital-revolution\/"
+        },
+        {
+          "url" : "https:\/\/ethereum-magicians.org\/t\/a-rollup-centric-ethereum-roadmap\/4698",
+          "name" : "Ethereum is currently embracing a rollup-centric scaling solution"
+        },
+        {
+          "url" : "https:\/\/w3hitchhiker.mirror.xyz\/7dwD76ZZIlR7ep731K6y9vTTuXGHOojxWSnkXKzqPzI",
+          "name" : "the gas cost and TPS of each solution are as follows"
+        },
+        {
+          "url" : "https:\/\/hackmd.io\/@yezhang\/S1_KMMbGt",
+          "name" : "he design of EVM and the algorithm principles of ZK Proof"
+        },
+        {
+          "name" : "pros and cons",
+          "url" : "https:\/\/mirror.xyz\/0x3D5FE39342e661776bb5273521F52E99B624288c\/NFOsWYCb2eVk612VSnrrCsoKcwI_EMObp_q9uNKa4uA"
+        },
+        {
+          "url" : "https:\/\/twitter.com\/zksync",
+          "name" : "zkSync"
+        },
+        {
+          "url" : "https:\/\/twitter.com\/StarkWareLtd",
+          "name" : "StarkWare"
+        },
+        {
+          "url" : "https:\/\/news.ethereum.cn\/Layer2\/zksync-vs-starkware",
+          "name" : "major differences"
+        },
+        {
+          "url" : "https:\/\/www.geekmeta.com\/article\/3421070.html",
+          "name" : "main advantages"
+        },
+        {
+          "url" : "https:\/\/twitter.com\/dydxprotocol",
+          "name" : "dydx"
+        },
+        {
+          "name" : "Immutable",
+          "url" : "https:\/\/twitter.com\/Immutable"
+        },
+        {
+          "url" : "https:\/\/twitter.com\/deversifi",
+          "name" : "Deversifi"
+        },
+        {
+          "name" : "Sorare",
+          "url" : "https:\/\/sorare.com\/?action=signin"
+        },
+        {
+          "url" : "https:\/\/blog.matter-labs.io\/zksync-2-0-developer-update-d25417f16446",
+          "name" : "some technical difficulties"
+        },
+        {
+          "name" : "unique advantages",
+          "url" : "https:\/\/mp.weixin.qq.com\/s\/r7cNMWYPP-9sqjLcKz64Aw"
+        },
+        {
+          "name" : "the reasons why DeFi is growing rapidly",
+          "url" : "https:\/\/future.a16z.com\/how-composability-unlocks-crypto-and-everything-else\/"
+        },
+        {
+          "url" : "https:\/\/www.panewslab.com\/zh\/articledetails\/D56636383.html",
+          "name" : "Rollup is undoubtedly the best option for Ethereum scaling"
+        },
+        {
+          "url" : "https:\/\/future.a16z.com\/go-to-market-in-web3",
+          "name" : "GTM"
+        },
+        {
+          "url" : "https:\/\/future.a16z.com\/community-%E2%89%A0-marketing-why-we-need-go-to-community-not-just-go-to-market\/",
+          "name" : "GTC"
+        },
+        {
+          "url" : "https:\/\/tlu.tarilabs.com\/cryptography\/r1cs-bulletproofs\/mainreport.html#rank-1-constraint-systems",
+          "name" : "R1CS"
+        },
+        {
+          "url" : "https:\/\/medium.com\/starkware\/starknet-alpha-2-4aa116f0ecfc",
+          "name" : "Cairo, a brand new Turing-complete programming language"
+        },
+        {
+          "url" : "https:\/\/medium.com\/nethermind-eth\/warp-your-way-to-starknet-ddd6856875e0",
+          "name" : "is helping"
+        },
+        {
+          "url" : "https:\/\/mirror.xyz\/kuiqian.eth\/FW6gE79ksYDgfrDOhW9zse-bGhLBzaMizIlid3iKZ8Q",
+          "name" : "zkSync uses zkEVM solution for EVM compatibility"
+        },
+        {
+          "url" : "https:\/\/medium.com\/starkware\/hello-cairo-3cb43b13b209",
+          "name" : "increases security"
+        },
+        {
+          "url" : "https:\/\/multicoin.capital\/2022\/03\/15\/move-move-move\/?mc_cid=43fd88cdd6&mc_eid=0b68dd5aad",
+          "name" : "some people"
+        },
+        {
+          "name" : "Tokens, as a good incentive tool, can also help to better govern the community",
+          "url" : "https:\/\/newsletter.banklesshq.com\/p\/rollup-tokens-are-coming?s=r"
+        },
+        {
+          "url" : "https:\/\/newsletter.banklesshq.com\/p\/liquidity-is-bandwidth",
+          "name" : "liquidity is equivalent to bandwidth"
+        },
+        {
+          "url" : "https:\/\/www.amazon.com\/%E6%95%B0%E6%8D%AE%E8%B5%84%E6%9C%AC%E6%97%B6%E4%BB%A3-%E6%89%98%E9%A9%AC%E6%96%AF%C2%B7%E6%8B%89%E5%A7%86%E4%BB%80-Thomas-%E7%BB%B4%E5%85%8B%E6%89%98%C2%B7%E8%BF%88%E5%B0%94-%E8%88%8D%E6%81%A9%E4%BC%AF%E6%A0%BC-Mayer-Sch%C3%B6nberger\/dp\/B07KLFLYH9",
+          "name" : "data capital market"
+        },
+        {
+          "name" : "solve many problems",
+          "url" : "https:\/\/hackmd.io\/@kalmanlajko\/rkgg9GLG5"
+        },
+        {
+          "url" : "https:\/\/twitter.com\/pseudotheos\/status\/1511342937262759939",
+          "name" : "https:\/\/twitter.com\/pseudotheos\/status\/1511342937262759939"
+        },
+        {
+          "name" : "Fat Protocol Theory",
+          "url" : "https:\/\/www.usv.com\/writing\/2016\/08\/fat-protocols\/"
+        },
+        {
+          "url" : "https:\/\/messari.io\/article\/analyst-notes-cracks-in-the-fat-protocol-theory",
+          "name" : "debatable"
+        },
+        {
+          "name" : "the arrival of the era of L3 and L4",
+          "url" : "https:\/\/medium.com\/starkware\/fractal-scaling-from-l2-to-l3-7fe238ecfb4f"
+        },
+        {
+          "name" : "Uhttps:\/\/www.bubais.top\/en\/tech\/nft-a-revolution\/nfollow The Money",
+          "url" : "https:\/\/wrongalot.substack.com\/p\/unfollow-the-money?token=eyJ1c2VyX2lkIjo2NTk5MTM0MCwicG9zdF9pZCI6NTAzNjg3NjYsIl8iOiI3VnR1NSIsImlhdCI6MTY0NzM1Njc5MiwiZXhwIjoxNjQ3MzYwMzkyLCJpc3MiOiJwdWItMjU5MTUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lYPfVwsDOu7GtYm4WMA6wlK0XyPGAGXaqlFDkjDGLCg&s=r"
+        },
+        {
+          "name" : "A Look Under the Hood Into Ethereum Technology and Scaling Solut...",
+          "url" : "https:\/\/mirror.xyz\/0x3D5FE39342e661776bb5273521F52E99B624288c\/I_zTz72C8lZtteRYBxco9p2iPUE77a6rwtgRWeP9e-s"
+        },
+        {
+          "name" : "What is ZEXE? (Part I) - ZK Podcast",
+          "url" : "https:\/\/zeroknowledge.fm\/what-is-zexe-part-i\/"
+        },
+        {
+          "name" : "What is ZEXE? (Part II) - ZK Podcast",
+          "url" : "https:\/\/zeroknowledge.fm\/what-is-zexe-part-ii\/"
+        },
+        {
+          "name" : "What is ZEXE? (PART III) - ZK Podcast",
+          "url" : "https:\/\/zeroknowledge.fm\/what-is-zexe-part-iii\/"
+        },
+        {
+          "url" : "https:\/\/medium.com\/blockchain-capital-blog\/wtf-is-data-availability-80c2c95ded0f",
+          "name" : "WTF is Data Availability?"
+        },
+        {
+          "url" : "https:\/\/barnabe.substack.com\/p\/understanding-rollup-economics-from?utm_source=url#footnote-anchor-1",
+          "name" : "Understanding rollup economics from first principles"
+        },
+        {
+          "name" : "A normie's guide to rollups",
+          "url" : "https:\/\/www.preethikasireddy.com\/post\/a-normies-guide-to-rollups"
+        },
+        {
+          "name" : "The ultimate guide to L2s on Ethereum",
+          "url" : "https:\/\/dcbuilder.mirror.xyz\/QX_ELJBQBm1Iq45ktPsz8pWLZN1C52DmEtH09boZuo0"
+        },
+        {
+          "name" : "The best ways to invest in Layer 2",
+          "url" : "https:\/\/newsletter.banklesshq.com\/p\/the-best-ways-to-invest-in-layer?s=r"
+        },
+        {
+          "url" : "https:\/\/medium.com\/1kxnetwork\/blockchain-bridges-5db6afac44f8",
+          "name" : "Blockchain Bridges"
+        },
+        {
+          "name" : "详解10大Layer1与4大Layer2年度进展与竞争格局 |链捕手",
+          "url" : "https:\/\/mp.weixin.qq.com\/s?__biz=MzU4MTQwMzMxOA==&mid=2247488686&idx=1&sn=a02c7db30f3dddb87ce1a1376b612d9c&chksm=fd494377ca3eca6189517e9c3cf739c2b352417928dccf066dc5cf748614dda77081eb97b89a&scene=21#wechat_redirect"
+        }
+      ]
+    },
+    "zh\/tech\/Vertical Liquidity.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+        {
+          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-how-money-works-today\/",
+          "name" : "最基本的价值"
+        },
+        {
+          "name" : "价值存储",
+          "url" : "https:\/\/cryptobriefing.com\/why-bitcoin-wealth-transfer\/"
+        },
+        {
+          "name" : "交换媒介",
+          "url" : "https:\/\/vitalik.ca\/general\/2017\/10\/17\/moe.html"
+        },
+        {
+          "url" : "https:\/\/mirror.xyz\/0xe7175fe936E9AfdEb0CACe5b88E45CEe3387ffb8\/RLDoHJMElSOVPVFtVmQsgtsWCw96C1ulhPsnQGZlIhQ",
+          "name" : "内在协调"
+        },
+        {
+          "name" : "区块链治理",
+          "url" : "https:\/\/vitalik.ca\/general\/2017\/12\/17\/voting.html"
+        },
+        {
+          "name" : "扩容终局",
+          "url" : "https:\/\/vitalik.ca\/general\/2021\/12\/06\/endgame.html"
+        },
+        {
+          "name" : "灵魂绑定",
+          "url" : "https:\/\/vitalik.ca\/general\/2022\/01\/26\/soulbound.html"
+        },
+        {
+          "url" : "https:\/\/www.woshipm.com\/pd\/454843.html",
+          "name" : "原生性"
+        },
+        {
+          "name" : "数字所有权的革命",
+          "url" : "https:\/\/mirror.xyz\/bubai.eth\/KAgr16vN8IRtjHARFQ6Wx35OmgLj9Oh2qcRkiiNw_OE"
+        },
+        {
+          "name" : "去中心化社会",
+          "url" : "https:\/\/papers.ssrn.com\/sol3\/papers.cfm?abstract_id=4105763"
+        },
+        {
+          "url" : "https:\/\/vitalik.ca\/general\/2021\/01\/11\/recovery.html",
+          "name" : "社交恢复"
+        },
+        {
+          "url" : "http:\/\/www.shkxjk.com\/CN\/abstract\/abstract3675.shtml",
+          "name" : "有利于经济发展"
+        },
+        {
+          "url" : "https:\/\/books.google.com.hk\/books\/about\/%E4%BF%A1%E4%BB%BB.html?id=FJ9LAAAACAAJ&redir_esc=y",
+          "name" : "影响机理"
+        }
+      ],
+      "images" : [
+
+      ]
+    },
+    "zh\/life\/20210616-我的学生时代.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
 
       ]
     },
     "zh\/life\/20181230-8102年啊.md" : {
+      "attachments" : [
+
+      ],
       "images" : [
 
       ],
       "links" : [
-
-      ],
-      "attachments" : [
 
       ]
     },
-    "zh\/life\/20210620_rent_house.md" : {
-      "images" : [
-
-      ],
+    "en\/tech\/NFT a Revolution.md" : {
       "links" : [
+        {
+          "name" : "What Are NFTs and How Can They Be Used in Decentralized Finance? DEFI Explained",
+          "url" : "https:\/\/www.youtube.com\/watch?v=Xdkkux6OxfM"
+        },
+        {
+          "url" : "https:\/\/medium.com\/ethernitychain\/dak-prescott-x-ethernity-89e558ebd880",
+          "name" : "Dak Prescott"
+        },
+        {
+          "name" : "NFT 融资轮次",
+          "url" : "https:\/\/www.notion.so\/66f7d6cdc07241c180b02037150324d6"
+        },
+        {
+          "url" : "https:\/\/www.notion.so\/dc233522b8ec43b5a70b207d1a70b04f",
+          "name" : "融资金额"
+        },
+        {
+          "url" : "https:\/\/www.notion.so\/1177a7bb3a904b05aa7867f0a34a9620",
+          "name" : "NFT 产业赛道"
+        },
+        {
+          "name" : "NBA Top Shot",
+          "url" : "https:\/\/nbatopshot.com\/"
+        },
+        {
+          "name" : "Sorare",
+          "url" : "https:\/\/sorare.com\/"
+        },
+        {
+          "url" : "https:\/\/axieinfinity.com\/",
+          "name" : "Axie Infinity"
+        },
+        {
+          "url" : "https:\/\/alienworlds.io\/",
+          "name" : "Alien Worlds"
+        },
+        {
+          "name" : "Decentraland",
+          "url" : "https:\/\/decentraland.org\/"
+        },
+        {
+          "url" : "https:\/\/www.sandbox.game\/",
+          "name" : "The Sandbox"
+        },
+        {
+          "name" : "Royal",
+          "url" : "https:\/\/royal.io\/"
+        },
+        {
+          "url" : "https:\/\/www.digitalax.xyz\/homepage",
+          "name" : "Digitalax"
+        },
+        {
+          "url" : "https:\/\/makersplace.com\/",
+          "name" : "Makersplace"
+        },
+        {
+          "name" : "SuperRare",
+          "url" : "https:\/\/superrare.co\/"
+        },
+        {
+          "url" : "https:\/\/www.larvalabs.com\/cryptopunks",
+          "name" : "CryptoPunks"
+        },
+        {
+          "url" : "https:\/\/larvalabs.com\/autoglyphs",
+          "name" : "Autoglyphs"
+        },
+        {
+          "url" : "https:\/\/mirror.xyz\/",
+          "name" : "Mirror"
+        },
+        {
+          "url" : "https:\/\/www.darkblock.io\/",
+          "name" : "Darkblock"
+        },
+        {
+          "url" : "https:\/\/terravirtua.io\/",
+          "name" : "TerraVirtua"
+        },
+        {
+          "url" : "https:\/\/www.mintbase.io\/zh",
+          "name" : "Mintbase"
+        },
+        {
+          "url" : "https:\/\/www.sportzchain.com\/",
+          "name" : "SportZchain"
+        },
+        {
+          "name" : "Chingari",
+          "url" : "https:\/\/chingari.io\/"
+        },
+        {
+          "url" : "https:\/\/monaconft.io\/",
+          "name" : "Monaco Planet"
+        },
+        {
+          "url" : "https:\/\/www.niftex.com\/",
+          "name" : "NiftEx"
+        },
+        {
+          "url" : "https:\/\/upshot.io\/",
+          "name" : "Upshot"
+        },
+        {
+          "name" : "NFT20",
+          "url" : "https:\/\/nft20.io\/"
+        },
+        {
+          "url" : "https:\/\/nftx.org\/",
+          "name" : "NFTX"
+        },
+        {
+          "name" : "Uniswap V3",
+          "url" : "https:\/\/uniswap.org\/"
+        },
+        {
+          "url" : "http:\/\/www.aavegotchi.com\/",
+          "name" : "Aavegotchi"
+        },
+        {
+          "url" : "https:\/\/yinsure.finance\/",
+          "name" : "Yinsure.finance"
+        },
+        {
+          "name" : "Cryptoart.io",
+          "url" : "https:\/\/cryptoart.io\/"
+        },
+        {
+          "url" : "https:\/\/nonfungible.com\/",
+          "name" : "Nonfungible"
+        },
+        {
+          "url" : "https:\/\/oceanprotocol.com\/",
+          "name" : "Ocean"
+        },
+        {
+          "url" : "https:\/\/whale.me\/",
+          "name" : "Whale DAO"
+        },
+        {
+          "url" : "https:\/\/flamingo.finance\/",
+          "name" : "Flamingo"
+        },
+        {
+          "url" : "https:\/\/www.metapurse.fund\/",
+          "name" : "MetaPurse"
+        },
+        {
+          "url" : "https:\/\/collab.land\/",
+          "name" : "Collab.land"
+        },
+        {
+          "url" : "https:\/\/opensea.io\/",
+          "name" : "OpenSea"
+        },
+        {
+          "name" : "Auctionity",
+          "url" : "https:\/\/www.auctionity.com\/"
+        },
+        {
+          "name" : "TokenTrove",
+          "url" : "https:\/\/tokentrove.com\/"
+        },
+        {
+          "url" : "https:\/\/nftfi.com\/",
+          "name" : "NFTfi"
+        },
+        {
+          "url" : "https:\/\/pawnhouse.io\/",
+          "name" : "Pawnhouse"
+        },
+        {
+          "name" : "NFT Bank",
+          "url" : "https:\/\/nftbank.ai\/"
+        },
+        {
+          "name" : "Mason Nystrom",
+          "url" : "https:\/\/messari.io\/research\/mason-nystrom"
+        }
+      ],
+      "images" : [
 
       ],
       "attachments" : [
@@ -2460,207 +2131,47 @@
       ]
     }
   },
-  "todo_list" : {
+  "toc_hash_info" : {
 
-  },
-  "filename_path_info" : {
-    "20161026-关于《禅与摩托车维修艺术》解读（二）" : "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md",
-    "20200620-hello-world" : "zh\/tech\/20200620-hello-world.md",
-    "20200703-newstart" : "zh\/life\/20200703-newstart.md",
-    "20151226-life-jiaofu" : "zh\/life\/20151226-life-jiaofu.md",
-    "_index" : "en\/about\/_index.md",
-    "vertical liquidity" : "en\/tech\/Vertical Liquidity.md",
-    "20181230-8102年啊" : "zh\/life\/20181230-8102年啊.md",
-    "20180506-停电的红湖" : "zh\/life\/20180506-停电的红湖.md",
-    "20210620_rent_house" : "zh\/life\/20210620_rent_house.md",
-    "horizontal liquidity" : "zh\/tech\/Horizontal Liquidity.md",
-    "nft a revolution" : "zh\/tech\/NFT a Revolution.md",
-    "技术时代重新思考教育" : "zh\/tech\/技术时代重新思考教育.md",
-    "20200626-sum2019" : "zh\/life\/20200626-sum2019.md",
-    "20210616-我的学生时代" : "zh\/life\/20210616-我的学生时代.md",
-    "20200707-学生毕业" : "zh\/life\/20200707-学生毕业.md",
-    "20180524-论阅历" : "zh\/life\/20180524-论阅历.md",
-    "数据科学家与web 3.0" : "zh\/tech\/数据科学家与Web 3.0.md",
-    "20161101-got-tyrion" : "en\/life\/20161101-GOT-Tyrion.md",
-    "20170910-我的唯一一个教师节" : "zh\/life\/20170910-我的唯一一个教师节.md",
-    "web3 data" : "en\/tech\/Web3 data.md",
-    "20161025-关于《禅与摩托车维修艺术》解读（一）" : "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md",
-    "我的学生时代（二）" : "zh\/life\/我的学生时代（二）.md",
-    "20171001-22岁" : "zh\/life\/20171001-22岁.md",
-    "20161231-无法想象的世界" : "zh\/life\/20161231-无法想象的世界.md",
-    "互联网广告术语cpm、cpc、cpa、cps、cpl、cpr 是什么意思？" : "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md",
-    "20161117-consulting-tsoc" : "zh\/life\/20161117-consulting-TSOC.md",
-    "ethereum zk rollup era" : "en\/tech\/Ethereum ZK Rollup Era.md",
-    "20170826-死亡诗社" : "zh\/life\/20170826-死亡诗社.md"
-  },
-  "files_mtime_info" : {
-    "zh\/life\/20170826-死亡诗社.md" : 1664274115,
-    "zh\/life\/20200703-newstart.md" : 1664274115,
-    "zh\/tech\/Horizontal liquidity.md" : 1667202939,
-    "en\/tech\/NFT：数字所有权的革命.md" : 1664274115,
-    "en\/about\/_index.md" : 1664274115,
-    "zh\/tech\/以太坊的 ZK Rollup 时代 c011023e165642a8a52fdb3167a1703f.md" : 1652781210,
-    "zh\/life\/20161117-consulting-TSOC.md" : 1664274115,
-    "en\/tech\/以太坊的 ZK Rollup 时代.md" : 1664274115,
-    "zh\/tech\/纵向流动性：价值如何互联互通.md" : 1667202939,
-    "zh\/tech\/Horizontal Liquidity.md" : 1667213598,
-    "zh\/about\/_index.md" : 1664274115,
-    "zh\/tech\/以太坊的 ZK Rollup 时代.md" : 1664274115,
-    "zh\/life\/我的学生时代（二）.md" : 1664274115,
-    "zh\/tech\/NFT：数字所有权的革命 c316e90fc5494b8aadabca85ce5fd219.md" : 1652781394,
-    "zh\/life\/20180524-论阅历.md" : 1664274115,
-    "zh\/life\/20171001-22岁.md" : 1664274115,
-    "zh\/life\/20180506-停电的红湖.md" : 1664274115,
-    "en\/tech\/Web3 data.md" : 1667807551,
-    "zh\/life\/20170910-我的唯一一个教师节.md" : 1664274115,
-    "en\/tech\/当我们谈 Web3 数据，我们在谈些什么？.md" : 1664277460,
-    "en\/tech\/Horizontal Liquidity.md" : 1667213763,
-    "zh\/life\/20200626-sum2019.md" : 1664274115,
-    "zh\/tech\/NFT a Revolution.md" : 1667214093,
-    "zh\/tech\/横向流动性：价值如何跨链 881ba3d9cdb446888dcb41b0f3a89ffc.md" : 1655373213,
-    "zh\/tech\/20200620-hello-world.md" : 1667213443,
-    "zh\/tech\/Etheruem ZK Rollup Era.md" : 1664274115,
-    "en\/tech\/NFT a Revolution.md" : 1667214083,
-    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : 1667213436,
-    "zh\/tech\/当我们谈 Web3 数据，我们在谈些什么？.md" : 1664277460,
-    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : 1664274115,
-    "zh\/tech\/Vertical Liquidity.md" : 1667213587,
-    "zh\/tech\/横向流动性：价值如何跨链.md" : 1664274115,
-    "en\/tech\/横向流动性：价值如何跨链.md" : 1664274115,
-    "zh\/life\/20210616-我的学生时代.md" : 1664274115,
-    "zh\/life\/20161231-无法想象的世界.md" : 1664274115,
-    "zh\/tech\/Ethereum ZK Rollup Era.md" : 1667214148,
-    "zh\/tech\/数据科学家与Web 3.0.md" : 1667213383,
-    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : 1664274115,
-    "en\/tech\/Ethereum ZK Rollup Era.md" : 1667214173,
-    "en\/tech\/HGX.md" : 1664274115,
-    "en\/tech\/Vertical Liquidity.md" : 1667806591,
-    "zh\/life\/20161101-GOT-Tyrion.md" : 1652778502,
-    "zh\/life\/20181230-8102年啊.md" : 1664274115,
-    "zh\/tech\/NFT：数字所有权的革命.md" : 1664274115,
-    "zh\/life\/20210620_rent_house.md" : 1664274115,
-    "en\/tech\/Etheruem ZK Rollup Era.md" : 1667203142,
-    "zh\/life\/20151226-life-jiaofu.md" : 1664274115,
-    "zh\/tech\/Web3 data.md" : 1667212963,
-    "en\/life\/20161101-GOT-Tyrion.md" : 1664274115,
-    "zh\/tech\/技术时代重新思考教育.md" : 1667213401,
-    "zh\/life\/20200707-学生毕业.md" : 1664274115
-  },
-  "links_paths" : {
-
-  },
-  "links_backward_paths" : {
-
-  },
-  "wiki_data_version" : "0.1",
-  "path_name_info" : {
-    "zh\/life\/20181230-8102年啊.md" : "8102年啊",
-    "zh\/life\/20171001-22岁.md" : "22岁",
-    "zh\/life\/20180524-论阅历.md" : "论阅历",
-    "zh\/life\/20161231-无法想象的世界.md" : "无法想象的世界",
-    "en\/tech\/Horizontal Liquidity.md" : "Horizontal Liquidity: how value crosses the chain",
-    "zh\/life\/20200626-sum2019.md" : "迟到半年的2019年总结",
-    "zh\/life\/20200703-newstart.md" : "续了五年",
-    "zh\/tech\/NFT a Revolution.md" : "NFT：数字所有权的革命",
-    "zh\/tech\/数据科学家与Web 3.0.md" : "数据科学家与 Web 3.0",
-    "zh\/life\/20170826-死亡诗社.md" : "死亡诗社",
-    "zh\/tech\/Horizontal liquidity.md" : "纵向流动性：价值如何互联互通",
-    "zh\/life\/20210616-我的学生时代.md" : "我的学生时代（一）",
-    "en\/tech\/Web3 data.md" : "When we talk about Web3 data, what are we talking about?",
-    "zh\/life\/20170910-我的唯一一个教师节.md" : "我的唯一一个教师节",
-    "zh\/tech\/Web3 data.md" : "当我们谈 Web3 数据，我们在谈些什么？",
-    "zh\/tech\/20200620-hello-world.md" : "Hello World",
-    "zh\/tech\/Horizontal Liquidity.md" : "横向流动性：价值如何跨链",
-    "zh\/life\/20161117-consulting-TSOC.md" : "《咨询的奥秘：寻求和提出建议的智慧》笔记",
-    "en\/tech\/NFT a Revolution.md" : "NFTs: a revolution in digital ownership",
-    "zh\/life\/20151226-life-jiaofu.md" : "关于《教父》III",
-    "zh\/tech\/Vertical Liquidity.md" : "纵向流动性：价值如何互联互通",
-    "en\/tech\/Ethereum ZK Rollup Era.md" : "Ethereum's ZK Rollup Era",
-    "zh\/life\/20200707-学生毕业.md" : "我的学生毕业",
-    "zh\/life\/20180506-停电的红湖.md" : "停电的红湖",
-    "zh\/life\/20210620_rent_house.md" : "租房见闻",
-    "zh\/tech\/Ethereum ZK Rollup Era.md" : "以太坊的 ZK Rollup 时代",
-    "zh\/about\/_index.md" : "_index",
-    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : "互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？",
-    "zh\/tech\/技术时代重新思考教育.md" : "技术时代教育会发生怎样的变革？",
-    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : "关于《禅与摩托车维修艺术》解读（二）",
-    "zh\/life\/我的学生时代（二）.md" : "我的学生时代（二）",
-    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : "关于《禅与摩托车维修艺术》解读（一）",
-    "en\/about\/_index.md" : "_index",
-    "en\/life\/20161101-GOT-Tyrion.md" : "Oedipus the King and Tyrion Lannister",
-    "en\/tech\/Vertical Liquidity.md" : "Vertical Liquidity: How Value Interconnects"
   },
   "tags_paths" : {
-    "zh\/life\/20210616-我的学生时代.md" : [
-
-    ],
-    "zh\/tech\/Horizontal Liquidity.md" : [
-
-    ],
-    "en\/tech\/Web3 data.md" : [
-
-    ],
-    "zh\/life\/20170910-我的唯一一个教师节.md" : [
-
-    ],
-    "zh\/life\/20200626-sum2019.md" : [
-
-    ],
-    "zh\/life\/我的学生时代（二）.md" : [
-
-    ],
-    "zh\/tech\/Vertical Liquidity.md" : [
-
-    ],
     "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : [
 
     ],
-    "zh\/life\/20161231-无法想象的世界.md" : [
-
-    ],
-    "zh\/life\/20181230-8102年啊.md" : [
-
-    ],
-    "zh\/life\/20200703-newstart.md" : [
-
-    ],
-    "zh\/life\/20161117-consulting-TSOC.md" : [
-
-    ],
-    "en\/tech\/Horizontal Liquidity.md" : [
-
-    ],
-    "zh\/tech\/Web3 data.md" : [
-
-    ],
-    "zh\/tech\/数据科学家与Web 3.0.md" : [
-
-    ],
-    "zh\/life\/20180524-论阅历.md" : [
-
-    ],
-    "en\/tech\/Vertical Liquidity.md" : [
-
-    ],
-    "en\/about\/_index.md" : [
-
-    ],
-    "zh\/tech\/技术时代重新思考教育.md" : [
+    "zh\/life\/20210616-我的学生时代.md" : [
 
     ],
     "zh\/about\/_index.md" : [
 
     ],
-    "zh\/life\/20170826-死亡诗社.md" : [
-
-    ],
     "zh\/tech\/20200620-hello-world.md" : [
 
     ],
-    "en\/tech\/Ethereum ZK Rollup Era.md" : [
+    "en\/about\/_index.md" : [
 
     ],
-    "zh\/life\/20171001-22岁.md" : [
+    "zh\/tech\/Horizontal Liquidity.md" : [
+
+    ],
+    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : [
+
+    ],
+    "zh\/tech\/Ethereum ZK Rollup Era.md" : [
+
+    ],
+    "zh\/tech\/数据科学家与Web 3.0.md" : [
+
+    ],
+    "zh\/life\/20210620_rent_house.md" : [
+
+    ],
+    "zh\/tech\/Horizontal liquidity.md" : [
+
+    ],
+    "en\/tech\/Vertical Liquidity.md" : [
+
+    ],
+    "en\/life\/20161101-GOT-Tyrion.md" : [
 
     ],
     "zh\/life\/20180506-停电的红湖.md" : [
@@ -2669,19 +2180,43 @@
     "en\/tech\/NFT a Revolution.md" : [
 
     ],
-    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : [
+    "zh\/tech\/技术时代重新思考教育.md" : [
+
+    ],
+    "zh\/life\/我的学生时代（二）.md" : [
 
     ],
     "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : [
 
     ],
-    "zh\/tech\/Ethereum ZK Rollup Era.md" : [
+    "zh\/life\/20170826-死亡诗社.md" : [
 
     ],
-    "zh\/life\/20210620_rent_house.md" : [
+    "en\/tech\/Web3 data.md" : [
 
     ],
-    "zh\/tech\/NFT a Revolution.md" : [
+    "zh\/life\/20200703-newstart.md" : [
+
+    ],
+    "zh\/life\/20161231-无法想象的世界.md" : [
+
+    ],
+    "zh\/life\/20181230-8102年啊.md" : [
+
+    ],
+    "zh\/life\/20170910-我的唯一一个教师节.md" : [
+
+    ],
+    "zh\/tech\/Vertical Liquidity.md" : [
+
+    ],
+    "zh\/life\/20171001-22岁.md" : [
+
+    ],
+    "zh\/tech\/Web3 data.md" : [
+
+    ],
+    "zh\/life\/20161117-consulting-TSOC.md" : [
 
     ],
     "zh\/life\/20200707-学生毕业.md" : [
@@ -2690,52 +2225,557 @@
     "zh\/life\/20151226-life-jiaofu.md" : [
 
     ],
-    "en\/life\/20161101-GOT-Tyrion.md" : [
+    "en\/tech\/Ethereum ZK Rollup Era.md" : [
 
     ],
-    "zh\/tech\/Horizontal liquidity.md" : [
+    "zh\/life\/20180524-论阅历.md" : [
+
+    ],
+    "en\/tech\/Horizontal Liquidity.md" : [
+
+    ],
+    "zh\/life\/20200626-sum2019.md" : [
+
+    ],
+    "zh\/tech\/NFT a Revolution.md" : [
 
     ]
   },
-  "tags_tags" : {
+  "todo_list" : {
 
   },
-  "words_info" : {
-    "zh\/life\/20161117-consulting-TSOC.md" : 14981,
-    "zh\/life\/20170826-死亡诗社.md" : 412,
-    "zh\/life\/20171001-22岁.md" : 414,
-    "zh\/life\/20210616-我的学生时代.md" : 2322,
-    "en\/tech\/Ethereum ZK Rollup Era.md" : 6931,
-    "zh\/life\/我的学生时代（二）.md" : 1468,
-    "zh\/life\/20180506-停电的红湖.md" : 346,
-    "zh\/life\/20200707-学生毕业.md" : 551,
-    "en\/tech\/Horizontal Liquidity.md" : 3361,
-    "zh\/life\/20170910-我的唯一一个教师节.md" : 755,
-    "zh\/tech\/Ethereum ZK Rollup Era.md" : 10662,
-    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : 1523,
-    "zh\/tech\/Horizontal liquidity.md" : 5507,
-    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : 3614,
-    "zh\/life\/20180524-论阅历.md" : 561,
-    "zh\/tech\/Web3 data.md" : 7965,
-    "en\/tech\/Vertical Liquidity.md" : 3414,
-    "en\/life\/20161101-GOT-Tyrion.md" : 603,
-    "zh\/about\/_index.md" : 144,
-    "zh\/life\/20181230-8102年啊.md" : 534,
-    "zh\/tech\/NFT a Revolution.md" : 14032,
-    "en\/tech\/Web3 data.md" : 4831,
-    "zh\/life\/20161231-无法想象的世界.md" : 1231,
-    "zh\/tech\/Horizontal Liquidity.md" : 5506,
-    "zh\/tech\/数据科学家与Web 3.0.md" : 2557,
-    "zh\/tech\/Vertical Liquidity.md" : 5504,
-    "zh\/tech\/技术时代重新思考教育.md" : 3524,
-    "zh\/tech\/20200620-hello-world.md" : 70,
-    "zh\/life\/20151226-life-jiaofu.md" : 1076,
-    "zh\/life\/20200626-sum2019.md" : 558,
-    "en\/tech\/NFT a Revolution.md" : 8911,
-    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : 3376,
-    "zh\/life\/20210620_rent_house.md" : 2830,
-    "zh\/life\/20200703-newstart.md" : 350,
-    "en\/about\/_index.md" : 98
+  "links_backward_paths" : {
+
+  },
+  "links_paths" : {
+
+  },
+  "documents_meta_info" : {
+    "zh\/life\/20161101-GOT-Tyrion.md" : {
+      "tags" : "",
+      "title" : "Oedipus the King and Tyrion Lannister",
+      "date" : "2016-11-01 00:00:00",
+      "raw_metadata_str" : "title: Oedipus the King and Tyrion Lannister\ndate: 2016-11-01 00:00:00\ntags:\n- GameOfThrones\n- 读后感\ndescription: Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.",
+      "description" : "Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character."
+    },
+    "en\/tech\/Vertical Liquidity.md" : {
+      "title" : "Vertical Liquidity: How Value Interconnects",
+      "slug" : "Vertical Liquidity",
+      "url" : "Vertical Liquidity",
+      "description" : "",
+      "indent" : "false",
+      "date" : "2022-07-27T10:50:02+08:00",
+      "tags" : "",
+      "raw_metadata_str" : "title: \"Vertical Liquidity: How Value Interconnects\"\ndate: 2022-07-27T10:50:02+08:00\ndescription:\ntags:\n- Infrastructure\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Vertical Liquidity",
+      "toc" : "false",
+      "comments" : "false"
+    },
+    "zh\/tech\/数据科学家与Web 3.0.md" : {
+      "raw_metadata_str" : "title: \"数据科学家与 Web 3.0\"\ndate: 2021-11-22T21:51:33+08:00\ndescription:\ntags:\n- 互联网\n- 数据\n- Web 3.0\nindent: false\ncomments: false\ntoc: true\nslug: data scientist and web3",
+      "slug" : "data scientist and web3",
+      "comments" : "false",
+      "description" : "",
+      "date" : "2021-11-22T21:51:33+08:00",
+      "title" : "数据科学家与 Web 3.0",
+      "tags" : "",
+      "indent" : "false",
+      "url" : "data scientist and web3",
+      "toc" : "true"
+    },
+    "zh\/tech\/以太坊的 ZK Rollup 时代.md" : {
+      "date" : "2022-04-22T21:51:33+08:00",
+      "description" : "",
+      "toc" : "false",
+      "indent" : "false",
+      "raw_metadata_str" : "title: \"以太坊的 ZK Rollup 时代\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "comments" : "false",
+      "tags" : "",
+      "title" : "以太坊的 ZK Rollup 时代"
+    },
+    "en\/tech\/以太坊的 ZK Rollup 时代.md" : {
+      "tags" : "",
+      "toc" : "false",
+      "indent" : "false",
+      "raw_metadata_str" : "title: \"以太坊的 ZK Rollup 时代\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "title" : "以太坊的 ZK Rollup 时代",
+      "comments" : "false",
+      "description" : "",
+      "date" : "2022-04-22T21:51:33+08:00"
+    },
+    "zh\/tech\/Etheruem ZK Rollup Era.md" : {
+      "toc" : "false",
+      "indent" : "false",
+      "description" : "",
+      "tags" : "",
+      "raw_metadata_str" : "title: \"以太坊的 ZK Rollup 时代\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "comments" : "false",
+      "title" : "以太坊的 ZK Rollup 时代",
+      "date" : "2022-04-22T21:51:33+08:00"
+    },
+    "en\/tech\/Horizontal Liquidity.md" : {
+      "tags" : "",
+      "toc" : "false",
+      "title" : "Horizontal Liquidity: how value crosses the chain",
+      "comments" : "false",
+      "indent" : "false",
+      "date" : "2022-06-16T17:53:33+08:00",
+      "raw_metadata_str" : "title: \"Horizontal Liquidity: how value crosses the chain\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- Infrastructure\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Horizontal Liquidity",
+      "slug" : "Horizontal Liquidity",
+      "url" : "Horizontal Liquidity",
+      "description" : ""
+    },
+    "zh\/tech\/Web3 data.md" : {
+      "date" : "2022-09-27T10:50:02+08:00",
+      "description" : "",
+      "title" : "当我们谈 Web3 数据，我们在谈些什么？",
+      "url" : "Web3 data",
+      "slug" : "Web3 data",
+      "indent" : "false",
+      "comments" : "false",
+      "tags" : "",
+      "raw_metadata_str" : "title: 当我们谈 Web3 数据，我们在谈些什么？\ndate: 2022-09-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\n- 数据\nindent: false\ncomments: false\ntoc: false\nslug: Web3 data",
+      "toc" : "false"
+    },
+    "zh\/about\/_index.md" : {
+
+    },
+    "en\/tech\/Etheruem ZK Rollup Era.md" : {
+      "toc" : "false",
+      "comments" : "false",
+      "raw_metadata_str" : "title: \"Ethereum's ZK Rollup Era\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "title" : "Ethereum's ZK Rollup Era",
+      "tags" : "",
+      "description" : "",
+      "indent" : "false",
+      "date" : "2022-04-22T21:51:33+08:00"
+    },
+    "zh\/tech\/横向流动性：价值如何跨链 881ba3d9cdb446888dcb41b0f3a89ffc.md" : {
+      "comments" : "false",
+      "title" : "横向流动性：价值如何跨链",
+      "tags" : "",
+      "date" : "2022-06-16T17:53:33+08:00",
+      "description" : "",
+      "raw_metadata_str" : "title: \"横向流动性：价值如何跨链\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "indent" : "false",
+      "toc" : "false"
+    },
+    "zh\/tech\/Ethereum ZK Rollup Era.md" : {
+      "comments" : "false",
+      "date" : "2022-04-22T21:51:33+08:00",
+      "toc" : "false",
+      "slug" : "Ethereum ZK Rollup Era",
+      "title" : "以太坊的 ZK Rollup 时代",
+      "description" : "",
+      "indent" : "false",
+      "tags" : "",
+      "raw_metadata_str" : "title: \"以太坊的 ZK Rollup 时代\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Ethereum ZK Rollup Era",
+      "url" : "Ethereum ZK Rollup Era"
+    },
+    "en\/tech\/当我们谈 Web3 数据，我们在谈些什么？.md" : {
+      "tags" : "",
+      "toc" : "false",
+      "description" : "",
+      "date" : "2022-09-27T10:50:02+08:00",
+      "raw_metadata_str" : "title: 当我们谈 Web3 数据，我们在谈些什么？\ndate: 2022-09-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\n- 数据\nindent: false\ncomments: false\ntoc: false",
+      "indent" : "false",
+      "comments" : "false",
+      "title" : "当我们谈 Web3 数据，我们在谈些什么？"
+    },
+    "zh\/life\/20180524-论阅历.md" : {
+      "raw_metadata_str" : "title: 论阅历\ndate: 2018-05-24 00:00:00\ntags: \n- 随笔",
+      "date" : "2018-05-24 00:00:00",
+      "title" : "论阅历",
+      "tags" : ""
+    },
+    "zh\/tech\/技术时代重新思考教育.md" : {
+      "raw_metadata_str" : "title: \"技术时代教育会发生怎样的变革？\"\ndate: 2021-10-27T21:51:33+08:00\ndescription:\ntags:\n- 互联网\n- 教育\nindent: false\ncomments: false\ntoc: true\nslug: education in tech era",
+      "indent" : "false",
+      "comments" : "false",
+      "url" : "education in tech era",
+      "tags" : "",
+      "slug" : "education in tech era",
+      "description" : "",
+      "date" : "2021-10-27T21:51:33+08:00",
+      "toc" : "true",
+      "title" : "技术时代教育会发生怎样的变革？"
+    },
+    "zh\/tech\/Horizontal Liquidity.md" : {
+      "url" : "Horizontal Liquidity",
+      "raw_metadata_str" : "title: \"横向流动性：价值如何跨链\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Horizontal Liquidity",
+      "comments" : "false",
+      "tags" : "",
+      "date" : "2022-06-16T17:53:33+08:00",
+      "indent" : "false",
+      "slug" : "Horizontal Liquidity",
+      "toc" : "false",
+      "title" : "横向流动性：价值如何跨链",
+      "description" : ""
+    },
+    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : {
+      "title" : "互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？",
+      "tags" : "",
+      "raw_metadata_str" : "title: \"互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 、OCPC是什么意思？\"\ndate: 2021-10-27T17:40:34+08:00\ndescription:\ntags:\n- 互联网\n- 商业化\nindent: false\ncomments: false\ntoc: false\nslug: what's the meaning of cpm cpc cpa cps cpl cpr and ocpc",
+      "date" : "2021-10-27T17:40:34+08:00",
+      "indent" : "false",
+      "description" : "",
+      "slug" : "what's the meaning of cpm cpc cpa cps cpl cpr and ocpc",
+      "url" : "what's the meaning of cpm cpc cpa cps cpl cpr and ocpc",
+      "comments" : "false",
+      "toc" : "false"
+    },
+    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : {
+      "date" : "2016-10-25 00:00:00",
+      "description" : "Zen and the Art of Motorcycle Maintenance —— by Robert M. Pirsig",
+      "tags" : "",
+      "title" : "关于《禅与摩托车维修艺术》解读（一）",
+      "raw_metadata_str" : "title: 关于《禅与摩托车维修艺术》解读（一）\ndate: 2016-10-25 00:00:00\ntags:\n- 读后感\n- 新世相\ndescription: Zen and the Art of Motorcycle Maintenance —— by Robert M. Pirsig"
+    },
+    "zh\/life\/20151226-life-jiaofu.md" : {
+      "date" : "2015-12-26 00:00:00",
+      "raw_metadata_str" : "title: 关于《教父》III\ndate: 2015-12-26 00:00:00\ntags:\n- 影评\ndescription: 一个人无聊看教父",
+      "tags" : "",
+      "description" : "一个人无聊看教父",
+      "title" : "关于《教父》III"
+    },
+    "en\/tech\/HGX.md" : {
+      "description" : "",
+      "tags" : "",
+      "toc" : "false",
+      "date" : "2022-06-16T17:53:33+08:00",
+      "indent" : "false",
+      "comments" : "false",
+      "title" : "Horizontal liquidity: how value crosses the chain",
+      "raw_metadata_str" : "title: \"Horizontal liquidity: how value crosses the chain\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- Infrastructure\n- Web 3.0\nindent: false\ncomments: false\ntoc: false"
+    },
+    "en\/tech\/NFT a Revolution.md" : {
+      "tags" : "",
+      "comments" : "false",
+      "url" : "NFT a Revolution",
+      "date" : "2021-12-14T21:51:33+08:00",
+      "slug" : "NFT a Revolution",
+      "title" : "NFTs: a revolution in digital ownership",
+      "indent" : "false",
+      "toc" : "false",
+      "raw_metadata_str" : "title: \"NFTs: a revolution in digital ownership\"\ndate: 2021-12-14T21:51:33+08:00\ndescription:\ntags:\n- NFT\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: NFT a Revolution",
+      "description" : ""
+    },
+    "en\/tech\/NFT：数字所有权的革命.md" : {
+      "title" : "NFT：数字所有权的革命",
+      "raw_metadata_str" : "title: \"NFT：数字所有权的革命\"\ndate: 2021-12-14T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "date" : "2021-12-14T21:51:33+08:00",
+      "comments" : "false",
+      "tags" : "",
+      "indent" : "false",
+      "description" : "",
+      "toc" : "false"
+    },
+    "zh\/tech\/NFT a Revolution.md" : {
+      "date" : "2021-12-14T21:51:33+08:00",
+      "toc" : "false",
+      "url" : "NFT a Revolution",
+      "slug" : "NFT a Revolution",
+      "comments" : "false",
+      "tags" : "",
+      "raw_metadata_str" : "title: \"NFT：数字所有权的革命\"\ndate: 2021-12-14T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: NFT a Revolution",
+      "description" : "",
+      "indent" : "false",
+      "title" : "NFT：数字所有权的革命"
+    },
+    "zh\/life\/20200703-newstart.md" : {
+      "toc" : "true",
+      "date" : "2020-07-03T10:40:07+08:00",
+      "title" : "续了五年",
+      "raw_metadata_str" : "title: \"续了五年\"\ndate: 2020-07-03T10:40:07+08:00\ntags: \n- 杂记\ncomments: false\ntoc: true",
+      "tags" : "",
+      "comments" : "false"
+    },
+    "zh\/tech\/NFT：数字所有权的革命.md" : {
+      "title" : "NFT：数字所有权的革命",
+      "date" : "2021-12-14T21:51:33+08:00",
+      "raw_metadata_str" : "title: \"NFT：数字所有权的革命\"\ndate: 2021-12-14T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "toc" : "false",
+      "indent" : "false",
+      "comments" : "false",
+      "tags" : "",
+      "description" : ""
+    },
+    "zh\/tech\/Vertical Liquidity.md" : {
+      "tags" : "",
+      "comments" : "false",
+      "date" : "2022-07-27T10:50:02+08:00",
+      "indent" : "false",
+      "url" : "Vertical Liquidity",
+      "toc" : "false",
+      "raw_metadata_str" : "title: 纵向流动性：价值如何互联互通\ndate: 2022-07-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Vertical Liquidity",
+      "description" : "",
+      "slug" : "Vertical Liquidity",
+      "title" : "纵向流动性：价值如何互联互通"
+    },
+    "zh\/life\/20210620_rent_house.md" : {
+      "tags" : "",
+      "date" : "2021-06-20T23:08:27+08:00",
+      "comments" : "false",
+      "toc" : "false",
+      "title" : "租房见闻",
+      "raw_metadata_str" : "title: \"租房见闻\"\ndate: 2021-06-20T23:08:27+08:00\ndescription:\ntags:\n- 随笔\ncomments: false\ntoc: false",
+      "description" : ""
+    },
+    "zh\/tech\/以太坊的 ZK Rollup 时代 c011023e165642a8a52fdb3167a1703f.md" : {
+      "tags" : "",
+      "raw_metadata_str" : "title: \"以太坊的 ZK Rollup 时代\"\ndate: 2022-04-22T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "indent" : "false",
+      "toc" : "false",
+      "comments" : "false",
+      "description" : "",
+      "date" : "2022-04-22T21:51:33+08:00",
+      "title" : "以太坊的 ZK Rollup 时代"
+    },
+    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : {
+      "date" : "2016-10-26 00:00:00",
+      "title" : "关于《禅与摩托车维修艺术》解读（二）",
+      "description" : "Zen and the Art of Motorcycle Maintenance——by Robert M. Pirsig",
+      "tags" : "",
+      "raw_metadata_str" : "title: 关于《禅与摩托车维修艺术》解读（二）\ndate: 2016-10-26 00:00:00\ntags:\n- 新世相\n- 读后感\ndescription: Zen and the Art of Motorcycle Maintenance——by Robert M. Pirsig"
+    },
+    "zh\/life\/20171001-22岁.md" : {
+      "date" : "2017-10-01 00:00:00",
+      "tags" : "",
+      "raw_metadata_str" : "title: 22岁\ndate: 2017-10-01 00:00:00\ntags: \n- 随笔",
+      "title" : "22岁"
+    },
+    "zh\/life\/20180506-停电的红湖.md" : {
+      "title" : "停电的红湖",
+      "raw_metadata_str" : "title: 停电的红湖\ndate: 2018-05-06 00:00:00\ntags: \n- 随笔",
+      "tags" : "",
+      "date" : "2018-05-06 00:00:00"
+    },
+    "zh\/life\/20200626-sum2019.md" : {
+      "comments" : "false",
+      "tags" : "",
+      "toc" : "false",
+      "raw_metadata_str" : "title: \"迟到半年的2019年总结\"\ndate: 2020-06-26T12:26:59+08:00\ntags:\n- 年终总结\ncomments: false\ntoc: false",
+      "date" : "2020-06-26T12:26:59+08:00",
+      "title" : "迟到半年的2019年总结"
+    },
+    "zh\/life\/20200707-学生毕业.md" : {
+      "toc" : "false",
+      "date" : "2020-07-07T11:15:53+08:00",
+      "raw_metadata_str" : "title: \"我的学生毕业\"\ndate: 2020-07-07T11:15:53+08:00\ntags:\n- 随笔\ncomments: false\ntoc: false",
+      "title" : "我的学生毕业",
+      "comments" : "false",
+      "tags" : ""
+    },
+    "en\/tech\/Web3 data.md" : {
+      "comments" : "false",
+      "toc" : "false",
+      "url" : "Web3 data",
+      "tags" : "",
+      "description" : "",
+      "indent" : "false",
+      "date" : "2022-09-27T10:50:02+08:00",
+      "slug" : "Web3 data",
+      "title" : "When we talk about Web3 data, what are we talking about?",
+      "raw_metadata_str" : "title: When we talk about Web3 data, what are we talking about?\ndate: 2022-09-27T10:50:02+08:00\ndescription:\ntags:\n- Infrastructure\n- Web 3.0\n- Data\nindent: false\ncomments: false\ntoc: false\nslug: Web3 data"
+    },
+    "en\/tech\/横向流动性：价值如何跨链.md" : {
+      "raw_metadata_str" : "title: \"横向流动性：价值如何跨链\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "description" : "",
+      "tags" : "",
+      "indent" : "false",
+      "comments" : "false",
+      "toc" : "false",
+      "date" : "2022-06-16T17:53:33+08:00",
+      "title" : "横向流动性：价值如何跨链"
+    },
+    "zh\/tech\/20200620-hello-world.md" : {
+      "slug" : "hello world",
+      "date" : "2020-06-20T10:50:02+08:00",
+      "title" : "Hello World",
+      "url" : "hello world",
+      "raw_metadata_str" : "title: \"Hello World\"\ndate: 2020-06-20T10:50:02+08:00\ntags:\n- Hello World\nslug: hello world",
+      "tags" : ""
+    },
+    "zh\/life\/20170910-我的唯一一个教师节.md" : {
+      "title" : "我的唯一一个教师节",
+      "date" : "2017-09-10 00:00:00",
+      "tags" : "",
+      "raw_metadata_str" : "title: 我的唯一一个教师节\ndate: 2017-09-10 00:00:00\ntags: \n- 随笔"
+    },
+    "zh\/life\/20161231-无法想象的世界.md" : {
+      "title" : "无法想象的世界",
+      "date" : "2016-12-31 00:00:00",
+      "raw_metadata_str" : "title: 无法想象的世界\ndate: 2016-12-31 00:00:00\ndescription: 而现在，我正置身于那个“无法想象”的世界。如此一想，便觉得有点好笑。置身于此的我究竟是幸福还是不幸？\ntags: \n- 随笔\n- 年终总结",
+      "description" : "而现在，我正置身于那个“无法想象”的世界。如此一想，便觉得有点好笑。置身于此的我究竟是幸福还是不幸？",
+      "tags" : ""
+    },
+    "zh\/tech\/纵向流动性：价值如何互联互通.md" : {
+      "title" : "纵向流动性：价值如何互联互通",
+      "tags" : "",
+      "raw_metadata_str" : "title: 纵向流动性：价值如何互联互通\ndate: 2022-07-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "toc" : "false",
+      "comments" : "false",
+      "indent" : "false",
+      "date" : "2022-07-27T10:50:02+08:00",
+      "description" : ""
+    },
+    "zh\/tech\/当我们谈 Web3 数据，我们在谈些什么？.md" : {
+      "description" : "",
+      "date" : "2022-09-27T10:50:02+08:00",
+      "raw_metadata_str" : "title: 当我们谈 Web3 数据，我们在谈些什么？\ndate: 2022-09-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\n- 数据\nindent: false\ncomments: false\ntoc: false",
+      "indent" : "false",
+      "title" : "当我们谈 Web3 数据，我们在谈些什么？",
+      "comments" : "false",
+      "toc" : "false",
+      "tags" : ""
+    },
+    "zh\/tech\/横向流动性：价值如何跨链.md" : {
+      "description" : "",
+      "title" : "横向流动性：价值如何跨链",
+      "tags" : "",
+      "date" : "2022-06-16T17:53:33+08:00",
+      "toc" : "false",
+      "raw_metadata_str" : "title: \"横向流动性：价值如何跨链\"\ndate: 2022-06-16T17:53:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "indent" : "false",
+      "comments" : "false"
+    },
+    "zh\/life\/我的学生时代（二）.md" : {
+      "comments" : "false",
+      "date" : "2021-07-02T13:27:04+08:00",
+      "description" : "",
+      "title" : "我的学生时代（二）",
+      "tags" : "",
+      "toc" : "false",
+      "raw_metadata_str" : "title: \"我的学生时代（二）\"\ndate: 2021-07-02T13:27:04+08:00\ndescription:\ntags:\n- 随笔\nindent: false\ncomments: false\ntoc: false",
+      "indent" : "false"
+    },
+    "zh\/tech\/Horizontal liquidity.md" : {
+      "title" : "纵向流动性：价值如何互联互通",
+      "toc" : "false",
+      "date" : "2022-07-27T10:50:02+08:00",
+      "raw_metadata_str" : "title: 纵向流动性：价值如何互联互通\ndate: 2022-07-27T10:50:02+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false",
+      "description" : "",
+      "indent" : "false",
+      "tags" : "",
+      "comments" : "false"
+    },
+    "zh\/life\/20181230-8102年啊.md" : {
+      "tags" : "",
+      "date" : "2018-12-30 00:00:00",
+      "title" : "8102年啊",
+      "raw_metadata_str" : "title: 8102年啊\ndate: 2018-12-30 00:00:00\ntags: \n- 随笔\n- 年终总结"
+    },
+    "zh\/life\/20210616-我的学生时代.md" : {
+      "date" : "2021-06-06T00:49:43+08:00",
+      "tags" : "",
+      "indent" : "false",
+      "comments" : "false",
+      "toc" : "false",
+      "raw_metadata_str" : "title: \"我的学生时代（一）\"\ndate: 2021-06-06T00:49:43+08:00\ndescription:\ntags:\n- 随笔\nindent: false\ncomments: false\ntoc: false",
+      "title" : "我的学生时代（一）",
+      "description" : ""
+    },
+    "zh\/life\/20161117-consulting-TSOC.md" : {
+      "date" : "2016-11-17 00:00:00",
+      "tags" : "",
+      "comments" : "true",
+      "raw_metadata_str" : "title: \"《咨询的奥秘：寻求和提出建议的智慧》笔记\"\ndate: 2016-11-17 00:00:00\ntags:\n- 咨询\n- 读后感\ndescription: 这是一篇关于一本富含智慧的书的笔记。\ncomments: true",
+      "title" : "《咨询的奥秘：寻求和提出建议的智慧》笔记",
+      "description" : "这是一篇关于一本富含智慧的书的笔记。"
+    },
+    "en\/life\/20161101-GOT-Tyrion.md" : {
+      "date" : "2016-11-01 00:00:00",
+      "description" : "Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.",
+      "raw_metadata_str" : "title: Oedipus the King and Tyrion Lannister\ndate: 2016-11-01 00:00:00\ntags:\n- GameOfThrones\n- 读后感\ndescription: Tyrion Lannister, who killed his father, the same as Oedipus the King, is quiet a tragedy character.",
+      "title" : "Oedipus the King and Tyrion Lannister",
+      "tags" : ""
+    },
+    "zh\/life\/20170826-死亡诗社.md" : {
+      "tags" : "",
+      "title" : "死亡诗社",
+      "date" : "2017-08-26 00:00:00",
+      "raw_metadata_str" : "title: 死亡诗社\ndate: 2017-08-26 00:00:00\ntags: \n- 随笔"
+    },
+    "zh\/tech\/NFT：数字所有权的革命 c316e90fc5494b8aadabca85ce5fd219.md" : {
+      "date" : "2021-12-14T21:51:33+08:00",
+      "title" : "NFT：数字所有权的革命",
+      "indent" : "false",
+      "description" : "",
+      "toc" : "false",
+      "comments" : "false",
+      "tags" : "",
+      "raw_metadata_str" : "title: \"NFT：数字所有权的革命\"\ndate: 2021-12-14T21:51:33+08:00\ndescription:\ntags:\n- 基础设施\n- Web 3.0\nindent: false\ncomments: false\ntoc: false"
+    },
+    "en\/tech\/Ethereum ZK Rollup Era.md" : {
+      "description" : "Ethereum is about to enter its Layer 2 era, and ZK Rollup is one of the best solutions among all L2 scaling technologies. What kind of sparks can zero-knowledge proof technology and aggregate expansion technology create? How is ZK Rollup better than other scaling technologies? How can it be adopted quickly? From the perspective of investment, how to capture the value of the ZK Rollup era, and what kind of innovative applications will it produce?",
+      "indent" : "false",
+      "tags" : "",
+      "title" : "Ethereum's ZK Rollup Era",
+      "url" : "Ethereum ZK Rollup Era",
+      "slug" : "Ethereum ZK Rollup Era",
+      "date" : "2022-04-22T21:51:33+08:00",
+      "comments" : "false",
+      "toc" : "false",
+      "raw_metadata_str" : "title: \"Ethereum's ZK Rollup Era\"\ndate: 2022-04-22T21:51:33+08:00\ndescription: Ethereum is about to enter its Layer 2 era, and ZK Rollup is one of the best solutions among all L2 scaling technologies. What kind of sparks can zero-knowledge proof technology and aggregate expansion technology create? How is ZK Rollup better than other scaling technologies? How can it be adopted quickly? From the perspective of investment, how to capture the value of the ZK Rollup era, and what kind of innovative applications will it produce?\ntags:\n- Infrastructure\n- Web 3.0\nindent: false\ncomments: false\ntoc: false\nslug: Ethereum ZK Rollup Era"
+    },
+    "en\/about\/_index.md" : {
+
+    }
+  },
+  "files_mtime_info" : {
+    "zh\/life\/20170826-死亡诗社.md" : 1664274115,
+    "en\/tech\/Web3 data.md" : 1667807551,
+    "en\/tech\/以太坊的 ZK Rollup 时代.md" : 1664274115,
+    "zh\/tech\/以太坊的 ZK Rollup 时代 c011023e165642a8a52fdb3167a1703f.md" : 1652781210,
+    "zh\/life\/20161117-consulting-TSOC.md" : 1664274115,
+    "zh\/tech\/Etheruem ZK Rollup Era.md" : 1664274115,
+    "zh\/tech\/NFT：数字所有权的革命 c316e90fc5494b8aadabca85ce5fd219.md" : 1652781394,
+    "zh\/life\/20180524-论阅历.md" : 1664274115,
+    "zh\/life\/20171001-22岁.md" : 1664274115,
+    "en\/tech\/NFT a Revolution.md" : 1667214083,
+    "zh\/life\/20200703-newstart.md" : 1664274115,
+    "zh\/tech\/Horizontal Liquidity.md" : 1667213598,
+    "zh\/tech\/数据科学家与Web 3.0.md" : 1667213383,
+    "en\/tech\/Vertical Liquidity.md" : 1667806591,
+    "zh\/tech\/技术时代重新思考教育.md" : 1667213401,
+    "en\/tech\/Ethereum ZK Rollup Era.md" : 1667214173,
+    "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md" : 1664274115,
+    "zh\/life\/20210620_rent_house.md" : 1664274115,
+    "zh\/life\/20161101-GOT-Tyrion.md" : 1652778502,
+    "zh\/about\/_index.md" : 1668758661,
+    "zh\/life\/20210616-我的学生时代.md" : 1664274115,
+    "zh\/life\/20200626-sum2019.md" : 1664274115,
+    "zh\/life\/20151226-life-jiaofu.md" : 1664274115,
+    "zh\/life\/我的学生时代（二）.md" : 1664274115,
+    "zh\/tech\/Vertical Liquidity.md" : 1667213587,
+    "en\/life\/20161101-GOT-Tyrion.md" : 1664274115,
+    "zh\/tech\/20200620-hello-world.md" : 1667213443,
+    "zh\/life\/20161231-无法想象的世界.md" : 1664274115,
+    "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md" : 1667213436,
+    "zh\/tech\/横向流动性：价值如何跨链.md" : 1664274115,
+    "en\/tech\/HGX.md" : 1664274115,
+    "zh\/life\/20170910-我的唯一一个教师节.md" : 1664274115,
+    "zh\/tech\/纵向流动性：价值如何互联互通.md" : 1667202939,
+    "zh\/life\/20180506-停电的红湖.md" : 1664274115,
+    "zh\/tech\/Ethereum ZK Rollup Era.md" : 1667214148,
+    "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md" : 1664274115,
+    "zh\/tech\/当我们谈 Web3 数据，我们在谈些什么？.md" : 1664277460,
+    "en\/about\/_index.md" : 1668758666,
+    "en\/tech\/Etheruem ZK Rollup Era.md" : 1667203142,
+    "zh\/tech\/以太坊的 ZK Rollup 时代.md" : 1664274115,
+    "zh\/tech\/Horizontal liquidity.md" : 1667202939,
+    "zh\/tech\/横向流动性：价值如何跨链 881ba3d9cdb446888dcb41b0f3a89ffc.md" : 1655373213,
+    "en\/tech\/Horizontal Liquidity.md" : 1667213763,
+    "zh\/tech\/NFT a Revolution.md" : 1667214093,
+    "en\/tech\/当我们谈 Web3 数据，我们在谈些什么？.md" : 1664277460,
+    "en\/tech\/NFT：数字所有权的革命.md" : 1664274115,
+    "en\/tech\/横向流动性：价值如何跨链.md" : 1664274115,
+    "zh\/life\/20181230-8102年啊.md" : 1664274115,
+    "zh\/tech\/Web3 data.md" : 1667212963,
+    "zh\/tech\/NFT：数字所有权的革命.md" : 1664274115,
+    "zh\/life\/20200707-学生毕业.md" : 1664274115
+  },
+  "tags_tags" : {
+
   },
   "relative_paths" : [
     "zh\/about\/_index.md",
@@ -2773,45 +2813,5 @@
     "en\/tech\/Web3 data.md",
     "en\/tech\/Ethereum ZK Rollup Era.md",
     "zh\/tech\/Ethereum ZK Rollup Era.md"
-  ],
-  "name_path_info" : {
-    "死亡诗社" : "zh\/life\/20170826-死亡诗社.md",
-    "oedipus the king and tyrion lannister" : "en\/life\/20161101-GOT-Tyrion.md",
-    "横向流动性：价值如何跨链" : "zh\/tech\/Horizontal Liquidity.md",
-    "互联网广告术语cpm、cpc、cpa、cps、cpl、cpr 、ocpc是什么意思？" : "zh\/tech\/互联网广告术语CPM、CPC、CPA、CPS、CPL、CPR 是什么意思？.md",
-    "关于《禅与摩托车维修艺术》解读（二）" : "zh\/life\/20161026-关于《禅与摩托车维修艺术》解读（二）.md",
-    "迟到半年的2019年总结" : "zh\/life\/20200626-sum2019.md",
-    "horizontal liquidity: how value crosses chains" : "en\/tech\/Vertical Liquidity.md",
-    "租房见闻" : "zh\/life\/20210620_rent_house.md",
-    "纵向流动性：价值如何互联互通" : "en\/tech\/Vertical Liquidity.md",
-    "停电的红湖" : "zh\/life\/20180506-停电的红湖.md",
-    "when we talk about web3 data, what are we talking about?" : "en\/tech\/Web3 data.md",
-    "8102年啊" : "zh\/life\/20181230-8102年啊.md",
-    "vertical liquidity: how value interconnects" : "en\/tech\/Vertical Liquidity.md",
-    "数据科学家与 web 3.0" : "zh\/tech\/数据科学家与Web 3.0.md",
-    "horizontal mobility: how value crosses the chain" : "en\/tech\/HGX.md",
-    "我的学生时代（二）" : "zh\/life\/我的学生时代（二）.md",
-    "技术时代教育会发生怎样的变革？" : "zh\/tech\/技术时代重新思考教育.md",
-    "以太坊的 zk rollup 时代" : "zh\/tech\/Ethereum ZK Rollup Era.md",
-    "我的唯一一个教师节" : "zh\/life\/20170910-我的唯一一个教师节.md",
-    "lateral liquidity: how value crosses chains" : "en\/tech\/Vertical Liquidity.md",
-    "_index" : "en\/about\/_index.md",
-    "nft：数字所有权的革命" : "zh\/tech\/NFT a Revolution.md",
-    "hgx" : "en\/tech\/HGX.md",
-    "我的学生毕业" : "zh\/life\/20200707-学生毕业.md",
-    "nfts: a revolution in digital ownership" : "en\/tech\/NFT a Revolution.md",
-    "《咨询的奥秘：寻求和提出建议的智慧》笔记" : "zh\/life\/20161117-consulting-TSOC.md",
-    "ethereum's zk rollup era" : "en\/tech\/Ethereum ZK Rollup Era.md",
-    "无法想象的世界" : "zh\/life\/20161231-无法想象的世界.md",
-    "关于《禅与摩托车维修艺术》解读（一）" : "zh\/life\/20161025-关于《禅与摩托车维修艺术》解读（一）.md",
-    "当我们谈 web3 数据，我们在谈些什么？" : "en\/tech\/Web3 data.md",
-    "论阅历" : "zh\/life\/20180524-论阅历.md",
-    "22岁" : "zh\/life\/20171001-22岁.md",
-    "horizontal liq: how value crosses the chain" : "en\/tech\/HGX.md",
-    "续了五年" : "zh\/life\/20200703-newstart.md",
-    "关于《教父》iii" : "zh\/life\/20151226-life-jiaofu.md",
-    "horizontal liquidity: how value crosses the chain" : "en\/tech\/Horizontal Liquidity.md",
-    "hello world" : "zh\/tech\/20200620-hello-world.md",
-    "我的学生时代（一）" : "zh\/life\/20210616-我的学生时代.md"
-  }
+  ]
 }

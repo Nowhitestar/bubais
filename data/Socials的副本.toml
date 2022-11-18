@@ -12,12 +12,12 @@
     title = "RSS"
     weight = 1
 
-#[[socials]]
-#    id = "email"
-#    url = "mailto:nowhitestar@gmail.com"
-#    icon = "envelope"
-#    title = "Email"
-#    weight = 2
+[[socials]]
+    id = "email"
+    url = "mailto:nowhitestar@gmail.com"
+    icon = "envelope"
+    title = "Email"
+    weight = 2
 
 [[socials]]
     id = "github"
@@ -26,16 +26,16 @@
     title = "GitHub"
     weight = 3
 
- [[socials]]
-     id = "twitter"
-     url = "https://twitter.com/yuxing_liao"
-     icon = "twitter"
-     title = "Twitter"
-     weight = 4
+# [[socials]]
+#     id = "twitter"
+#     url = ""
+#     icon = "twitter"
+#     title = "Twitter"
+#     weight = 4
 
 # [[socials]]
 #     id = "telegram"
-#     url = "https://t.me/liaoyuxing"
+#     url = "https://t.me/yixiuer"
 #     icon = "telegram"
 #     title = "Telegram"
 #     weight = 5
